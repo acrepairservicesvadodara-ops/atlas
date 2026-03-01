@@ -1,0 +1,21 @@
+{
+  "name": "Atlas Aircon - AC Repair & Service Vadodara",
+  "short_name": "Atlas Aircon",
+  "description": "Best AC repair, service & installation in Vadodara. 20+ years experience. Call +91 97272 57141",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "icons": [
+    {
+      "src": "/icon",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
