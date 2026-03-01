@@ -38,20 +38,14 @@ const vadodaraAreas = [
   { name: "New VIP Road", slug: "new-vip-road" },
   { name: "Old Padra Road", slug: "old-padra-road" },
   { name: "New Sama Road", slug: "new-sama-road" },
-  { name: "TP Road", slug: "tp-road" },
   { name: "Race Course", slug: "race-course" },
   { name: "Ellora Park", slug: "ellora-park" },
-  { name: "Pratap Nagar", slug: "pratap-nagar" },
-  { name: "Vasundhara", slug: "vasundhara" },
   { name: "GIDC Makarpura", slug: "gidc-makarpura" },
   { name: "Nandesari", slug: "nandesari" },
   { name: "Savli", slug: "savli" },
-  { name: "Halol Road", slug: "halol-road" },
   { name: "Dabhoi Road", slug: "dabhoi-road" },
   { name: "Karjan", slug: "karjan" },
   { name: "Padra", slug: "padra" },
-  { name: "Shinor", slug: "shinor" },
-  { name: "Panchmahal Road", slug: "panchmahal-road" },
 ];
 
 const nearbyCities = [

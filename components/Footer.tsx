@@ -31,16 +31,16 @@ const acTypes = [
 
 // AC Brands
 const acBrands = [
-  { name: "Daikin AC", href: "/daikin-service-vadodara" },
+  { name: "Daikin AC", href: "/daikin-ac-service-vadodara" },
   { name: "Voltas AC", href: "/voltas-ac-service-vadodara" },
-  { name: "Blue Star AC", href: "/bluestar-ac-service-vadodara" },
-  { name: "Carrier AC", href: "/carrier-ac-repair-vadodara" },
+  { name: "Blue Star AC", href: "/blue-star-ac-service-vadodara" },
+  { name: "Carrier AC", href: "/carrier-ac-service-vadodara" },
   { name: "LG AC", href: "/lg-ac-service-vadodara" },
   { name: "Samsung AC", href: "/samsung-ac-service-vadodara" },
-  { name: "Hitachi AC", href: "/hitachi-ac-repair-vadodara" },
-  { name: "O General AC", href: "/ogeneral-ac-service-vadodara" },
-  { name: "Panasonic AC", href: "/panasonic-ac-installation-vadodara" },
-  { name: "Godrej AC", href: "/godrej-ac-vadodara" },
+  { name: "Hitachi AC", href: "/hitachi-ac-service-vadodara" },
+  { name: "O General AC", href: "/o-general-ac-service-vadodara" },
+  { name: "Panasonic AC", href: "/panasonic-ac-service-vadodara" },
+  { name: "Godrej AC", href: "/godrej-ac-service-vadodara" },
 ];
 
 // Vadodara Areas

@@ -131,7 +131,7 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
             {services.map((service) => (
               <Link
                 key={service.slug}
-                href={`/${service.slug}-${area}-${city}`}
+                href={`/${service.slug}-${city}`}
                 className="bg-gray-50 hover:bg-blue-50 p-6 rounded-xl border border-gray-200 hover:border-blue-300 transition group"
               >
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition">
