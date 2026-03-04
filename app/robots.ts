@@ -6,7 +6,41 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
+        disallow: [
+          "/api/",
+          "/_next/",
+          "/private/",
+          "/*.json$",
+          "/*?*", // Block URLs with query parameters
+        ],
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
         disallow: ["/api/", "/_next/", "/private/"],
+      },
+      {
+        userAgent: "Bingbot",
+        allow: "/",
+        disallow: ["/api/", "/_next/", "/private/"],
+      },
+      {
+        // AI Crawlers
+        userAgent: "GPTBot",
+        allow: "/",
+        disallow: ["/api/", "/_next/", "/private/"],
+      },
+      {
+        userAgent: "ChatGPT-User",
+        allow: "/",
+      },
+      {
+        userAgent: "Claude-Web",
+        allow: "/",
+      },
+      {
+        userAgent: "anthropic-ai",
+        allow: "/",
       },
     ],
     sitemap: "https://atlasaircons.com/sitemap.xml",

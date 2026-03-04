@@ -43,53 +43,50 @@ const acBrands = [
   { name: "Godrej AC", href: "/godrej-ac-service-vadodara" },
 ];
 
-// Vadodara Areas
-const vadodaraAreas = [
-  { name: "Alkapuri", href: "/ac-repair-alkapuri-vadodara" },
-  { name: "Gotri", href: "/ac-repair-gotri-vadodara" },
-  { name: "Manjalpur", href: "/ac-repair-manjalpur-vadodara" },
-  { name: "Akota", href: "/ac-repair-akota-vadodara" },
-  { name: "Fatehgunj", href: "/ac-repair-fatehgunj-vadodara" },
-  { name: "Karelibaug", href: "/ac-repair-karelibaug-vadodara" },
-  { name: "Sayajigunj", href: "/ac-repair-sayajigunj-vadodara" },
-  { name: "Waghodia Road", href: "/ac-repair-waghodia-road-vadodara" },
-  { name: "Subhanpura", href: "/ac-repair-subhanpura-vadodara" },
-  { name: "Nizampura", href: "/ac-repair-nizampura-vadodara" },
-  { name: "Harni", href: "/ac-repair-harni-vadodara" },
-  { name: "Tarsali", href: "/ac-repair-tarsali-vadodara" },
-  { name: "Makarpura", href: "/ac-repair-makarpura-vadodara" },
-  { name: "Gorwa", href: "/ac-repair-gorwa-vadodara" },
-  { name: "Nandesari", href: "/ac-repair-nandesari-vadodara" },
-  { name: "Tandalja", href: "/ac-repair-tandalja-vadodara" },
-  { name: "Vasna", href: "/ac-repair-vasna-vadodara" },
-  { name: "Sama", href: "/ac-repair-sama-vadodara" },
-  { name: "Bhayli", href: "/ac-repair-bhayli-vadodara" },
-  { name: "Chhani", href: "/ac-repair-chhani-vadodara" },
-];
-
-// More Vadodara Areas
-const moreAreas = [
-  { name: "Ajwa Road", href: "/ac-repair-ajwa-road-vadodara" },
-  { name: "Gotri Road", href: "/ac-repair-gotri-road-vadodara" },
-  { name: "VIP Road", href: "/ac-repair-vip-road-vadodara" },
-  { name: "Diwalipura", href: "/ac-repair-diwalipura-vadodara" },
-  { name: "Ellora Park", href: "/ac-repair-ellora-park-vadodara" },
-  { name: "Race Course", href: "/ac-repair-race-course-vadodara" },
-  { name: "Pratapgunj", href: "/ac-repair-pratapgunj-vadodara" },
-  { name: "Lalbaug", href: "/ac-repair-lalbaug-vadodara" },
-  { name: "Raopura", href: "/ac-repair-raopura-vadodara" },
-  { name: "Dabhoi Road", href: "/ac-repair-dabhoi-road-vadodara" },
-  { name: "Padra Road", href: "/ac-repair-padra-road-vadodara" },
-  { name: "Sevasi", href: "/ac-repair-sevasi-vadodara" },
-  { name: "Atladara", href: "/ac-repair-atladara-vadodara" },
-  { name: "Manjusar", href: "/ac-repair-manjusar-vadodara" },
-  { name: "Haridham", href: "/ac-repair-haridham-vadodara" },
-  { name: "Soma Talav", href: "/ac-repair-soma-talav-vadodara" },
-  { name: "New Sama", href: "/ac-repair-new-sama-vadodara" },
-  { name: "Jetalpur Road", href: "/ac-repair-jetalpur-road-vadodara" },
-  { name: "Sun Pharma Road", href: "/ac-repair-sun-pharma-road-vadodara" },
-  { name: "GIDC Makarpura", href: "/ac-repair-gidc-makarpura-vadodara" },
-];
+// All Vadodara Areas (214 areas)
+const allAreas = [
+  "Ajod", "Ajwa Road", "Akota", "Akota Garden", "Alamgir", "Alindra", "Alkapuri",
+  "Amaliyara", "Amarapura", "Amodar", "Ampad", "Anagad", "Anjesar", "Ankhol",
+  "Ankodiya", "Asoj", "Atladara", "Bajwa", "Bakrol", "Baranpura", "Baroda Dairy",
+  "Bautha", "Bhadarva", "Bhayli", "Bhayli Road", "Bill", "Brushellz Industrial Park",
+  "Champaner Road", "Chapad", "Chhani", "Chhani Jakat Naka", "Chipad", "Dabhasha",
+  "Dabhoi GIDC", "Dabhoi Road", "Dajipura", "Dandia Bazar", "Danteshwar", "Darapura",
+  "Darbar Chowkdi", "Dashrath", "Dattapura", "Dena", "Dhaniavi", "Dhanora",
+  "Diwalipura", "Dodka", "Dumad", "Ekalbara", "Ektanagar Kevadia Colony Narmada",
+  "Ellora Park", "EME", "Eshanya", "Fartilizer Nagar", "Fatehganj", "Fatehpura",
+  "Fertilizer Nagar", "Garadhi", "Gokalpura", "Gorwa", "Gorwa BIDC", "Gotri",
+  "Haripura", "Harni", "Hinglot", "Itola", "Jail Road", "Jambuva", "Jarod",
+  "Jesangpura", "Jetalpur Road", "Kalali", "Kamlapura", "Kapurai", "Kapurai Village",
+  "Karachiya", "Karakhadi GIDC", "Karali", "Karchiya", "Karelibaug", "Karkhadi",
+  "Karodiya", "Kelanpur", "Khalipur", "Khanderao Market", "Khandiwada", "Kharkhadi",
+  "Khodiyar Nagar", "Kirti Mandir", "Kishanwadi", "Kotambi", "Koyali",
+  "Krishna Industrial Park", "Krusha Nagar", "Kundhela", "Lalbagh", "Lalbaug",
+  "Lamdapura", "Lasundra", "Laxmipura", "Limbda Apollo Tyres", "Limda",
+  "Madanzampa", "Madhavpura", "Mahapura", "Maharana Pratap Road", "Makarand Desai Road",
+  "Makarpura", "Makarpura GIDC", "Makrand Desai Road", "Managalpara", "Mandvi",
+  "Maneja", "Manisha Char Rasta", "Manjalpur", "Maretha", "Mehsana Nagar", "Moksi",
+  "Muj Mahuda", "Nagarwada", "Nandesari", "Nandesari GIDC", "Nava Ajva", "Navapura",
+  "New Alkapuri", "New IPCL Road", "New Karelibaug", "New Sama", "New VIP Road",
+  "Nizampura", "Old Padra Road", "Padmala", "Padra", "Palaswada", "Panchvati",
+  "Panigate", "Parda Road", "Pasa Bhai Park", "Patarveni", "Patod",
+  "Petrochemical T Ship", "Poicha", "Poicha GIDC", "Por Ramangamdi GIDC",
+  "Pratapgunj", "Pratapnagar", "Productivity Road", "Punit Nagar", "Race Course",
+  "Raipura", "Raniya", "Ranoli", "Ranoli GIDC", "Raopura", "Sakarda", "Sama",
+  "Sama Savli Road", "Samiyala", "Samlaya", "Samta", "Sangam Char Rasta", "Sangma",
+  "Sankarda", "Sankheda", "Sankheda GIDC", "Sarabhai Campus", "Sardar Estate",
+  "Savli Manjusar GIDC", "Sayajigunj", "Sayajipura", "Sevasi", "Shah Industrial Park",
+  "Sherkhi", "Siddharth Nagar", "Sikandarpura", "Sindhrot", "Sisva", "Sokhda",
+  "Soma Talav", "Sonarkui", "Subhanpura", "Sultanpura", "Sun Pharma Road",
+  "Suncity Industrial Park", "Suncity Manjalpur", "Sundarpura", "Sunpharma Road",
+  "Suryanagar", "Susan Char Rasta", "Susen Char Rasta", "Tandalja", "Tarsali",
+  "Tilakwada Dashrath", "Timbi", "TP 13", "Tulsidham Char Rasta", "Undera",
+  "Vadiwadi", "Vadsar", "Varnama", "Varsada", "Vasant Vihar", "Vasna",
+  "Vasna Bhayli Road", "Vasna Road", "Vemali", "VIP Road", "Virod", "Vishwamitri",
+  "Wadi", "Waghodia GIDC", "Waghodia Road", "Warasiya",
+].map((name) => ({
+  name,
+  href: `/ac-service-in-${name.toLowerCase().replace(/ /g, "-")}`,
+}));
 
 // Gujarat Cities
 const cities = [
@@ -259,7 +256,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-white">Vadodara Areas</h4>
             <ul className="space-y-2">
-              {vadodaraAreas.slice(0, 12).map((area) => (
+              {allAreas.slice(0, 12).map((area) => (
                 <li key={area.href}>
                   <Link href={area.href} className="text-gray-400 hover:text-blue-400 transition text-sm">
                     {area.name}
@@ -268,22 +265,23 @@ export default function Footer() {
               ))}
               <li>
                 <Link href="/areas" className="text-blue-400 hover:text-blue-300 font-medium text-sm">
-                  View All 90+ Areas →
+                  View All 214 Areas →
                 </Link>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* More Areas Row */}
+        {/* All 214 Vadodara Service Areas */}
         <div className="mt-10 pt-8 border-t border-gray-800">
-          <h4 className="text-lg font-semibold mb-4 text-white">More Vadodara Areas</h4>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-10 gap-3">
-            {moreAreas.map((area) => (
+          <h4 className="text-lg font-semibold mb-4 text-white">All AC Service Areas in Vadodara (214 Areas)</h4>
+          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 xl:grid-cols-10 gap-x-4 gap-y-1.5">
+            {allAreas.map((area) => (
               <Link 
                 key={area.href} 
                 href={area.href} 
-                className="text-gray-400 hover:text-blue-400 transition text-sm"
+                className="text-gray-400 hover:text-blue-400 transition text-xs truncate"
+                title={`AC Service in ${area.name}`}
               >
                 {area.name}
               </Link>

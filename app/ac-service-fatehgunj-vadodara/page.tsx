@@ -235,7 +235,53 @@ export default function ACServiceFatehgunjPage() {
         </div>
       </section>
 
-      {/* CTA */}
+      
+      {/* FAQs Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <div className="max-w-3xl mx-auto space-y-4">
+            {[
+              { q: "What does Ac Service Fatehgunj Vadodara include?", a: "Ac Service Fatehgunj Vadodara includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." },
+              { q: "How much does Ac Service Fatehgunj Vadodara cost?", a: "Ac Service Fatehgunj Vadodara starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." },
+              { q: "How often should AC be serviced?", a: "AC should be serviced at least twice a year — before summer and after monsoon. Heavy use environments may need quarterly servicing." },
+              { q: "Will Ac Service Fatehgunj Vadodara improve cooling?", a: "Yes, proper Ac Service Fatehgunj Vadodara can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." },
+              { q: "Does Ac Service Fatehgunj Vadodara reduce electricity bills?", a: "Regular Ac Service Fatehgunj Vadodara can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." },
+              { q: "How long does Ac Service Fatehgunj Vadodara take?", a: "Basic Ac Service Fatehgunj Vadodara takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." },
+              { q: "Can Ac Service Fatehgunj Vadodara remove bad smell?", a: "Yes, Ac Service Fatehgunj Vadodara includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." },
+              { q: "Is gas top-up included in Ac Service Fatehgunj Vadodara?", a: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." },
+              { q: "Do you clean outdoor AC unit?", a: "Yes, complete service includes outdoor unit cleaning. Condenser coil cleaning is essential for proper heat rejection." },
+              { q: "What's the difference between service and deep cleaning?", a: "Basic service is dry cleaning and inspection. Deep cleaning uses high-pressure jet wash. Chemical wash uses foam for thorough cleaning." }
+            ].map((faq, i) => (
+              <details key={i} className="bg-white rounded-xl border border-gray-200 group">
+                <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
+                  {faq.q}
+                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "What does Ac Service Fatehgunj Vadodara include?", acceptedAnswer: { "@type": "Answer", text: "Ac Service Fatehgunj Vadodara includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." } },
+          { "@type": "Question", name: "How much does Ac Service Fatehgunj Vadodara cost?", acceptedAnswer: { "@type": "Answer", text: "Ac Service Fatehgunj Vadodara starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." } },
+          { "@type": "Question", name: "How often should AC be serviced?", acceptedAnswer: { "@type": "Answer", text: "AC should be serviced at least twice a year — before summer and after monsoon. Heavy use environments may need quarterly servicing." } },
+          { "@type": "Question", name: "Will Ac Service Fatehgunj Vadodara improve cooling?", acceptedAnswer: { "@type": "Answer", text: "Yes, proper Ac Service Fatehgunj Vadodara can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." } },
+          { "@type": "Question", name: "Does Ac Service Fatehgunj Vadodara reduce electricity bills?", acceptedAnswer: { "@type": "Answer", text: "Regular Ac Service Fatehgunj Vadodara can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." } },
+          { "@type": "Question", name: "How long does Ac Service Fatehgunj Vadodara take?", acceptedAnswer: { "@type": "Answer", text: "Basic Ac Service Fatehgunj Vadodara takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." } },
+          { "@type": "Question", name: "Can Ac Service Fatehgunj Vadodara remove bad smell?", acceptedAnswer: { "@type": "Answer", text: "Yes, Ac Service Fatehgunj Vadodara includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." } },
+          { "@type": "Question", name: "Is gas top-up included in Ac Service Fatehgunj Vadodara?", acceptedAnswer: { "@type": "Answer", text: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." } },
+          { "@type": "Question", name: "Do you clean outdoor AC unit?", acceptedAnswer: { "@type": "Answer", text: "Yes, complete service includes outdoor unit cleaning. Condenser coil cleaning is essential for proper heat rejection." } },
+          { "@type": "Question", name: "What's the difference between service and deep cleaning?", acceptedAnswer: { "@type": "Answer", text: "Basic service is dry cleaning and inspection. Deep cleaning uses high-pressure jet wash. Chemical wash uses foam for thorough cleaning." } }
+        ]
+      }) }} />
+
+{/* CTA */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">

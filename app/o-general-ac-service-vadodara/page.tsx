@@ -235,7 +235,53 @@ export default function OGeneralACServicePage() {
         </div>
       </section>
 
-      {/* CTA */}
+      
+      {/* FAQs Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <div className="max-w-3xl mx-auto space-y-4">
+            {[
+              { q: "Are you an authorized service center for O GENERAL?", a: "Atlas Aircon provides multi-brand AC service. While not an authorized center, our technicians are trained on O GENERAL and use genuine parts." },
+              { q: "What is the cost of repair for O GENERAL?", a: "Repair costs depend on issue: gas refilling from ₹1,500, PCB repair from ₹1,200, compressor repair from ₹3,500. Inspection ₹299 adjusted against repairs." },
+              { q: "Can you repair older models of O GENERAL?", a: "Yes, we repair all models including discontinued ones. We maintain inventory of common spare parts and can source parts for older units." },
+              { q: "How quickly can you repair O GENERAL's AC?", a: "Most repairs are completed same-day within 2-3 hours. Complex repairs requiring parts may take 1-2 days. Emergency service available 24/7." },
+              { q: "Do you use genuine parts for O GENERAL?", a: "Yes, we use OEM-quality parts for repairs. For critical components like compressors, we source genuine parts when available." },
+              { q: "What warranty do you provide on repairs?", a: "We provide 30-90 days warranty on repairs. Spare parts carry manufacturer warranty. Warranty doesn't cover misuse or power surge damage." },
+              { q: "Is gas refilling expensive for O GENERAL?", a: "Gas refilling follows standard pricing: R22 from ₹1,500, R32/R410A from ₹2,000. Prices depend on gas type in your specific model." },
+              { q: "Can you service inverter AC of O GENERAL?", a: "Yes, we specialize in inverter AC service and repair. Our technicians are trained on variable frequency drive and inverter PCB diagnosis." },
+              { q: "Do you provide AMC for O GENERAL?", a: "Yes, AMC plans cover O GENERAL and all other brands. Starting ₹1,999/year for split AC, includes free services, priority support, discounted repairs." },
+              { q: "How do I maintain O GENERAL's AC?", a: "Clean filters every 2 weeks, ensure outdoor unit has airflow, run AC at 24-26°C, schedule professional service every 6 months." }
+            ].map((faq, i) => (
+              <details key={i} className="bg-white rounded-xl border border-gray-200 group">
+                <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
+                  {faq.q}
+                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "Are you an authorized service center for O GENERAL?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon provides multi-brand AC service. While not an authorized center, our technicians are trained on O GENERAL and use genuine parts." } },
+          { "@type": "Question", name: "What is the cost of repair for O GENERAL?", acceptedAnswer: { "@type": "Answer", text: "Repair costs depend on issue: gas refilling from ₹1,500, PCB repair from ₹1,200, compressor repair from ₹3,500. Inspection ₹299 adjusted against repairs." } },
+          { "@type": "Question", name: "Can you repair older models of O GENERAL?", acceptedAnswer: { "@type": "Answer", text: "Yes, we repair all models including discontinued ones. We maintain inventory of common spare parts and can source parts for older units." } },
+          { "@type": "Question", name: "How quickly can you repair O GENERAL's AC?", acceptedAnswer: { "@type": "Answer", text: "Most repairs are completed same-day within 2-3 hours. Complex repairs requiring parts may take 1-2 days. Emergency service available 24/7." } },
+          { "@type": "Question", name: "Do you use genuine parts for O GENERAL?", acceptedAnswer: { "@type": "Answer", text: "Yes, we use OEM-quality parts for repairs. For critical components like compressors, we source genuine parts when available." } },
+          { "@type": "Question", name: "What warranty do you provide on repairs?", acceptedAnswer: { "@type": "Answer", text: "We provide 30-90 days warranty on repairs. Spare parts carry manufacturer warranty. Warranty doesn't cover misuse or power surge damage." } },
+          { "@type": "Question", name: "Is gas refilling expensive for O GENERAL?", acceptedAnswer: { "@type": "Answer", text: "Gas refilling follows standard pricing: R22 from ₹1,500, R32/R410A from ₹2,000. Prices depend on gas type in your specific model." } },
+          { "@type": "Question", name: "Can you service inverter AC of O GENERAL?", acceptedAnswer: { "@type": "Answer", text: "Yes, we specialize in inverter AC service and repair. Our technicians are trained on variable frequency drive and inverter PCB diagnosis." } },
+          { "@type": "Question", name: "Do you provide AMC for O GENERAL?", acceptedAnswer: { "@type": "Answer", text: "Yes, AMC plans cover O GENERAL and all other brands. Starting ₹1,999/year for split AC, includes free services, priority support, discounted repairs." } },
+          { "@type": "Question", name: "How do I maintain O GENERAL's AC?", acceptedAnswer: { "@type": "Answer", text: "Clean filters every 2 weeks, ensure outdoor unit has airflow, run AC at 24-26°C, schedule professional service every 6 months." } }
+        ]
+      }) }} />
+
+{/* CTA */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">

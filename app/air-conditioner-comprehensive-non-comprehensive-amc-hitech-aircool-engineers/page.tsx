@@ -1,465 +1,239 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { Phone, CheckCircle, Star, Clock, Shield, Award, MapPin, ArrowRight, Wrench, AlertTriangle, Zap, ThermometerSnowflake, Settings } from "lucide-react";
-import BookingForm from "@/components/BookingForm";
+import Image from "next/image";
+import { Phone, ShoppingCart, Truck, FileText, Shield, Star, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AC Comprehensive & Non-Comprehensive AMC in Vadodara | Atlas Aircon",
-  description: "Best AC AMC plans in Vadodara - Comprehensive & Non-Comprehensive Annual Maintenance Contracts. Covers all brands. 20+ years experience. Call +91 97272 57141",
-  keywords: [
-    "AC AMC Vadodara",
-    "comprehensive AMC Vadodara",
-    "non-comprehensive AMC Vadodara",
-    "air conditioner AMC",
-    "AC annual maintenance contract",
-    "AC maintenance plan Vadodara",
-    "best AC AMC service Vadodara",
-    "hitech aircool engineers",
-    "Atlas Aircon AMC",
-  ],
-  alternates: {
-    canonical: "https://atlasaircons.com/air-conditioner-comprehensive-non-comprehensive-amc-hitech-aircool-engineers",
+  title: "Air Conditioner Comprehensive & Non-Comprehensive Amc | Hitech Aircool Engineers | Buy Online | Atlas Aircon Gujarat",
+  description: "Protect your investment in split, window, or cassette ACs. Our Comprehensive AC AMC includes gas top-ups, PCB repairs, capacitor replacements, deep clea...",
+  keywords: ["air conditioner comprehensive & non-comprehensive amc | hitech aircool engineers", "hitech aircool engineers", "hvac parts vadodara", "ac spare parts gujarat", "amc"],
+  alternates: { canonical: "https://atlasaircons.com/air-conditioner-comprehensive-non-comprehensive-amc-hitech-aircool-engineers" },
+  openGraph: {
+    title: "Air Conditioner Comprehensive & Non-Comprehensive Amc | Hitech Aircool Engineers",
+    description: "Protect your investment in split, window, or cassette ACs. Our Comprehensive AC AMC includes gas top-ups, PCB repairs, capacitor replacements, deep clea...",
+    url: "https://atlasaircons.com/air-conditioner-comprehensive-non-comprehensive-amc-hitech-aircool-engineers",
+    type: "website",
+    images: ["/images/products/Powerjet-ac-service-vadodara.webp"],
   },
 };
 
-export default function ComprehensiveNonComprehensiveAMCPage() {
-  const comprehensiveFeatures = [
-    "Unlimited breakdown visits",
-    "All spare parts included (except compressor)",
-    "Gas top-up included",
-    "Filter cleaning every visit",
-    "Coil cleaning & sanitization",
-    "Electrical checks & tightening",
-    "Drain pipe cleaning",
-    "Performance optimization",
-    "Priority response within 4 hours",
-    "No extra charges for repairs",
-  ];
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: "Air Conditioner Comprehensive & Non-Comprehensive Amc | Hitech Aircool Engineers",
+  description: "Protect your investment in split, window, or cassette ACs. Our Comprehensive AC AMC includes gas top-ups, PCB repairs, capacitor replacements, deep cleaning, and unlimited repair calls. The Non-Comprehensive option offers seasonal start-up/shutdown services, cleaning, and discounted spare parts???id",
+  image: "/images/products/Powerjet-ac-service-vadodara.webp",
+  brand: { "@type": "Brand", name: "Hitech Aircool Engineers" },
+  offers: {
+    "@type": "Offer",
+    priceCurrency: "INR",
+    price: "299",
+    availability: "https://schema.org/InStock",
+    seller: { "@type": "Organization", name: "Atlas Aircon" },
+  },
+  category: "AMC",
+  
+};
 
-  const nonComprehensiveFeatures = [
-    "2-4 scheduled service visits per year",
-    "Filter cleaning every visit",
-    "Coil cleaning & sanitization",
-    "Electrical checks & tightening",
-    "Drain pipe cleaning",
-    "Gas pressure check",
-    "Performance check & report",
-    "Spare parts at discounted rates",
-    "Breakdown visits at reduced charges",
-    "Annual performance certificate",
-  ];
-
-  const brands = [
-    "Daikin", "Voltas", "Blue Star", "Carrier", "LG", "Samsung",
-    "Hitachi", "O General", "Mitsubishi", "Panasonic", "Whirlpool", "Godrej",
-    "Haier", "Lloyd", "Toshiba", "Midea",
-  ];
-
-  const acTypes = [
-    "Split AC", "Window AC", "Cassette AC", "Ductable AC",
-    "Tower AC", "Central AC", "VRF/VRV System", "Package AC",
-  ];
-
-  const faqs = [
-    {
-      question: "What is the difference between Comprehensive and Non-Comprehensive AMC?",
-      answer: "Comprehensive AMC covers all repairs, spare parts, and gas refilling at no extra cost. Non-Comprehensive AMC covers only scheduled maintenance visits — spare parts and major repairs are charged separately at discounted rates.",
-    },
-    {
-      question: "How many service visits are included in the AMC?",
-      answer: "Comprehensive AMC includes unlimited breakdown visits plus 4 scheduled services. Non-Comprehensive AMC includes 2-4 scheduled service visits per year depending on the plan.",
-    },
-    {
-      question: "What is the AMC cost for a split AC in Vadodara?",
-      answer: "Non-Comprehensive AMC starts from ₹1,999/year and Comprehensive AMC starts from ₹3,499/year for a 1-1.5 ton split AC. Prices vary by AC type, tonnage, and brand.",
-    },
-    {
-      question: "Is compressor replacement covered in Comprehensive AMC?",
-      answer: "Compressor replacement is generally not covered in standard AMC plans. However, we offer premium plans that include compressor coverage at additional cost.",
-    },
-    {
-      question: "Can I get AMC for a commercial or industrial AC?",
-      answer: "Yes, we provide both Comprehensive and Non-Comprehensive AMC for commercial ACs, ductable units, VRF/VRV systems, chillers, and all industrial cooling equipment.",
-    },
-    {
-      question: "Do you provide AMC for all AC brands?",
-      answer: "Yes, we provide AMC for all major AC brands including Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Panasonic, Godrej, and more.",
-    },
-  ];
-
+export default function Pageairconditionercomprehensivenoncomprehens() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+
+      {/* Product Hero */}
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 text-white py-12 md:py-20">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div className="bg-white/10 backdrop-blur rounded-2xl p-4 md:p-8">
+              <div className="space-y-4">
+                <img
+                  src="/images/products/Powerjet-ac-service-vadodara.webp"
+                  alt="Air Conditioner Comprehensive & Non-Comprehensive Amc | Hitech Aircool Engineers"
+                  className="w-full h-auto rounded-lg object-cover"
+                  loading="eager"
+                />
+
+                <img
+                  src="/images/products/ac-chemical-service.webp"
+                  alt="Air Conditioner Comprehensive & Non-Comprehensive Amc | Hitech Aircool Engineers - Image 2"
+                  className="w-full h-auto rounded-lg object-cover"
+                  loading="lazy"
+                />
+
+                <img
+                  src="/images/products/central-ac-repair-service-diagram.webp"
+                  alt="Air Conditioner Comprehensive & Non-Comprehensive Amc | Hitech Aircool Engineers - Image 3"
+                  className="w-full h-auto rounded-lg object-cover"
+                  loading="lazy"
+                />
+
+                <img
+                  src="/images/products/ac-repair-service.webp"
+                  alt="Air Conditioner Comprehensive & Non-Comprehensive Amc | Hitech Aircool Engineers - Image 4"
+                  className="w-full h-auto rounded-lg object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
             <div>
-              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-2 rounded-full text-sm mb-6">
-                <Shield className="w-4 h-4" />
-                <span>AMC Plans</span>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-xs font-semibold">IN STOCK</span>
+                <span className="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">AMC</span>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                AC <span className="text-yellow-400">Comprehensive & Non-Comprehensive AMC</span> in Vadodara
-              </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-                Protect your air conditioner with our Annual Maintenance Contracts. 
-                Choose from Comprehensive (all-inclusive) or Non-Comprehensive (scheduled service) AMC plans 
-                for hassle-free AC performance year-round.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <a
-                  href="tel:+919727257141"
-                  className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"
-                >
-                  <Phone size={22} />
-                  +91 97272 57141
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Air Conditioner Comprehensive &amp; Non-Comprehensive Amc | Hitech Aircool Engineers</h1>
+              <div className="flex items-center gap-2 mb-4">
+                {[1,2,3,4,5].map(i => <Star key={i} className="w-5 h-5 text-yellow-400 fill-yellow-400" />)}
+                <span className="text-gray-300 text-sm ml-2">(35+ reviews)</span>
+              </div>
+              <p className="text-3xl font-bold text-yellow-400 mb-6">₹299</p>
+              <p className="text-gray-300 mb-6 leading-relaxed">Protect your investment in split, window, or cassette ACs. Our Comprehensive AC AMC includes gas top-ups, PCB repairs, capacitor replacements, deep cl</p>
+              
+              <div className="flex flex-col sm:flex-row gap-3 mb-6">
+                <a href="tel:+919727257141" className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-bold flex items-center justify-center gap-2 transition">
+                  <Phone className="w-5 h-5" /> Order Now
                 </a>
-                <a
-                  href="https://wa.me/919727257141"
-                  className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition"
-                >
-                  WhatsApp Us
+                <a href="https://wa.me/919727257141?text=I%20want%20to%20order%3A%20Air%20Conditioner%20Comprehensive%20%26%20Non-Comprehensive%20Amc%20%7C%20Hitech%20Aircool%20Engineers" className="bg-green-500 hover:bg-green-400 text-white px-6 py-3 rounded-full font-bold flex items-center justify-center gap-2 transition">
+                  WhatsApp Order
                 </a>
               </div>
-              <div className="flex flex-wrap gap-4 text-sm">
-                <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-400" />
-                  <span>All Brands Covered</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-400" />
-                  <span>Flexible Plans</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-400" />
-                  <span>20+ Years Experience</span>
-                </div>
+              <div className="grid grid-cols-3 gap-3 text-xs">
+                <div className="flex items-center gap-1.5 text-gray-300"><Truck className="w-4 h-4 text-blue-400" /> GIDC Delivery</div>
+                <div className="flex items-center gap-1.5 text-gray-300"><FileText className="w-4 h-4 text-blue-400" /> GST Invoice</div>
+                <div className="flex items-center gap-1.5 text-gray-300"><Shield className="w-4 h-4 text-blue-400" /> Genuine Parts</div>
               </div>
-            </div>
-            <div className="hidden md:block">
-              <BookingForm title="Get AMC Quote" />
+              <div className="mt-6 flex flex-wrap gap-2">
+                <span className="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Air Conditioner Comprehensive &amp; Non-Comprehensive Amc</span>
+                <span className="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">All Commercial/Industrial Clients</span>
+                <span className="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">AMC</span>
+                <span className="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Gujarat</span>
+                <span className="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Other</span>
+                <span className="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Predictable maintenance costs</span>
+                <span className="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Preventive Maintenance Contracts</span>
+                <span className="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Repair</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* AMC Plans Comparison */}
+      {/* Product Description */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-4">
-            Choose Your AC AMC Plan
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-            Compare our Comprehensive and Non-Comprehensive AMC plans to find the best fit for your needs
-          </p>
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {/* Comprehensive AMC */}
-            <div className="relative bg-gradient-to-b from-blue-50 to-white p-8 rounded-2xl border-2 border-blue-500 shadow-lg">
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white px-6 py-1.5 rounded-full text-sm font-semibold">
-                Most Popular
-              </div>
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Comprehensive AMC</h3>
-                <p className="text-gray-600">All-inclusive maintenance & repair</p>
-                <div className="mt-4">
-                  <span className="text-4xl font-bold text-blue-600">₹3,499</span>
-                  <span className="text-gray-500">/year onwards</span>
-                </div>
-              </div>
-              <ul className="space-y-3 mb-8">
-                {comprehensiveFeatures.map((feature) => (
-                  <li key={feature} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              <a
-                href="tel:+919727257141"
-                className="block w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-xl font-bold text-center transition"
-              >
-                Get Comprehensive AMC
-              </a>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold mb-6">Description</h2>
+            <div className="prose prose-lg text-gray-600 max-w-none">
+              <p>Protect your investment in split, window, or cassette ACs. Our Comprehensive AC AMC includes gas top-ups, PCB repairs, capacitor replacements, deep cleaning, and unlimited repair calls. The Non-Comprehensive option offers seasonal start-up/shutdown services, cleaning, and discounted spare parts???ideal for newer units under manufacturer warranty.</p>
             </div>
-
-            {/* Non-Comprehensive AMC */}
-            <div className="bg-gray-50 p-8 rounded-2xl border-2 border-gray-200">
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Non-Comprehensive AMC</h3>
-                <p className="text-gray-600">Scheduled maintenance visits</p>
-                <div className="mt-4">
-                  <span className="text-4xl font-bold text-gray-800">₹1,999</span>
-                  <span className="text-gray-500">/year onwards</span>
-                </div>
+            
+            <div className="mt-8 bg-gray-50 rounded-xl p-6">
+              <h3 className="font-bold text-lg mb-4">Product Details</h3>
+              <div className="grid md:grid-cols-2 gap-4 text-sm">
+                
+                <div className="flex justify-between py-2 border-b border-gray-200"><span className="text-gray-500">Category</span><span className="font-medium">AMC</span></div>
+                <div className="flex justify-between py-2 border-b border-gray-200"><span className="text-gray-500">Brand</span><span className="font-medium">Hitech Aircool Engineers</span></div>
+                <div className="flex justify-between py-2 border-b border-gray-200"><span className="text-gray-500">Availability</span><span className="font-medium text-green-600">In Stock</span></div>
+                <div className="flex justify-between py-2 border-b border-gray-200"><span className="text-gray-500">Delivery</span><span className="font-medium">All Gujarat &amp; GIDC Zones</span></div>
+                <div className="flex justify-between py-2 border-b border-gray-200"><span className="text-gray-500">Invoice</span><span className="font-medium">GST Invoice Provided</span></div>
               </div>
-              <ul className="space-y-3 mb-8">
-                {nonComprehensiveFeatures.map((feature) => (
-                  <li key={feature} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              <a
-                href="tel:+919727257141"
-                className="block w-full bg-gray-800 hover:bg-gray-900 text-white py-4 rounded-xl font-bold text-center transition"
-              >
-                Get Non-Comprehensive AMC
-              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Detailed Pricing Table */}
+      {/* Related Products */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-4">
-            AC AMC Pricing in Vadodara
-          </h2>
-          <p className="text-gray-600 text-center mb-12">
-            Transparent pricing for all AC types and tonnages
-          </p>
-          <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-sm overflow-hidden">
-            <table className="w-full">
-              <thead className="bg-blue-600 text-white">
-                <tr>
-                  <th className="text-left py-4 px-6">AC Type / Tonnage</th>
-                  <th className="text-center py-4 px-6">Non-Comprehensive</th>
-                  <th className="text-center py-4 px-6">Comprehensive</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b border-gray-200">
-                  <td className="py-4 px-6 font-medium">Split AC (1 - 1.5 Ton)</td>
-                  <td className="py-4 px-6 text-center font-semibold text-gray-800">₹1,999</td>
-                  <td className="py-4 px-6 text-center font-semibold text-blue-600">₹3,499</td>
-                </tr>
-                <tr className="border-b border-gray-200 bg-gray-50">
-                  <td className="py-4 px-6 font-medium">Split AC (2 Ton)</td>
-                  <td className="py-4 px-6 text-center font-semibold text-gray-800">₹2,499</td>
-                  <td className="py-4 px-6 text-center font-semibold text-blue-600">₹4,499</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-4 px-6 font-medium">Window AC</td>
-                  <td className="py-4 px-6 text-center font-semibold text-gray-800">₹1,799</td>
-                  <td className="py-4 px-6 text-center font-semibold text-blue-600">₹2,999</td>
-                </tr>
-                <tr className="border-b border-gray-200 bg-gray-50">
-                  <td className="py-4 px-6 font-medium">Cassette AC</td>
-                  <td className="py-4 px-6 text-center font-semibold text-gray-800">₹3,499</td>
-                  <td className="py-4 px-6 text-center font-semibold text-blue-600">₹5,999</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-4 px-6 font-medium">Ductable AC</td>
-                  <td className="py-4 px-6 text-center font-semibold text-gray-800">₹4,999</td>
-                  <td className="py-4 px-6 text-center font-semibold text-blue-600">₹8,999</td>
-                </tr>
-                <tr>
-                  <td className="py-4 px-6 font-medium">Central / VRF System</td>
-                  <td className="py-4 px-6 text-center font-semibold text-gray-800">Custom</td>
-                  <td className="py-4 px-6 text-center font-semibold text-blue-600">Custom</td>
-                </tr>
-              </tbody>
-            </table>
+          <h2 className="text-2xl font-bold text-center mb-8">Related Products</h2>
+          <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            {[{"url":"https://www.atlasaircons.com/24x7-panel-acs-emergency-service-hitech-aircool-engineers/","title":"24X7 Panel Acs Emergency Service | Hitech Aircool Engineers","price":""},{"url":"https://www.atlasaircons.com/non-recirculating-air-curtains-hitech-aircool-engineers/","title":"Non-Recirculating Air Curtains | Hitech Aircool Engineers","price":""}].map((p: { url: string; title: string; price: string }) => (
+              <a key={p.url} href={p.url.replace("https://www.atlasaircons.com/", "/").replace("https://atlasaircons.com/", "/").replace(/\/$/, "")} className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-md transition block">
+                <h3 className="font-semibold text-sm mb-2 line-clamp-2">{p.title}</h3>
+                <p className="text-blue-600 font-bold">{p.price}</p>
+              </a>
+            ))}
           </div>
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Prices are indicative. Final pricing depends on AC brand, condition & location. GST extra.
-          </p>
         </div>
       </section>
-
-      {/* Why Choose Atlas Aircon AMC */}
+      {/* Why Buy From Us */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">
-            Why Choose Atlas Aircon for AMC?
-          </h2>
-          <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="font-semibold mb-2">20+ Years Experience</h3>
-              <p className="text-gray-600 text-sm">Trusted since 2004 in Vadodara</p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Wrench className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="font-semibold mb-2">Certified Technicians</h3>
-              <p className="text-gray-600 text-sm">Trained for all AC brands</p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="font-semibold mb-2">Priority Response</h3>
-              <p className="text-gray-600 text-sm">AMC customers get priority service</p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Star className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="font-semibold mb-2">5000+ Customers</h3>
-              <p className="text-gray-600 text-sm">Serving Vadodara & Gujarat</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Brands We Cover */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-4">
-            AC Brands We Cover Under AMC
-          </h2>
-          <p className="text-gray-600 text-center mb-12">
-            AMC available for all major air conditioner brands
-          </p>
-          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-4 max-w-5xl mx-auto">
-            {brands.map((brand) => (
-              <div
-                key={brand}
-                className="bg-white p-4 rounded-lg text-center border border-gray-200 hover:border-blue-300 hover:shadow-sm transition"
-              >
-                <span className="text-gray-800 font-medium text-sm">{brand}</span>
+          <h2 className="text-2xl font-bold text-center mb-12">Why Buy From Atlas Aircon?</h2>
+          <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            {[
+              { icon: Shield, t: "100% Genuine", d: "All parts sourced directly from authorized distributors" },
+              { icon: Truck, t: "Fast Delivery", d: "Same-day dispatch to Vadodara, next-day across Gujarat" },
+              { icon: FileText, t: "GST Invoice", d: "Proper tax invoice with every order for business claims" },
+              { icon: Star, t: "Expert Support", d: "Technical guidance from 20+ years experienced engineers" },
+            ].map(item => (
+              <div key={item.t} className="bg-gray-50 p-6 rounded-xl text-center border border-gray-100">
+                <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <item.icon className="w-7 h-7 text-blue-600" />
+                </div>
+                <h3 className="font-bold mb-2">{item.t}</h3>
+                <p className="text-gray-600 text-sm">{item.d}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* AC Types */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-4">
-            AMC for All AC Types
-          </h2>
-          <p className="text-gray-600 text-center mb-12">
-            Residential, commercial & industrial AC maintenance contracts
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            {acTypes.map((type) => (
-              <div
-                key={type}
-                className="bg-gray-50 p-5 rounded-xl text-center border border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition"
-              >
-                <ThermometerSnowflake className="w-8 h-8 text-blue-600 mx-auto mb-3" />
-                <span className="text-gray-800 font-semibold">{type}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* How AMC Works */}
+      
+      {/* FAQs Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">
-            How Our AMC Works
-          </h2>
-          <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
-            <div className="text-center">
-              <div className="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
-              <h3 className="font-semibold mb-2">Choose Plan</h3>
-              <p className="text-gray-600 text-sm">Select Comprehensive or Non-Comprehensive AMC based on your needs</p>
-            </div>
-            <div className="text-center">
-              <div className="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
-              <h3 className="font-semibold mb-2">AC Inspection</h3>
-              <p className="text-gray-600 text-sm">Our technician inspects your AC and provides a health report</p>
-            </div>
-            <div className="text-center">
-              <div className="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
-              <h3 className="font-semibold mb-2">Sign Contract</h3>
-              <p className="text-gray-600 text-sm">Sign the AMC agreement with clear terms and pricing</p>
-            </div>
-            <div className="text-center">
-              <div className="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
-              <h3 className="font-semibold mb-2">Enjoy Service</h3>
-              <p className="text-gray-600 text-sm">Scheduled visits + priority breakdown support all year</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQs */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">
-            Frequently Asked Questions - AC AMC
-          </h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
           <div className="max-w-3xl mx-auto space-y-4">
-            {faqs.map((faq, idx) => (
-              <details key={idx} className="bg-gray-50 rounded-lg group shadow-sm">
-                <summary className="p-4 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
-                  {faq.question}
+            {[
+              { q: "What does Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers include?", a: "Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." },
+              { q: "How much does Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers cost?", a: "Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." },
+              { q: "How often should AC be serviced?", a: "AC should be serviced at least twice a year — before summer and after monsoon. Heavy use environments may need quarterly servicing." },
+              { q: "Will Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers improve cooling?", a: "Yes, proper Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." },
+              { q: "Does Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers reduce electricity bills?", a: "Regular Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." },
+              { q: "How long does Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers take?", a: "Basic Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." },
+              { q: "Can Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers remove bad smell?", a: "Yes, Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." },
+              { q: "Is gas top-up included in Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers?", a: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." },
+              { q: "Do you clean outdoor AC unit?", a: "Yes, complete service includes outdoor unit cleaning. Condenser coil cleaning is essential for proper heat rejection." },
+              { q: "What's the difference between service and deep cleaning?", a: "Basic service is dry cleaning and inspection. Deep cleaning uses high-pressure jet wash. Chemical wash uses foam for thorough cleaning." }
+            ].map((faq, i) => (
+              <details key={i} className="bg-white rounded-xl border border-gray-200 group">
+                <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
+                  {faq.q}
                   <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
-                <div className="px-4 pb-4 text-gray-600">{faq.answer}</div>
+                <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
               </details>
             ))}
           </div>
         </div>
       </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "What does Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers include?", acceptedAnswer: { "@type": "Answer", text: "Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." } },
+          { "@type": "Question", name: "How much does Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers cost?", acceptedAnswer: { "@type": "Answer", text: "Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." } },
+          { "@type": "Question", name: "How often should AC be serviced?", acceptedAnswer: { "@type": "Answer", text: "AC should be serviced at least twice a year — before summer and after monsoon. Heavy use environments may need quarterly servicing." } },
+          { "@type": "Question", name: "Will Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers improve cooling?", acceptedAnswer: { "@type": "Answer", text: "Yes, proper Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." } },
+          { "@type": "Question", name: "Does Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers reduce electricity bills?", acceptedAnswer: { "@type": "Answer", text: "Regular Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." } },
+          { "@type": "Question", name: "How long does Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers take?", acceptedAnswer: { "@type": "Answer", text: "Basic Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." } },
+          { "@type": "Question", name: "Can Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers remove bad smell?", acceptedAnswer: { "@type": "Answer", text: "Yes, Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." } },
+          { "@type": "Question", name: "Is gas top-up included in Air Conditioner Comprehensive Non Comprehensive Amc Hitech Aircool Engineers?", acceptedAnswer: { "@type": "Answer", text: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." } },
+          { "@type": "Question", name: "Do you clean outdoor AC unit?", acceptedAnswer: { "@type": "Answer", text: "Yes, complete service includes outdoor unit cleaning. Condenser coil cleaning is essential for proper heat rejection." } },
+          { "@type": "Question", name: "What's the difference between service and deep cleaning?", acceptedAnswer: { "@type": "Answer", text: "Basic service is dry cleaning and inspection. Deep cleaning uses high-pressure jet wash. Chemical wash uses foam for thorough cleaning." } }
+        ]
+      }) }} />
 
-      {/* Related Services */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Related Services</h2>
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <Link
-              href="/ac-amc-vadodara"
-              className="bg-white p-6 rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-md transition group"
-            >
-              <Shield className="w-10 h-10 text-blue-600 mb-3" />
-              <h3 className="text-lg font-bold group-hover:text-blue-600">AC AMC Vadodara</h3>
-              <p className="text-gray-600 text-sm mt-2">Annual maintenance contracts for all AC types</p>
-            </Link>
-            <Link
-              href="/ac-maintenance-vadodara"
-              className="bg-white p-6 rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-md transition group"
-            >
-              <Settings className="w-10 h-10 text-blue-600 mb-3" />
-              <h3 className="text-lg font-bold group-hover:text-blue-600">AC Maintenance</h3>
-              <p className="text-gray-600 text-sm mt-2">Regular AC maintenance & tune-up service</p>
-            </Link>
-            <Link
-              href="/ac-service-vadodara"
-              className="bg-white p-6 rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-md transition group"
-            >
-              <Wrench className="w-10 h-10 text-blue-600 mb-3" />
-              <h3 className="text-lg font-bold group-hover:text-blue-600">AC Service</h3>
-              <p className="text-gray-600 text-sm mt-2">Complete AC servicing & cleaning</p>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
+{/* CTA */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">
-            Get Your AC AMC Plan Today
-          </h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
-            Protect your air conditioner with Atlas Aircon&apos;s Comprehensive or Non-Comprehensive AMC. 
-            Save money on repairs and keep your AC running efficiently all year.
-          </p>
+          <h2 className="text-3xl font-bold mb-4">Need This Product?</h2>
+          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Contact us for bulk orders, custom specs, or technical queries. Our HVAC engineers are ready to help.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+919727257141"
-              className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"
-            >
-              <Phone size={22} />
-              Call +91 97272 57141
+            <a href="tel:+919727257141" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition">
+              <Phone className="w-5 h-5" /> Call +91 97272 57141
             </a>
-            <a
-              href="https://wa.me/919727257141"
-              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition"
-            >
-              WhatsApp Us
+            <a href="https://wa.me/919727257141" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">
+              WhatsApp Order
             </a>
           </div>
         </div>

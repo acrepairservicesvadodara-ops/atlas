@@ -235,7 +235,53 @@ export default function SplitACFittingPage() {
         </div>
       </section>
 
-      {/* CTA */}
+      
+      {/* FAQs Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <div className="max-w-3xl mx-auto space-y-4">
+            {[
+              { q: "What is the cost of SPLIT AC repair?", a: "Repair costs vary: gas refilling ₹1,500-₹3,000, PCB repair ₹1,200-₹4,000, compressor replacement ₹4,000-₹12,000. Diagnosis ₹299 adjusted against repairs." },
+              { q: "Why is my AC not cooling properly?", a: "Common reasons: low refrigerant gas (leak), dirty filters, blocked condenser coil, faulty compressor, or thermostat issue. Diagnosis required for accurate repair." },
+              { q: "How often should SPLIT AC be serviced?", a: "SPLIT AC should be serviced every 3-6 months depending on usage. At minimum, service before summer and after monsoon season." },
+              { q: "Is gas refilling expensive for SPLIT AC?", a: "Gas refilling costs depend on refrigerant type: R22 ₹1,500-₹2,500, R32 ₹2,000-₹3,500, R410A ₹2,500-₹4,000. Includes pressure testing." },
+              { q: "How long does installation take for SPLIT AC?", a: "Installation typically takes 2-4 hours depending on complexity, piping requirements, and site conditions." },
+              { q: "What brands do you service for SPLIT AC?", a: "We service all brands: Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Panasonic, Godrej, and more." },
+              { q: "Is AMC available for SPLIT AC?", a: "Yes, AMC plans available from ₹1,999/year. Includes scheduled servicing, priority emergency support, and discounted repairs." },
+              { q: "Do you repair older models of SPLIT AC?", a: "Yes, we repair all models including discontinued ones. Spare parts sourced for older units when required." },
+              { q: "What warranty do you provide?", a: "We provide 30-90 days repair warranty and 1-year installation warranty. Spare parts carry manufacturer warranty." },
+              { q: "Can you convert or upgrade SPLIT AC?", a: "We can advise on upgrades and handle new installations. Converting between AC types isn't possible but replacement is." }
+            ].map((faq, i) => (
+              <details key={i} className="bg-white rounded-xl border border-gray-200 group">
+                <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
+                  {faq.q}
+                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "What is the cost of SPLIT AC repair?", acceptedAnswer: { "@type": "Answer", text: "Repair costs vary: gas refilling ₹1,500-₹3,000, PCB repair ₹1,200-₹4,000, compressor replacement ₹4,000-₹12,000. Diagnosis ₹299 adjusted against repairs." } },
+          { "@type": "Question", name: "Why is my AC not cooling properly?", acceptedAnswer: { "@type": "Answer", text: "Common reasons: low refrigerant gas (leak), dirty filters, blocked condenser coil, faulty compressor, or thermostat issue. Diagnosis required for accurate repair." } },
+          { "@type": "Question", name: "How often should SPLIT AC be serviced?", acceptedAnswer: { "@type": "Answer", text: "SPLIT AC should be serviced every 3-6 months depending on usage. At minimum, service before summer and after monsoon season." } },
+          { "@type": "Question", name: "Is gas refilling expensive for SPLIT AC?", acceptedAnswer: { "@type": "Answer", text: "Gas refilling costs depend on refrigerant type: R22 ₹1,500-₹2,500, R32 ₹2,000-₹3,500, R410A ₹2,500-₹4,000. Includes pressure testing." } },
+          { "@type": "Question", name: "How long does installation take for SPLIT AC?", acceptedAnswer: { "@type": "Answer", text: "Installation typically takes 2-4 hours depending on complexity, piping requirements, and site conditions." } },
+          { "@type": "Question", name: "What brands do you service for SPLIT AC?", acceptedAnswer: { "@type": "Answer", text: "We service all brands: Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Panasonic, Godrej, and more." } },
+          { "@type": "Question", name: "Is AMC available for SPLIT AC?", acceptedAnswer: { "@type": "Answer", text: "Yes, AMC plans available from ₹1,999/year. Includes scheduled servicing, priority emergency support, and discounted repairs." } },
+          { "@type": "Question", name: "Do you repair older models of SPLIT AC?", acceptedAnswer: { "@type": "Answer", text: "Yes, we repair all models including discontinued ones. Spare parts sourced for older units when required." } },
+          { "@type": "Question", name: "What warranty do you provide?", acceptedAnswer: { "@type": "Answer", text: "We provide 30-90 days repair warranty and 1-year installation warranty. Spare parts carry manufacturer warranty." } },
+          { "@type": "Question", name: "Can you convert or upgrade SPLIT AC?", acceptedAnswer: { "@type": "Answer", text: "We can advise on upgrades and handle new installations. Converting between AC types isn't possible but replacement is." } }
+        ]
+      }) }} />
+
+{/* CTA */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">

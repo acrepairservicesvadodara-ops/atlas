@@ -235,7 +235,53 @@ export default function HospitalHVACPage() {
         </div>
       </section>
 
-      {/* CTA */}
+      
+      {/* FAQs Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <div className="max-w-3xl mx-auto space-y-4">
+            {[
+              { q: "Do you provide industrial HVhospital hvac vadodaras?", a: "Yes, Atlas Aircon specializes in industrial HVAC including chiller repair, AHU service, cooling tower maintenance, VRF systems, and panel AC." },
+              { q: "What is the response time for industrial AC breakdown?", a: "For industrial emergencies, we prioritize response within 2-4 hours. 24/7 helpline available at +91 97272 57141 for critical cooling failures." },
+              { q: "Do you offer AMC for industrial HVAC?", a: "Yes, comprehensive AMC includes scheduled maintenance, emergency response, parts discount, and dedicated technician. Plans customized per equipment." },
+              { q: "Can you repair imported industrial equipment?", a: "Yes, we repair industrial AC from all manufacturers — Carrier, Trane, York, Daikin, Blue Star, Voltas, and imported machinery." },
+              { q: "Is your team trained for VRF/VRV systems?", a: "Yes, technicians certified for Daikin VRV, Mitsubishi VRF, LG Multi-V, and other VRF systems. We handle installation, commissioning, repairs." },
+              { q: "Do you provide chiller plant maintenance?", a: "Yes, complete chiller plant maintenance including water-cooled chillers, air-cooled chillers, cooling towers, pumps, and controls." },
+              { q: "Can you service pharmaceutical industry AC?", a: "Yes, we service cleanroom ACs, precision cooling systems, and pharmaceutical-grade HVAC with documentation support." },
+              { q: "Do you work in GIDC industrial areas?", a: "Yes, we regularly service industries in Makarpura GIDC, Nandesari GIDC, Waghodia GIDC, Savli GIDC, and all Gujarat industrial estates." },
+              { q: "What is cost of industrial hospital hvac vadodara?", a: "Industrial hospital hvac vadodara costs vary by equipment type and issue. We provide free inspection and detailed quotation before proceeding." },
+              { q: "Do you supply spare parts for industrial AC?", a: "Yes, we stock spare parts including compressors, controls, motors, sensors, and refrigerants. Genuine and equivalent parts available." }
+            ].map((faq, i) => (
+              <details key={i} className="bg-white rounded-xl border border-gray-200 group">
+                <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
+                  {faq.q}
+                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "Do you provide industrial HVhospital hvac vadodaras?", acceptedAnswer: { "@type": "Answer", text: "Yes, Atlas Aircon specializes in industrial HVAC including chiller repair, AHU service, cooling tower maintenance, VRF systems, and panel AC." } },
+          { "@type": "Question", name: "What is the response time for industrial AC breakdown?", acceptedAnswer: { "@type": "Answer", text: "For industrial emergencies, we prioritize response within 2-4 hours. 24/7 helpline available at +91 97272 57141 for critical cooling failures." } },
+          { "@type": "Question", name: "Do you offer AMC for industrial HVAC?", acceptedAnswer: { "@type": "Answer", text: "Yes, comprehensive AMC includes scheduled maintenance, emergency response, parts discount, and dedicated technician. Plans customized per equipment." } },
+          { "@type": "Question", name: "Can you repair imported industrial equipment?", acceptedAnswer: { "@type": "Answer", text: "Yes, we repair industrial AC from all manufacturers — Carrier, Trane, York, Daikin, Blue Star, Voltas, and imported machinery." } },
+          { "@type": "Question", name: "Is your team trained for VRF/VRV systems?", acceptedAnswer: { "@type": "Answer", text: "Yes, technicians certified for Daikin VRV, Mitsubishi VRF, LG Multi-V, and other VRF systems. We handle installation, commissioning, repairs." } },
+          { "@type": "Question", name: "Do you provide chiller plant maintenance?", acceptedAnswer: { "@type": "Answer", text: "Yes, complete chiller plant maintenance including water-cooled chillers, air-cooled chillers, cooling towers, pumps, and controls." } },
+          { "@type": "Question", name: "Can you service pharmaceutical industry AC?", acceptedAnswer: { "@type": "Answer", text: "Yes, we service cleanroom ACs, precision cooling systems, and pharmaceutical-grade HVAC with documentation support." } },
+          { "@type": "Question", name: "Do you work in GIDC industrial areas?", acceptedAnswer: { "@type": "Answer", text: "Yes, we regularly service industries in Makarpura GIDC, Nandesari GIDC, Waghodia GIDC, Savli GIDC, and all Gujarat industrial estates." } },
+          { "@type": "Question", name: "What is cost of industrial hospital hvac vadodara?", acceptedAnswer: { "@type": "Answer", text: "Industrial hospital hvac vadodara costs vary by equipment type and issue. We provide free inspection and detailed quotation before proceeding." } },
+          { "@type": "Question", name: "Do you supply spare parts for industrial AC?", acceptedAnswer: { "@type": "Answer", text: "Yes, we stock spare parts including compressors, controls, motors, sensors, and refrigerants. Genuine and equivalent parts available." } }
+        ]
+      }) }} />
+
+{/* CTA */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">

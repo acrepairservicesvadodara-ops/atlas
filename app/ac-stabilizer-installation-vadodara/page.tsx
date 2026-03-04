@@ -235,7 +235,53 @@ export default function ACStabilizerInstallationPage() {
         </div>
       </section>
 
-      {/* CTA */}
+      
+      {/* FAQs Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <div className="max-w-3xl mx-auto space-y-4">
+            {[
+              { q: "What is included in AC installation?", a: "AC installation includes site inspection, bracket/stand fitting, copper piping up to 3m, electrical wiring, drain pipe, gas charging, vacuum testing, and final testing." },
+              { q: "How much does AC installation cost in Vadodara?", a: "AC installation costs vary: Split AC from ₹1,500, Window AC from ₹800, Cassette AC from ₹3,500. Additional piping charged at ₹150/meter." },
+              { q: "How long does AC installation take?", a: "Standard AC installation takes 2-3 hours for split AC, 1-2 hours for window AC. Complex installations with long piping may take 4-5 hours." },
+              { q: "Do you provide AC installation warranty?", a: "Atlas Aircon provides 1-year warranty on installation workmanship. Any installation-related issues within this period are fixed free of charge." },
+              { q: "Can you relocate my existing AC?", a: "Yes, AC relocation includes uninstallation, transport, reinstallation, gas top-up, and testing. Charges vary by distance and AC type." },
+              { q: "What type of copper piping do you use?", a: "We use premium quality copper pipes (0.8mm thickness) with proper insulation. Quality piping prevents gas leaks and maintains AC efficiency." },
+              { q: "Is electrical work included in installation?", a: "Basic electrical work is included. MCB installation, dedicated wiring, or major modifications are charged separately after inspection." },
+              { q: "Can you install AC on higher floors?", a: "Yes, installation available for all floor levels. For high-rise buildings, we coordinate with society for outdoor unit placement." },
+              { q: "Do you provide demo after AC installation?", a: "Yes, our technician provides demo of AC operation, remote control features, and basic maintenance tips after installation." },
+              { q: "What should I prepare before AC installation?", a: "Ensure installation area is accessible and clear. For split AC, decide outdoor unit placement. Electrical point should be within 2 meters." }
+            ].map((faq, i) => (
+              <details key={i} className="bg-white rounded-xl border border-gray-200 group">
+                <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
+                  {faq.q}
+                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "What is included in AC installation?", acceptedAnswer: { "@type": "Answer", text: "AC installation includes site inspection, bracket/stand fitting, copper piping up to 3m, electrical wiring, drain pipe, gas charging, vacuum testing, and final testing." } },
+          { "@type": "Question", name: "How much does AC installation cost in Vadodara?", acceptedAnswer: { "@type": "Answer", text: "AC installation costs vary: Split AC from ₹1,500, Window AC from ₹800, Cassette AC from ₹3,500. Additional piping charged at ₹150/meter." } },
+          { "@type": "Question", name: "How long does AC installation take?", acceptedAnswer: { "@type": "Answer", text: "Standard AC installation takes 2-3 hours for split AC, 1-2 hours for window AC. Complex installations with long piping may take 4-5 hours." } },
+          { "@type": "Question", name: "Do you provide AC installation warranty?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon provides 1-year warranty on installation workmanship. Any installation-related issues within this period are fixed free of charge." } },
+          { "@type": "Question", name: "Can you relocate my existing AC?", acceptedAnswer: { "@type": "Answer", text: "Yes, AC relocation includes uninstallation, transport, reinstallation, gas top-up, and testing. Charges vary by distance and AC type." } },
+          { "@type": "Question", name: "What type of copper piping do you use?", acceptedAnswer: { "@type": "Answer", text: "We use premium quality copper pipes (0.8mm thickness) with proper insulation. Quality piping prevents gas leaks and maintains AC efficiency." } },
+          { "@type": "Question", name: "Is electrical work included in installation?", acceptedAnswer: { "@type": "Answer", text: "Basic electrical work is included. MCB installation, dedicated wiring, or major modifications are charged separately after inspection." } },
+          { "@type": "Question", name: "Can you install AC on higher floors?", acceptedAnswer: { "@type": "Answer", text: "Yes, installation available for all floor levels. For high-rise buildings, we coordinate with society for outdoor unit placement." } },
+          { "@type": "Question", name: "Do you provide demo after AC installation?", acceptedAnswer: { "@type": "Answer", text: "Yes, our technician provides demo of AC operation, remote control features, and basic maintenance tips after installation." } },
+          { "@type": "Question", name: "What should I prepare before AC installation?", acceptedAnswer: { "@type": "Answer", text: "Ensure installation area is accessible and clear. For split AC, decide outdoor unit placement. Electrical point should be within 2 meters." } }
+        ]
+      }) }} />
+
+{/* CTA */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">
