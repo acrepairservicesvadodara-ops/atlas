@@ -10,12 +10,12 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "www.atlasaircons.com",
+        hostname: "www.hitechairconditioning.in",
         pathname: "/wp-content/uploads/**",
       },
       {
         protocol: "https",
-        hostname: "atlasaircons.com",
+        hostname: "hitechairconditioning.in",
         pathname: "/wp-content/uploads/**",
       },
     ],

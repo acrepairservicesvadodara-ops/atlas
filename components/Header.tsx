@@ -43,18 +43,18 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
       {/* Top Bar */}
-      <div className="bg-blue-600 text-white py-2">
+      <div className="bg-teal-600 text-white py-2">
         <div className="container mx-auto px-4 flex justify-between items-center text-sm">
           <div className="flex items-center gap-4">
-            <span>📍 Sayajigunj, Vadodara</span>
-            <span className="hidden md:inline">✉️ atlasaircon1@gmail.com</span>
+            <span>📍 Vadodara, Gujarat</span>
+            <span className="hidden md:inline">✉️ hitechairconditioning@gmail.com</span>
           </div>
           <a
-            href="tel:+919727257141"
-            className="flex items-center gap-2 font-semibold hover:text-blue-200 transition"
+            href="tel:+919328953665"
+            className="flex items-center gap-2 font-semibold hover:text-teal-200 transition"
           >
             <Phone size={16} />
-            +91 97272 57141
+            +91 93289 53665
           </a>
         </div>
       </div>
@@ -64,18 +64,18 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">A</span>
+            <div className="w-12 h-12 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-full flex items-center justify-center">
+              <span className="text-white font-bold text-xl">H</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Atlas Aircon</h1>
-              <p className="text-xs text-gray-500">AC Repair & Service Expert</p>
+              <h1 className="text-xl font-bold text-gray-900">Hitech Aircool</h1>
+              <p className="text-xs text-gray-500">AC & HVAC Engineers</p>
             </div>
           </Link>
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center gap-6">
-            <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">
+            <Link href="/" className="text-gray-700 hover:text-teal-600 font-medium">
               Home
             </Link>
 
@@ -85,7 +85,7 @@ export default function Header() {
               onMouseEnter={() => setActiveDropdown("services")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="flex items-center gap-1 text-gray-700 hover:text-blue-600 font-medium">
+              <button className="flex items-center gap-1 text-gray-700 hover:text-teal-600 font-medium">
                 Services <ChevronDown size={16} />
               </button>
               {activeDropdown === "services" && (
@@ -94,7 +94,7 @@ export default function Header() {
                     <Link
                       key={service.href}
                       href={service.href}
-                      className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                      className="block px-4 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600"
                     >
                       {service.name}
                     </Link>
@@ -109,7 +109,7 @@ export default function Header() {
               onMouseEnter={() => setActiveDropdown("types")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="flex items-center gap-1 text-gray-700 hover:text-blue-600 font-medium">
+              <button className="flex items-center gap-1 text-gray-700 hover:text-teal-600 font-medium">
                 AC Types <ChevronDown size={16} />
               </button>
               {activeDropdown === "types" && (
@@ -118,7 +118,7 @@ export default function Header() {
                     <Link
                       key={type.href}
                       href={type.href}
-                      className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                      className="block px-4 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600"
                     >
                       {type.name}
                     </Link>
@@ -133,7 +133,7 @@ export default function Header() {
               onMouseEnter={() => setActiveDropdown("brands")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="flex items-center gap-1 text-gray-700 hover:text-blue-600 font-medium">
+              <button className="flex items-center gap-1 text-gray-700 hover:text-teal-600 font-medium">
                 Brands <ChevronDown size={16} />
               </button>
               {activeDropdown === "brands" && (
@@ -142,7 +142,7 @@ export default function Header() {
                     <Link
                       key={brand.href}
                       href={brand.href}
-                      className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                      className="block px-4 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600"
                     >
                       {brand.name}
                     </Link>
@@ -151,13 +151,13 @@ export default function Header() {
               )}
             </div>
 
-            <Link href="/areas" className="text-gray-700 hover:text-blue-600 font-medium">
+            <Link href="/areas" className="text-gray-700 hover:text-teal-600 font-medium">
               Service Areas
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">
+            <Link href="/about" className="text-gray-700 hover:text-teal-600 font-medium">
               About Us
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
+            <Link href="/contact" className="text-gray-700 hover:text-teal-600 font-medium">
               Contact
             </Link>
           </div>
@@ -165,8 +165,8 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden lg:block">
             <a
-              href="tel:+919727257141"
-              className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition flex items-center gap-2"
+              href="tel:+919328953665"
+              className="bg-teal-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-700 transition flex items-center gap-2"
             >
               <Phone size={18} />
               Book Service
@@ -197,7 +197,7 @@ export default function Header() {
                     <Link
                       key={service.href}
                       href={service.href}
-                      className="text-gray-600 hover:text-blue-600"
+                      className="text-gray-600 hover:text-teal-600"
                       onClick={() => setIsOpen(false)}
                     >
                       {service.name}
@@ -212,7 +212,7 @@ export default function Header() {
                     <Link
                       key={type.href}
                       href={type.href}
-                      className="text-gray-600 hover:text-blue-600"
+                      className="text-gray-600 hover:text-teal-600"
                       onClick={() => setIsOpen(false)}
                     >
                       {type.name}
@@ -230,10 +230,10 @@ export default function Header() {
                 Contact
               </Link>
               <a
-                href="tel:+919727257141"
-                className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold text-center"
+                href="tel:+919328953665"
+                className="bg-teal-600 text-white px-6 py-3 rounded-full font-semibold text-center"
               >
-                📞 +91 97272 57141
+                📞 +91 93289 53665
               </a>
             </div>
           </div>

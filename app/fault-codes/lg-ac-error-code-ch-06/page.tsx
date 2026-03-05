@@ -6,8 +6,8 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "LG AC Error CH06 | Indoor Temperature Sensor Failure | Diagnostic Guide | Atlas Aircon",
-  description: "LG AC Error CH06 indicates indoor temperature sensor failure. Learn causes, DIY checks, professional repair costs. Expert LG AC repair in Vadodara. Call +91 97272 57141.",
+  title: "LG AC Error CH06 | Indoor Temperature Sensor Failure | Diagnostic Guide | Hitech Aircool Engineers",
+  description: "LG AC Error CH06 indicates indoor temperature sensor failure. Learn causes, DIY checks, professional repair costs. Expert LG AC repair in Vadodara. Call +91 93289 53665.",
   keywords: [
     "lg ac error ch06",
     "lg ac error code ch06",
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     "lg ac repair vadodara",
     "ac error code fix",
   ],
-  alternates: { canonical: "https://atlasaircons.com/fault-codes/lg-ac-error-code-ch-06" },
+  alternates: { canonical: "https://hitechairconditioning.in/fault-codes/lg-ac-error-code-ch-06" },
   openGraph: {
-    title: "LG AC Error CH06 — Indoor Temperature Sensor Failure | Atlas Aircon",
+    title: "LG AC Error CH06 — Indoor Temperature Sensor Failure | Hitech Aircool Engineers",
     description: "Diagnostic protocol & repair guide for LG AC Error CH06. Suspects: Thermistor or PCB Circuit.",
-    url: "https://atlasaircons.com/fault-codes/lg-ac-error-code-ch-06",
+    url: "https://hitechairconditioning.in/fault-codes/lg-ac-error-code-ch-06",
     type: "article",
   },
 };
@@ -32,9 +32,9 @@ const jsonLd = {
   "@type": "TechArticle",
   headline: "LG AC Error CH06 — Indoor Temperature Sensor Failure",
   description: "Complete diagnostic protocol and repair guide for LG AC Error Code CH06.",
-  author: { "@type": "Organization", name: "Atlas Aircon" },
-  publisher: { "@type": "Organization", name: "Atlas Aircon", url: "https://atlasaircons.com" },
-  mainEntityOfPage: "https://atlasaircons.com/fault-codes/lg-ac-error-code-ch-06",
+  author: { "@type": "Organization", name: "Hitech Aircool Engineers" },
+  publisher: { "@type": "Organization", name: "Hitech Aircool Engineers", url: "https://hitechairconditioning.in" },
+  mainEntityOfPage: "https://hitechairconditioning.in/fault-codes/lg-ac-error-code-ch-06",
 };
 
 export default function LGErrorCH06Page() {
@@ -89,7 +89,7 @@ export default function LGErrorCH06Page() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Understanding LG Error CH06</h2>
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+            <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8">
               <p className="text-gray-700">The indoor unit's temperature sensor (thermistor) is sending incorrect readings or has an open circuit. This prevents the AC from regulating temperature properly.</p>
               <p className="text-gray-700 mt-3">
                 <strong>Impact:</strong> If left unaddressed, this error can lead to compressor damage, increased energy consumption, and complete system shutdown. It is critical to resolve CH06 promptly to avoid costly repairs.
@@ -98,7 +98,7 @@ export default function LGErrorCH06Page() {
 
             {/* DIY Checks */}
             <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-              <Search className="w-6 h-6 text-blue-600" /> DIY Troubleshooting Steps
+              <Search className="w-6 h-6 text-teal-600" /> DIY Troubleshooting Steps
             </h3>
             <div className="space-y-4 mb-12">
               {[
@@ -107,7 +107,7 @@ export default function LGErrorCH06Page() {
                 { step: "Step 3", desc: "Replace thermistor if resistance is out of range" },
               ].map((item) => (
                 <div key={item.step} className="flex gap-4 bg-gray-50 p-5 rounded-xl border border-gray-100">
-                  <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm">{item.step.split(" ")[1]}</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-teal-600 text-white rounded-full flex items-center justify-center font-bold text-sm">{item.step.split(" ")[1]}</div>
                   <p className="text-gray-600 pt-2">{item.desc}</p>
                 </div>
               ))}
@@ -115,23 +115,23 @@ export default function LGErrorCH06Page() {
 
             {/* Professional Protocol */}
             <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-              <Wrench className="w-6 h-6 text-blue-600" /> Atlas Aircon Repair Protocol
+              <Wrench className="w-6 h-6 text-teal-600" /> Hitech Aircool Engineers Repair Protocol
             </h3>
             <p className="text-gray-600 mb-4">
               Our certified technicians follow a systematic approach to diagnose and resolve the CH06 error efficiently. We carry diagnostic tools and common LG spare parts in our service vehicles, enabling single-visit repairs in most cases.
             </p>
-            <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-xl border border-blue-200 mb-8">
-              <h4 className="text-lg font-bold text-blue-800 mb-4 flex items-center gap-2">
-                <CircleDollarSign className="w-5 h-5" /> Estimated Repair Cost (Atlas Aircon)
+            <div className="bg-gradient-to-r from-teal-50 to-teal-100 p-8 rounded-xl border border-teal-200 mb-8">
+              <h4 className="text-lg font-bold text-teal-800 mb-4 flex items-center gap-2">
+                <CircleDollarSign className="w-5 h-5" /> Estimated Repair Cost (Hitech Aircool Engineers)
               </h4>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white p-4 rounded-lg">
                   <p className="text-sm text-gray-500 mb-1">{("Thermistor: ₹500-₹900").split(":")[0]}</p>
-                  <p className="text-xl font-bold text-blue-700">{("Thermistor: ₹500-₹900").split(": ")[1]}</p>
+                  <p className="text-xl font-bold text-teal-700">{("Thermistor: ₹500-₹900").split(": ")[1]}</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg">
                   <p className="text-sm text-gray-500 mb-1">{("PCB Repair: ₹1,200-₹2,500").split(":")[0]}</p>
-                  <p className="text-xl font-bold text-blue-700">{("PCB Repair: ₹1,200-₹2,500").split(": ")[1]}</p>
+                  <p className="text-xl font-bold text-teal-700">{("PCB Repair: ₹1,200-₹2,500").split(": ")[1]}</p>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function LGErrorCH06Page() {
               While the basic checks above can help you identify obvious issues, LG AC systems use sophisticated electronics that require professional diagnostic equipment. If the DIY steps don&apos;t resolve the CH06 code, attempting further repairs without proper tools can cause additional damage — turning a ₹500 sensor replacement into a ₹8,000+ PCB replacement.
             </p>
             <p className="text-gray-600 mb-8">
-              Atlas Aircon&apos;s team carries professional-grade multimeters, clamp meters, refrigerant manifold gauges, and brand-specific diagnostic software. We diagnose the exact fault within 15-30 minutes and provide a transparent quote before starting any repair. Our 90-day warranty covers both parts and labor, giving you complete peace of mind.
+              Hitech Aircool Engineers&apos;s team carries professional-grade multimeters, clamp meters, refrigerant manifold gauges, and brand-specific diagnostic software. We diagnose the exact fault within 15-30 minutes and provide a transparent quote before starting any repair. Our 90-day warranty covers both parts and labor, giving you complete peace of mind.
             </p>
           </div>
         </div>
@@ -152,7 +152,7 @@ export default function LGErrorCH06Page() {
       <section className="py-6 bg-gray-50 border-t border-gray-200">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center max-w-4xl mx-auto">
-            <Link href="/ac-error-codes" className="text-blue-600 hover:text-blue-800 font-medium transition flex items-center gap-2">
+            <Link href="/ac-error-codes" className="text-teal-600 hover:text-teal-800 font-medium transition flex items-center gap-2">
               <ArrowLeft className="w-5 h-5" /> View All LG Error Codes
             </Link>
           </div>
@@ -166,7 +166,7 @@ export default function LGErrorCH06Page() {
           <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
           <div className="max-w-3xl mx-auto space-y-4">
             {[
-              { q: "Are you an authorized service center for LG?", a: "Atlas Aircon provides multi-brand AC service. While not an authorized center, our technicians are trained on LG and use genuine parts." },
+              { q: "Are you an authorized service center for LG?", a: "Hitech Aircool Engineers provides multi-brand AC service. While not an authorized center, our technicians are trained on LG and use genuine parts." },
               { q: "What is the cost of repair for LG?", a: "Repair costs depend on issue: gas refilling from ₹1,500, PCB repair from ₹1,200, compressor repair from ₹3,500. Inspection ₹299 adjusted against repairs." },
               { q: "Can you repair older models of LG?", a: "Yes, we repair all models including discontinued ones. We maintain inventory of common spare parts and can source parts for older units." },
               { q: "How quickly can you repair LG's AC?", a: "Most repairs are completed same-day within 2-3 hours. Complex repairs requiring parts may take 1-2 days. Emergency service available 24/7." },
@@ -180,7 +180,7 @@ export default function LGErrorCH06Page() {
               <details key={i} className="bg-white rounded-xl border border-gray-200 group">
                 <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.q}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
               </details>
@@ -192,7 +192,7 @@ export default function LGErrorCH06Page() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "Are you an authorized service center for LG?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon provides multi-brand AC service. While not an authorized center, our technicians are trained on LG and use genuine parts." } },
+          { "@type": "Question", name: "Are you an authorized service center for LG?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers provides multi-brand AC service. While not an authorized center, our technicians are trained on LG and use genuine parts." } },
           { "@type": "Question", name: "What is the cost of repair for LG?", acceptedAnswer: { "@type": "Answer", text: "Repair costs depend on issue: gas refilling from ₹1,500, PCB repair from ₹1,200, compressor repair from ₹3,500. Inspection ₹299 adjusted against repairs." } },
           { "@type": "Question", name: "Can you repair older models of LG?", acceptedAnswer: { "@type": "Answer", text: "Yes, we repair all models including discontinued ones. We maintain inventory of common spare parts and can source parts for older units." } },
           { "@type": "Question", name: "How quickly can you repair LG's AC?", acceptedAnswer: { "@type": "Answer", text: "Most repairs are completed same-day within 2-3 hours. Complex repairs requiring parts may take 1-2 days. Emergency service available 24/7." } },
@@ -214,10 +214,10 @@ export default function LGErrorCH06Page() {
             Don&apos;t risk further damage. Our expert technicians have resolved this exact error across hundreds of LG units. We can dispatch to your location immediately.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+919727257141" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition">
+            <a href="tel:+919328953665" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition">
               <Phone size={22} /> Call Expert Now
             </a>
-            <a href={`https://wa.me/919727257141?text=${encodeURIComponent("HELP: My LG AC is showing error CH06. I need support.")}`} className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">
+            <a href={`https://wa.me/919328953665?text=${encodeURIComponent("HELP: My LG AC is showing error CH06. I need support.")}`} className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">
               Get Live Troubleshooting
             </a>
           </div>

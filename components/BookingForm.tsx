@@ -42,7 +42,7 @@ export default function BookingForm({ title = "Book AC Service", compact = false
     const message = `New AC Service Booking:\n\nName: ${formData.name}\nPhone: ${formData.phone}\nService: ${formData.service}\nArea: ${formData.area}\nMessage: ${formData.message || "N/A"}`;
     
     // Open WhatsApp with pre-filled message
-    const whatsappUrl = `https://wa.me/919727257141?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/919328953665?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
 
     setIsSubmitting(false);
@@ -65,11 +65,11 @@ export default function BookingForm({ title = "Book AC Service", compact = false
           <h3 className="text-xl font-bold text-gray-900 mb-2">Booking Sent!</h3>
           <p className="text-gray-600">We&apos;ll contact you within 30 minutes.</p>
           <a 
-            href="tel:+919727257141" 
-            className="inline-flex items-center gap-2 mt-4 text-blue-600 hover:text-blue-700 font-medium"
+            href="tel:+919328953665" 
+            className="inline-flex items-center gap-2 mt-4 text-teal-600 hover:text-teal-700 font-medium"
           >
             <Phone className="w-4 h-4" />
-            Call Now: +91 97272 57141
+            Call Now: +91 93289 53665
           </a>
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function BookingForm({ title = "Book AC Service", compact = false
               required
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 text-gray-900"
               placeholder="Enter your name"
             />
           </div>
@@ -107,7 +107,7 @@ export default function BookingForm({ title = "Book AC Service", compact = false
               required
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 text-gray-900"
               placeholder="Enter 10 digit number"
               pattern="[0-9]{10}"
             />
@@ -123,7 +123,7 @@ export default function BookingForm({ title = "Book AC Service", compact = false
               required
               value={formData.service}
               onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 text-gray-900"
             >
               <option value="">Select Service</option>
               {services.map((service) => (
@@ -141,7 +141,7 @@ export default function BookingForm({ title = "Book AC Service", compact = false
               required
               value={formData.area}
               onChange={(e) => setFormData({ ...formData, area: e.target.value })}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 text-gray-900"
               placeholder="e.g., Alkapuri, Vadodara"
             />
           </div>
@@ -156,7 +156,7 @@ export default function BookingForm({ title = "Book AC Service", compact = false
               value={formData.message}
               onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               rows={3}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 text-gray-900"
               placeholder="Describe your AC problem..."
             />
           </div>
@@ -165,7 +165,7 @@ export default function BookingForm({ title = "Book AC Service", compact = false
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition flex items-center justify-center gap-2 disabled:opacity-50"
+          className="w-full bg-teal-600 hover:bg-teal-700 text-white font-semibold py-3 px-6 rounded-lg transition flex items-center justify-center gap-2 disabled:opacity-50"
         >
           {isSubmitting ? (
             <>Processing...</>
@@ -181,11 +181,11 @@ export default function BookingForm({ title = "Book AC Service", compact = false
       <div className="mt-4 pt-4 border-t border-gray-200 text-center">
         <p className="text-sm text-gray-600 mb-2">Or call us directly:</p>
         <a 
-          href="tel:+919727257141"
-          className="inline-flex items-center gap-2 text-lg font-bold text-blue-600 hover:text-blue-700"
+          href="tel:+919328953665"
+          className="inline-flex items-center gap-2 text-lg font-bold text-teal-600 hover:text-teal-700"
         >
           <Phone className="w-5 h-5" />
-          +91 97272 57141
+          +91 93289 53665
         </a>
       </div>
     </div>

@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import AreaPageTemplate from "@/components/AreaPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair in Laxmipura, Vadodara | Same Day Service | Atlas Aircon",
-  description: "Best AC repair & service in Laxmipura, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 97272 57141 for AC repair in Laxmipura.",
+  title: "AC Repair in Laxmipura, Vadodara | Same Day Service | Hitech Aircool Engineers",
+  description: "Best AC repair & service in Laxmipura, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 93289 53665 for AC repair in Laxmipura.",
   keywords: [
     "AC repair Laxmipura",
     "AC service Laxmipura",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "split AC repair Laxmipura",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-laxmipura-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-repair-laxmipura-vadodara",
   },
 };
 

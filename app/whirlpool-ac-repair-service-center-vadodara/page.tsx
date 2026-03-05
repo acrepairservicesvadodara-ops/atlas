@@ -4,13 +4,13 @@ import { Phone, CheckCircle, Star, Shield, Award, Clock, MapPin, ArrowRight, Wre
 import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
-  title: "#1 Whirlpool AC Repair Service Center Vadodara | Atlas Aircon Gujarat",
+  title: "#1 Whirlpool AC Repair Service Center Vadodara | Hitech Aircool Engineers Gujarat",
   description: "Expert whirlpool AC repair, installation, and service in Vadodara. Get transparent charges, 3-month guarantee, and 24/7 emergency support from certified technic",
-  alternates: { canonical: "https://atlasaircons.com/whirlpool-ac-repair-service-center-vadodara" },
+  alternates: { canonical: "https://hitechairconditioning.in/whirlpool-ac-repair-service-center-vadodara" },
   openGraph: {
-    title: "#1 Whirlpool AC Repair Service Center Vadodara | Atlas Aircon",
+    title: "#1 Whirlpool AC Repair Service Center Vadodara | Hitech Aircool Engineers",
     description: "Expert whirlpool AC repair, installation, and service in Vadodara. Get transparent charges, 3-month guarantee, and 24/7 emergency support from certified technic",
-    url: "https://atlasaircons.com/whirlpool-ac-repair-service-center-vadodara",
+    url: "https://hitechairconditioning.in/whirlpool-ac-repair-service-center-vadodara",
     type: "website",
     images: ["/images/products/ac-repair-service.webp"],
   },
@@ -22,8 +22,8 @@ const jsonLd = {
   name: "#1 Whirlpool AC Repair Service Center Vadodara",
   provider: {
     "@type": "LocalBusiness",
-    name: "Atlas Aircon",
-    telephone: "+919727257141",
+    name: "Hitech Aircool Engineers",
+    telephone: "+919328953665",
     address: { "@type": "PostalAddress", addressLocality: "Vadodara", addressRegion: "Gujarat", postalCode: "390005", addressCountry: "IN" },
     aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "5000" },
   },
@@ -36,7 +36,7 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -44,10 +44,10 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
                 <MapPin className="w-4 h-4" /><span>Vadodara, Gujarat</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">#1 Whirlpool AC Repair Service Center Vadodara</h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">Expert whirlpool AC repair, installation, and service in Vadodara. Get transparent charges, 3-month guarantee, and 24/7 emergency support from certified technicians. Call Atlas Aircon now!</p>
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">Expert whirlpool AC repair, installation, and service in Vadodara. Get transparent charges, 3-month guarantee, and 24/7 emergency support from certified technicians. Call Hitech Aircool Engineers now!</p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <a href="tel:+919727257141" className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"><Phone size={22} /> +91 97272 57141</a>
-                <a href="https://wa.me/919727257141" className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition">WhatsApp Us</a>
+                <a href="tel:+919328953665" className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"><Phone size={22} /> +91 93289 53665</a>
+                <a href="https://wa.me/919328953665" className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition">WhatsApp Us</a>
               </div>
               <div className="flex flex-wrap gap-4 text-sm">
                 {["Certified Technicians", "24/7 Emergency", "Genuine Parts", "4.9\u2605 Rated"].map(b => (
@@ -64,7 +64,7 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto prose prose-lg">
-            <p className="text-gray-600 mb-4">Expert whirlpool AC repair, installation, and service in Vadodara. Get transparent charges, 3-month guarantee, and 24/7 emergency support from certified technicians. Call Atlas Aircon now!</p>
+            <p className="text-gray-600 mb-4">Expert whirlpool AC repair, installation, and service in Vadodara. Get transparent charges, 3-month guarantee, and 24/7 emergency support from certified technicians. Call Hitech Aircool Engineers now!</p>
           </div>
         </div>
       </section>
@@ -83,7 +83,7 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
       {/* Why Choose */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Atlas Aircon</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Hitech Aircool Engineers</h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             {[
               { icon: Award, t: "20+ Years Experience", d: "Gujarat\u2019s most experienced HVAC team" },
@@ -92,7 +92,7 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
               { icon: Star, t: "4.9/5 Rating", d: "5,000+ happy customers" },
             ].map(item => (
               <div key={item.t} className="text-center bg-gray-50 p-6 rounded-xl">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4"><item.icon className="w-8 h-8 text-blue-600" /></div>
+                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4"><item.icon className="w-8 h-8 text-teal-600" /></div>
                 <h3 className="font-semibold mb-2">{item.t}</h3>
                 <p className="text-gray-600 text-sm">{item.d}</p>
               </div>
@@ -107,7 +107,7 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
           <h2 className="text-2xl font-bold text-center mb-8">Brands We Service</h2>
           <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
             {["Blue Star","Voltas","Daikin","LG","Samsung","Carrier","Hitachi","Lloyd","Godrej","Panasonic","Haier","Whirlpool","O General","Toshiba","Mitsubishi"].map(b => (
-              <span key={b} className="bg-white text-gray-700 px-5 py-3 rounded-full text-sm border border-gray-200 hover:bg-blue-50 transition">{b}</span>
+              <span key={b} className="bg-white text-gray-700 px-5 py-3 rounded-full text-sm border border-gray-200 hover:bg-teal-50 transition">{b}</span>
             ))}
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
           <h2 className="text-2xl font-bold text-center mb-8">Service Areas</h2>
           <div className="flex flex-wrap justify-center gap-3 max-w-5xl mx-auto">
             {[{"name":"Alkapuri","href":"/ac-service-in-alkapuri"},{"name":"Akota","href":"/ac-service-in-akota"},{"name":"Sayajigunj","href":"/ac-service-in-sayajigunj"},{"name":"Raopura","href":"/ac-service-in-raopura"},{"name":"Mandvi","href":"/ac-service-in-mandvi"},{"name":"Pratapgunj","href":"/ac-service-in-pratapgunj"},{"name":"Fatehgunj","href":"/ac-service-in-fatehgunj"},{"name":"Nizampura","href":"/ac-service-in-nizampura"},{"name":"Chhani","href":"/ac-service-in-chhani"},{"name":"Sama","href":"/ac-service-in-sama"},{"name":"Karelibaug","href":"/ac-service-in-karelibaug"},{"name":"Warasiya","href":"/ac-service-in-warasiya"},{"name":"Harni","href":"/ac-service-in-harni"},{"name":"Ajwa Road","href":"/ac-service-in-ajwa-road"},{"name":"Tarsali","href":"/ac-service-in-tarsali"},{"name":"Makarpura","href":"/ac-service-in-makarpura"}].map((area: { href: string; name: string }) => (
-              <Link key={area.href} href={area.href} className="bg-white text-blue-700 px-4 py-2.5 rounded-full border border-blue-200 hover:bg-blue-50 transition text-sm font-medium">{area.name}</Link>
+              <Link key={area.href} href={area.href} className="bg-white text-teal-700 px-4 py-2.5 rounded-full border border-teal-200 hover:bg-teal-50 transition text-sm font-medium">{area.name}</Link>
             ))}
           </div>
         </div>
@@ -132,7 +132,7 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
           <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
           <div className="max-w-3xl mx-auto space-y-4">
             {[
-              { q: "Are you an authorized service center for WHIRLPOOL?", a: "Atlas Aircon provides multi-brand AC service. While not an authorized center, our technicians are trained on WHIRLPOOL and use genuine parts." },
+              { q: "Are you an authorized service center for WHIRLPOOL?", a: "Hitech Aircool Engineers provides multi-brand AC service. While not an authorized center, our technicians are trained on WHIRLPOOL and use genuine parts." },
               { q: "What is the cost of repair for WHIRLPOOL?", a: "Repair costs depend on issue: gas refilling from ₹1,500, PCB repair from ₹1,200, compressor repair from ₹3,500. Inspection ₹299 adjusted against repairs." },
               { q: "Can you repair older models of WHIRLPOOL?", a: "Yes, we repair all models including discontinued ones. We maintain inventory of common spare parts and can source parts for older units." },
               { q: "How quickly can you repair WHIRLPOOL's AC?", a: "Most repairs are completed same-day within 2-3 hours. Complex repairs requiring parts may take 1-2 days. Emergency service available 24/7." },
@@ -146,7 +146,7 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
               <details key={i} className="bg-white rounded-xl border border-gray-200 group">
                 <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.q}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
               </details>
@@ -158,7 +158,7 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "Are you an authorized service center for WHIRLPOOL?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon provides multi-brand AC service. While not an authorized center, our technicians are trained on WHIRLPOOL and use genuine parts." } },
+          { "@type": "Question", name: "Are you an authorized service center for WHIRLPOOL?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers provides multi-brand AC service. While not an authorized center, our technicians are trained on WHIRLPOOL and use genuine parts." } },
           { "@type": "Question", name: "What is the cost of repair for WHIRLPOOL?", acceptedAnswer: { "@type": "Answer", text: "Repair costs depend on issue: gas refilling from ₹1,500, PCB repair from ₹1,200, compressor repair from ₹3,500. Inspection ₹299 adjusted against repairs." } },
           { "@type": "Question", name: "Can you repair older models of WHIRLPOOL?", acceptedAnswer: { "@type": "Answer", text: "Yes, we repair all models including discontinued ones. We maintain inventory of common spare parts and can source parts for older units." } },
           { "@type": "Question", name: "How quickly can you repair WHIRLPOOL's AC?", acceptedAnswer: { "@type": "Answer", text: "Most repairs are completed same-day within 2-3 hours. Complex repairs requiring parts may take 1-2 days. Emergency service available 24/7." } },
@@ -172,13 +172,13 @@ export default function Pagewhirlpoolacrepairservicecentervadodara() {
       }) }} />
 
 {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Need Professional Help?</h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Expert technicians, genuine parts, same-day service. Contact Atlas Aircon now!</p>
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">Expert technicians, genuine parts, same-day service. Contact Hitech Aircool Engineers now!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+919727257141" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"><Phone size={22} /> Call +91 97272 57141</a>
-            <a href="https://wa.me/919727257141" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">WhatsApp</a>
+            <a href="tel:+919328953665" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"><Phone size={22} /> Call +91 93289 53665</a>
+            <a href="https://wa.me/919328953665" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">WhatsApp</a>
           </div>
         </div>
       </section>

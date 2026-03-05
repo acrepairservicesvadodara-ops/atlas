@@ -4,8 +4,8 @@ import { Phone, CheckCircle, Star, Clock, Shield, Award, MapPin, ArrowRight, Wre
 import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
-  title: "Blower Repair in Vadodara | Installation, Service & Repair | Atlas Aircon",
-  description: "AC blower repair in Vadodara. Expert AC installation, service & repair. 20+ years experience, 90-day warranty. Call +91 97272 57141",
+  title: "Blower Repair in Vadodara | Installation, Service & Repair | Hitech Aircool Engineers",
+  description: "AC blower repair in Vadodara. Expert AC installation, service & repair. 20+ years experience, 90-day warranty. Call +91 93289 53665",
   keywords: [
     "Blower Repair Vadodara",
     "blower repair",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "best Blower Repair service",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/blower-repair-vadodara",
+    canonical: "https://hitechairconditioning.in/blower-repair-vadodara",
   },
 };
 
@@ -41,7 +41,7 @@ export default function BlowerRepairPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -52,20 +52,20 @@ export default function BlowerRepairPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
                 <span className="text-yellow-400">{keywordData.title}</span> in Vadodara
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
                 {keywordData.description} in Vadodara. Expert AC installation, service & repair by certified technicians. 
                 Same-day service, genuine parts, 90-day warranty.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
-                  href="tel:+919727257141"
+                  href="tel:+919328953665"
                   className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"
                 >
                   <Phone size={22} />
-                  +91 97272 57141
+                  +91 93289 53665
                 </a>
                 <a
-                  href="https://wa.me/919727257141"
+                  href="https://wa.me/919328953665"
                   className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition"
                 >
                   WhatsApp Us
@@ -119,18 +119,18 @@ export default function BlowerRepairPage() {
               </ul>
             </div>
             <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-blue-300 hover:shadow-lg transition">
-              <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
-                <Settings className="w-7 h-7 text-blue-600" />
+              <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-4">
+                <Settings className="w-7 h-7 text-teal-600" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Service</h3>
               <p className="text-gray-600 mb-4">
                 Regular {keywordData.title.toLowerCase()} service and maintenance in Vadodara. Keep your AC running efficiently with professional cleaning and tune-up.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Deep filter cleaning</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Coil cleaning & sanitization</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Gas pressure check</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Performance optimization</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Deep filter cleaning</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Coil cleaning & sanitization</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Gas pressure check</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Performance optimization</li>
               </ul>
             </div>
             <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-red-300 hover:shadow-lg transition">
@@ -156,33 +156,33 @@ export default function BlowerRepairPage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Why Choose Atlas Aircon for {keywordData.title}?
+            Why Choose Hitech Aircool Engineers for {keywordData.title}?
           </h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">20+ Years Experience</h3>
               <p className="text-gray-600 text-sm">Trusted since 2004</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">90 Days Warranty</h3>
               <p className="text-gray-600 text-sm">On all repairs</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">Same Day Service</h3>
               <p className="text-gray-600 text-sm">Quick response</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Star className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">5000+ Customers</h3>
               <p className="text-gray-600 text-sm">Happy customers</p>
@@ -202,7 +202,7 @@ export default function BlowerRepairPage() {
           </p>
           <div className="max-w-3xl mx-auto bg-gray-50 rounded-xl overflow-hidden">
             <table className="w-full">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr>
                   <th className="text-left py-4 px-6">Service</th>
                   <th className="text-right py-4 px-6">Price</th>
@@ -211,23 +211,23 @@ export default function BlowerRepairPage() {
               <tbody>
                 <tr className="border-b border-gray-200">
                   <td className="py-4 px-6">AC Installation (Split/Window)</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹1,499 - ₹2,999</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹1,499 - ₹2,999</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-white">
                   <td className="py-4 px-6">AC Service (Basic)</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹399 - ₹599</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹399 - ₹599</td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-4 px-6">AC Deep Cleaning</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹799 - ₹1,199</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹799 - ₹1,199</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-white">
                   <td className="py-4 px-6">AC Repair</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹500 - ₹5,000</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹500 - ₹5,000</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-6">AC Gas Refilling</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹1,500 - ₹3,000</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹1,500 - ₹3,000</td>
                 </tr>
               </tbody>
             </table>
@@ -242,21 +242,21 @@ export default function BlowerRepairPage() {
           <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
           <div className="max-w-3xl mx-auto space-y-4">
             {[
-              { q: "What is the cost of Blower Repair Vadodara in Vadodara?", a: "Blower Repair Vadodara cost starts from ₹299 for inspection. Gas refilling from ₹1,500, PCB repair from ₹1,200, compressor repair from ₹3,500. Atlas Aircon provides upfront pricing with no hidden charges." },
-              { q: "How quickly can you come for Blower Repair Vadodara?", a: "Atlas Aircon offers same-day Blower Repair Vadodara across Vadodara. Our certified technician reaches within 90 minutes to 3 hours of booking. For emergencies, call +91 97272 57141." },
-              { q: "Do you provide warranty on Blower Repair Vadodaras?", a: "Yes, Atlas Aircon provides 30 to 90 days warranty on Blower Repair Vadodaras depending on the work performed. Spare parts like compressors, PCBs, and motors come with manufacturer warranty." },
+              { q: "What is the cost of Blower Repair Vadodara in Vadodara?", a: "Blower Repair Vadodara cost starts from ₹299 for inspection. Gas refilling from ₹1,500, PCB repair from ₹1,200, compressor repair from ₹3,500. Hitech Aircool Engineers provides upfront pricing with no hidden charges." },
+              { q: "How quickly can you come for Blower Repair Vadodara?", a: "Hitech Aircool Engineers offers same-day Blower Repair Vadodara across Vadodara. Our certified technician reaches within 90 minutes to 3 hours of booking. For emergencies, call +91 93289 53665." },
+              { q: "Do you provide warranty on Blower Repair Vadodaras?", a: "Yes, Hitech Aircool Engineers provides 30 to 90 days warranty on Blower Repair Vadodaras depending on the work performed. Spare parts like compressors, PCBs, and motors come with manufacturer warranty." },
               { q: "Which AC brands do you repair?", a: "We repair all major brands — Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Mitsubishi, Panasonic, Whirlpool, Godrej, Croma, Toshiba, Haier, and more." },
-              { q: "Is emergency Blower Repair Vadodara available on holidays?", a: "Yes, Atlas Aircon provides Blower Repair Vadodara 7 days a week including Sundays and public holidays. Our 24/7 emergency service is available at +91 97272 57141." },
+              { q: "Is emergency Blower Repair Vadodara available on holidays?", a: "Yes, Hitech Aircool Engineers provides Blower Repair Vadodara 7 days a week including Sundays and public holidays. Our 24/7 emergency service is available at +91 93289 53665." },
               { q: "How long does Blower Repair Vadodara take?", a: "Most Blower Repair Vadodaras are completed within 1-2 hours. Complex repairs involving compressor replacement or major parts may take 3-4 hours. Our technician provides estimated time upfront." },
-              { q: "Can you repair older AC models?", a: "Yes, Atlas Aircon specializes in repairing all AC models including older units. We maintain inventory of spare parts for discontinued models and can source parts for most brands." },
+              { q: "Can you repair older AC models?", a: "Yes, Hitech Aircool Engineers specializes in repairing all AC models including older units. We maintain inventory of spare parts for discontinued models and can source parts for most brands." },
               { q: "What payment methods do you accept?", a: "We accept cash, UPI (GPay, PhonePe, Paytm), bank transfer, and cards. Payment is collected only after repair is completed to your satisfaction." },
               { q: "Do you provide AMC for regular AC maintenance?", a: "Yes, our Annual Maintenance Contract (AMC) starts from ₹1,999/year. AMC customers get priority service, free visits, discounted repairs, and scheduled maintenance." },
-              { q: "What if the AC problem returns after repair?", a: "If the same issue recurs within the warranty period, we fix it free of charge. Simply call us at +91 97272 57141 and reference your previous service." }
+              { q: "What if the AC problem returns after repair?", a: "If the same issue recurs within the warranty period, we fix it free of charge. Simply call us at +91 93289 53665 and reference your previous service." }
             ].map((faq, i) => (
               <details key={i} className="bg-white rounded-xl border border-gray-200 group">
                 <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.q}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
               </details>
@@ -268,35 +268,35 @@ export default function BlowerRepairPage() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "What is the cost of Blower Repair Vadodara in Vadodara?", acceptedAnswer: { "@type": "Answer", text: "Blower Repair Vadodara cost starts from ₹299 for inspection. Gas refilling from ₹1,500, PCB repair from ₹1,200, compressor repair from ₹3,500. Atlas Aircon provides upfront pricing with no hidden charges." } },
-          { "@type": "Question", name: "How quickly can you come for Blower Repair Vadodara?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon offers same-day Blower Repair Vadodara across Vadodara. Our certified technician reaches within 90 minutes to 3 hours of booking. For emergencies, call +91 97272 57141." } },
-          { "@type": "Question", name: "Do you provide warranty on Blower Repair Vadodaras?", acceptedAnswer: { "@type": "Answer", text: "Yes, Atlas Aircon provides 30 to 90 days warranty on Blower Repair Vadodaras depending on the work performed. Spare parts like compressors, PCBs, and motors come with manufacturer warranty." } },
+          { "@type": "Question", name: "What is the cost of Blower Repair Vadodara in Vadodara?", acceptedAnswer: { "@type": "Answer", text: "Blower Repair Vadodara cost starts from ₹299 for inspection. Gas refilling from ₹1,500, PCB repair from ₹1,200, compressor repair from ₹3,500. Hitech Aircool Engineers provides upfront pricing with no hidden charges." } },
+          { "@type": "Question", name: "How quickly can you come for Blower Repair Vadodara?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers offers same-day Blower Repair Vadodara across Vadodara. Our certified technician reaches within 90 minutes to 3 hours of booking. For emergencies, call +91 93289 53665." } },
+          { "@type": "Question", name: "Do you provide warranty on Blower Repair Vadodaras?", acceptedAnswer: { "@type": "Answer", text: "Yes, Hitech Aircool Engineers provides 30 to 90 days warranty on Blower Repair Vadodaras depending on the work performed. Spare parts like compressors, PCBs, and motors come with manufacturer warranty." } },
           { "@type": "Question", name: "Which AC brands do you repair?", acceptedAnswer: { "@type": "Answer", text: "We repair all major brands — Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Mitsubishi, Panasonic, Whirlpool, Godrej, Croma, Toshiba, Haier, and more." } },
-          { "@type": "Question", name: "Is emergency Blower Repair Vadodara available on holidays?", acceptedAnswer: { "@type": "Answer", text: "Yes, Atlas Aircon provides Blower Repair Vadodara 7 days a week including Sundays and public holidays. Our 24/7 emergency service is available at +91 97272 57141." } },
+          { "@type": "Question", name: "Is emergency Blower Repair Vadodara available on holidays?", acceptedAnswer: { "@type": "Answer", text: "Yes, Hitech Aircool Engineers provides Blower Repair Vadodara 7 days a week including Sundays and public holidays. Our 24/7 emergency service is available at +91 93289 53665." } },
           { "@type": "Question", name: "How long does Blower Repair Vadodara take?", acceptedAnswer: { "@type": "Answer", text: "Most Blower Repair Vadodaras are completed within 1-2 hours. Complex repairs involving compressor replacement or major parts may take 3-4 hours. Our technician provides estimated time upfront." } },
-          { "@type": "Question", name: "Can you repair older AC models?", acceptedAnswer: { "@type": "Answer", text: "Yes, Atlas Aircon specializes in repairing all AC models including older units. We maintain inventory of spare parts for discontinued models and can source parts for most brands." } },
+          { "@type": "Question", name: "Can you repair older AC models?", acceptedAnswer: { "@type": "Answer", text: "Yes, Hitech Aircool Engineers specializes in repairing all AC models including older units. We maintain inventory of spare parts for discontinued models and can source parts for most brands." } },
           { "@type": "Question", name: "What payment methods do you accept?", acceptedAnswer: { "@type": "Answer", text: "We accept cash, UPI (GPay, PhonePe, Paytm), bank transfer, and cards. Payment is collected only after repair is completed to your satisfaction." } },
           { "@type": "Question", name: "Do you provide AMC for regular AC maintenance?", acceptedAnswer: { "@type": "Answer", text: "Yes, our Annual Maintenance Contract (AMC) starts from ₹1,999/year. AMC customers get priority service, free visits, discounted repairs, and scheduled maintenance." } },
-          { "@type": "Question", name: "What if the AC problem returns after repair?", acceptedAnswer: { "@type": "Answer", text: "If the same issue recurs within the warranty period, we fix it free of charge. Simply call us at +91 97272 57141 and reference your previous service." } }
+          { "@type": "Question", name: "What if the AC problem returns after repair?", acceptedAnswer: { "@type": "Answer", text: "If the same issue recurs within the warranty period, we fix it free of charge. Simply call us at +91 93289 53665 and reference your previous service." } }
         ]
       }) }} />
 
 {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Need {keywordData.title} Service in Vadodara?
           </h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
             Expert AC installation, service & repair for {keywordData.title.toLowerCase()} in Vadodara.
             Same-day service available. Call now!
           </p>
           <a
-            href="tel:+919727257141"
+            href="tel:+919328953665"
             className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"
           >
             <Phone size={22} />
-            Call +91 97272 57141
+            Call +91 93289 53665
           </a>
         </div>
       </section>

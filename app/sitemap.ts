@@ -1,11 +1,10 @@
 import { MetadataRoute } from "next";
 import fs from "fs";
 import path from "path";
-import { allProducts } from "@/data/products";
 import { blogPosts } from "@/data/blog-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://atlasaircons.com";
+  const baseUrl = "https://hitechairconditioning.in";
   const today = new Date();
   const lastModified = today; // Dynamic timestamp for freshness
 
@@ -34,44 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
   });
 
-  // ── 2. Core pages (shop, blogs) ─────────────────────────────
+  // ── 2. Core pages (blogs) ──────────────────────────────────
   pages.push(
-    { url: `${baseUrl}/shop`, lastModified, changeFrequency: "daily", priority: 0.9 },
     { url: `${baseUrl}/blogs`, lastModified, changeFrequency: "daily", priority: 0.9 },
-    { url: `${baseUrl}/cleaning`, lastModified, changeFrequency: "weekly", priority: 0.85 },
   );
 
-  // ── 3. Product category pages ───────────────────────────────
-  const categorySlugs = [
-    "cleaning",
-    "spare-parts",
-    "air-curtains",
-    "atlas-aircon",
-    "compressor",
-    "capacitors",
-    "coils",
-    "copper-pipe",
-  ];
-  for (const slug of categorySlugs) {
-    pages.push({
-      url: `${baseUrl}/product-category/${slug}`,
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    });
-  }
-
-  // ── 4. Individual product pages ─────────────────────────────
-  for (const product of allProducts) {
-    pages.push({
-      url: `${baseUrl}/product/${product.slug}`,
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    });
-  }
-
-  // ── 5. Blog posts ──────────────────────────────────────────
+  // ── 3. Blog posts ──────────────────────────────────────────
   for (const post of blogPosts) {
     pages.push({
       url: `${baseUrl}/${post.slug}`,
@@ -81,15 +48,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // ── 6. Service & keyword pages (static folders in app/) ─────
+  // ── 4. Service & keyword pages (static folders in app/) ─────
   const appDir = path.join(process.cwd(), "app");
   const blogSlugs = new Set(blogPosts.map((p) => p.slug));
   const skipDirs = new Set([
-    "product",
-    "product-category",
-    "shop",
     "blogs",
-    "cleaning",
     "[slug]",
   ]);
 

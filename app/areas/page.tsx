@@ -5,9 +5,9 @@ import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
   title: "AC Repair Service Areas in Vadodara | All Localities Covered",
-  description: "Atlas Aircon serves all areas of Vadodara for AC repair & service. Alkapuri, Gotri, Manjalpur, Akota, Fatehgunj, Karelibaug, and 40+ more areas. Same-day service available.",
+  description: "Hitech Aircool Engineers serves all areas of Vadodara for AC repair & service. Alkapuri, Gotri, Manjalpur, Akota, Fatehgunj, Karelibaug, and 40+ more areas. Same-day service available.",
   alternates: {
-    canonical: "https://atlasaircons.com/areas",
+    canonical: "https://hitechairconditioning.in/areas",
   },
 };
 
@@ -70,14 +70,14 @@ export default function AreasPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-20">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-center md:text-left">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 AC Service Areas in <span className="text-yellow-400">Vadodara</span>
               </h1>
-              <p className="text-xl text-blue-100">
+              <p className="text-xl text-teal-100">
                 We provide AC repair & service across all areas of Vadodara and nearby cities. 
                 Same-day service available in most locations.
               </p>
@@ -99,16 +99,16 @@ export default function AreasPage() {
               <Link
                 key={area.slug}
                 href={`/ac-repair-${area.slug}-vadodara`}
-                className="bg-blue-50 hover:bg-blue-100 p-6 rounded-xl border-2 border-blue-200 hover:border-blue-400 transition group"
+                className="bg-teal-50 hover:bg-teal-100 p-6 rounded-xl border-2 border-teal-200 hover:border-blue-400 transition group"
               >
                 <div className="flex items-center gap-3 mb-2">
-                  <MapPin className="w-5 h-5 text-blue-600" />
-                  <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600">
+                  <MapPin className="w-5 h-5 text-teal-600" />
+                  <h3 className="text-lg font-semibold text-gray-900 group-hover:text-teal-600">
                     {area.name}
                   </h3>
                 </div>
                 <p className="text-sm text-gray-600">AC Repair & Service</p>
-                <div className="mt-3 text-blue-600 text-sm font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+                <div className="mt-3 text-teal-600 text-sm font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
                   View Details <ArrowRight size={14} />
                 </div>
               </Link>
@@ -127,9 +127,9 @@ export default function AreasPage() {
               <Link
                 key={area.slug}
                 href={`/ac-repair-${area.slug}-vadodara`}
-                className="flex items-center gap-2 bg-white hover:bg-blue-50 border border-gray-200 hover:border-blue-300 p-3 rounded-lg transition"
+                className="flex items-center gap-2 bg-white hover:bg-teal-50 border border-gray-200 hover:border-blue-300 p-3 rounded-lg transition"
               >
-                <MapPin size={14} className="text-blue-600 flex-shrink-0" />
+                <MapPin size={14} className="text-teal-600 flex-shrink-0" />
                 <span className="text-sm font-medium text-gray-800">{area.name}</span>
               </Link>
             ))}
@@ -149,9 +149,9 @@ export default function AreasPage() {
               <Link
                 key={city.slug}
                 href={`/ac-repair-${city.slug}`}
-                className="bg-gray-50 hover:bg-blue-50 p-6 rounded-xl border border-gray-200 hover:border-blue-300 transition group"
+                className="bg-gray-50 hover:bg-teal-50 p-6 rounded-xl border border-gray-200 hover:border-blue-300 transition group"
               >
-                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 mb-1">
+                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-teal-600 mb-1">
                   {city.name}
                 </h3>
                 <p className="text-sm text-gray-500">{city.distance} from Vadodara</p>
@@ -204,21 +204,21 @@ export default function AreasPage() {
           <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
           <div className="max-w-3xl mx-auto space-y-4">
             {[
-              { q: "What areass does Atlas Aircon provide?", a: "Atlas Aircon provides areas, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." },
-              { q: "How do I book areas?", a: "Call +91 97272 57141, WhatsApp us, or book online. Same-day service available across Vadodara." },
+              { q: "What areass does Hitech Aircool Engineers provide?", a: "Hitech Aircool Engineers provides areas, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." },
+              { q: "How do I book areas?", a: "Call +91 93289 53665, WhatsApp us, or book online. Same-day service available across Vadodara." },
               { q: "What is your service charge?", a: "Inspection charge is ₹299 (adjusted against repairs). Basic service from ₹499, deep cleaning from ₹799, gas refilling from ₹1,500." },
               { q: "Do you provide warranty?", a: "Yes, 30-90 days warranty on repairs, 1 year on installation. Spare parts carry manufacturer warranty." },
               { q: "Which brands do you service?", a: "We service all brands: Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Panasonic, Godrej, and more." },
-              { q: "Is emergency service available?", a: "Yes, 24/7 emergency areas available. Call +91 97272 57141 for immediate assistance." },
+              { q: "Is emergency service available?", a: "Yes, 24/7 emergency areas available. Call +91 93289 53665 for immediate assistance." },
               { q: "What payment methods do you accept?", a: "Cash, UPI (GPay, PhonePe), bank transfer, and cards. Payment after service completion." },
               { q: "Do you offer AMC?", a: "Yes, AMC from ₹1,999/year includes free services, priority support, and repair discounts." },
-              { q: "Where are you located?", a: "Atlas Aircon is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." },
+              { q: "Where are you located?", a: "Hitech Aircool Engineers is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." },
               { q: "What are your working hours?", a: "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM. 24/7 emergency service available." }
             ].map((faq, i) => (
               <details key={i} className="bg-white rounded-xl border border-gray-200 group">
                 <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.q}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
               </details>
@@ -230,37 +230,37 @@ export default function AreasPage() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "What areass does Atlas Aircon provide?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon provides areas, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." } },
-          { "@type": "Question", name: "How do I book areas?", acceptedAnswer: { "@type": "Answer", text: "Call +91 97272 57141, WhatsApp us, or book online. Same-day service available across Vadodara." } },
+          { "@type": "Question", name: "What areass does Hitech Aircool Engineers provide?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers provides areas, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." } },
+          { "@type": "Question", name: "How do I book areas?", acceptedAnswer: { "@type": "Answer", text: "Call +91 93289 53665, WhatsApp us, or book online. Same-day service available across Vadodara." } },
           { "@type": "Question", name: "What is your service charge?", acceptedAnswer: { "@type": "Answer", text: "Inspection charge is ₹299 (adjusted against repairs). Basic service from ₹499, deep cleaning from ₹799, gas refilling from ₹1,500." } },
           { "@type": "Question", name: "Do you provide warranty?", acceptedAnswer: { "@type": "Answer", text: "Yes, 30-90 days warranty on repairs, 1 year on installation. Spare parts carry manufacturer warranty." } },
           { "@type": "Question", name: "Which brands do you service?", acceptedAnswer: { "@type": "Answer", text: "We service all brands: Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Panasonic, Godrej, and more." } },
-          { "@type": "Question", name: "Is emergency service available?", acceptedAnswer: { "@type": "Answer", text: "Yes, 24/7 emergency areas available. Call +91 97272 57141 for immediate assistance." } },
+          { "@type": "Question", name: "Is emergency service available?", acceptedAnswer: { "@type": "Answer", text: "Yes, 24/7 emergency areas available. Call +91 93289 53665 for immediate assistance." } },
           { "@type": "Question", name: "What payment methods do you accept?", acceptedAnswer: { "@type": "Answer", text: "Cash, UPI (GPay, PhonePe), bank transfer, and cards. Payment after service completion." } },
           { "@type": "Question", name: "Do you offer AMC?", acceptedAnswer: { "@type": "Answer", text: "Yes, AMC from ₹1,999/year includes free services, priority support, and repair discounts." } },
-          { "@type": "Question", name: "Where are you located?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." } },
+          { "@type": "Question", name: "Where are you located?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." } },
           { "@type": "Question", name: "What are your working hours?", acceptedAnswer: { "@type": "Answer", text: "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM. 24/7 emergency service available." } }
         ]
       }) }} />
 
 {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Can't Find Your Area?</h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
             We serve all areas in and around Vadodara. Call us to check service availability 
             in your location. Same-day service in most areas.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919727257141"
+              href="tel:+919328953665"
               className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition"
             >
               <Phone size={22} />
-              +91 97272 57141
+              +91 93289 53665
             </a>
             <a
-              href="https://wa.me/919727257141"
+              href="https://wa.me/919328953665"
               className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition"
             >
               WhatsApp Us

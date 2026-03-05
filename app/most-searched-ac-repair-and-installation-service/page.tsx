@@ -3,13 +3,13 @@ import Link from "next/link";
 import { Phone, Clock, User, ArrowLeft, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Vadodara’s Most Searched AC Repair And Installation Service [2026 Updated] | Atlas Aircon Blog",
+  title: "Vadodara’s Most Searched AC Repair And Installation Service [2026 Updated] | Hitech Aircool Engineers Blog",
   description: "In today's fast-paced world, having an air conditioner (AC) isn't just a luxury; it’s a necessity. Whether i...",
-  alternates: { canonical: "https://atlasaircons.com/most-searched-ac-repair-and-installation-service" },
+  alternates: { canonical: "https://hitechairconditioning.in/most-searched-ac-repair-and-installation-service" },
   openGraph: {
-    title: "Vadodara’s Most Searched AC Repair And Installation Service [2026 Updated] | Atlas Aircon",
+    title: "Vadodara’s Most Searched AC Repair And Installation Service [2026 Updated] | Hitech Aircool Engineers",
     description: "In today's fast-paced world, having an air conditioner (AC) isn't just a luxury; it’s a necessity. Whether i...",
-    url: "https://atlasaircons.com/most-searched-ac-repair-and-installation-service",
+    url: "https://hitechairconditioning.in/most-searched-ac-repair-and-installation-service",
     type: "article",
     images: ["/images/products/JPEG_20210208_080405_3257280342521622546-removebg-preview.webp"],
   },
@@ -19,11 +19,11 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "Vadodara’s Most Searched AC Repair And Installation Service [2026 Updated]",
-  author: { "@type": "Person", name: "Mehfuz Shahid Khan", jobTitle: "Director, Atlas Aircon" },
-  publisher: { "@type": "Organization", name: "Atlas Aircon", url: "https://atlasaircons.com" },
+  author: { "@type": "Person", name: "Mehfuz Shahid Khan", jobTitle: "Director, Hitech Aircool Engineers" },
+  publisher: { "@type": "Organization", name: "Hitech Aircool Engineers", url: "https://hitechairconditioning.in" },
   datePublished: "2025-06-15",
   dateModified: "2026-03-01",
-  mainEntityOfPage: "https://atlasaircons.com/most-searched-ac-repair-and-installation-service",
+  mainEntityOfPage: "https://hitechairconditioning.in/most-searched-ac-repair-and-installation-service",
   image: "/images/products/JPEG_20210208_080405_3257280342521622546-removebg-preview.webp",
 };
 
@@ -33,11 +33,11 @@ export default function Pagemostsearchedacrepairandinstallationservi() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* Article Header */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 text-white py-12 md:py-20">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-teal-900 text-white py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <Link href="/blogs" className="text-gray-400 hover:text-white text-sm flex items-center gap-1 mb-6 inline-flex"><ArrowLeft className="w-4 h-4" /> Back to Blog</Link>
-            <span className="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold mb-4 inline-block">HVAC Guide</span>
+            <span className="bg-teal-500/20 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold mb-4 inline-block">HVAC Guide</span>
             <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">Vadodara’s Most Searched AC Repair And Installation Service [2026 Updated]</h1>
             <div className="flex flex-wrap items-center gap-6 text-gray-400 text-sm">
               <div className="flex items-center gap-2"><User className="w-4 h-4" /> Mehfuz Shahid Khan</div>
@@ -63,12 +63,12 @@ export default function Pagemostsearchedacrepairandinstallationservi() {
       <section className="py-8 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto bg-white rounded-xl p-6 border border-gray-200 flex items-start gap-4">
-            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-              <User className="w-8 h-8 text-blue-600" />
+            <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <User className="w-8 h-8 text-teal-600" />
             </div>
             <div>
               <h3 className="font-bold text-lg">Mehfuz Shahid Khan</h3>
-              <p className="text-gray-500 text-sm mb-2">Director &amp; Lead HVAC Architect &bull; Atlas Aircon</p>
+              <p className="text-gray-500 text-sm mb-2">Director &amp; Lead HVAC Architect &bull; Hitech Aircool Engineers</p>
               <p className="text-gray-600 text-sm">20+ years of hands-on experience in industrial cooling, chiller overhauls, and VRF installations across Gujarat&apos;s industrial zones.</p>
             </div>
           </div>
@@ -85,7 +85,7 @@ export default function Pagemostsearchedacrepairandinstallationservi() {
               { q: "What is included in AC installation?", a: "AC installation includes site inspection, bracket/stand fitting, copper piping up to 3m, electrical wiring, drain pipe, gas charging, vacuum testing, and final testing." },
               { q: "How much does AC installation cost in Vadodara?", a: "AC installation costs vary: Split AC from ₹1,500, Window AC from ₹800, Cassette AC from ₹3,500. Additional piping charged at ₹150/meter." },
               { q: "How long does AC installation take?", a: "Standard AC installation takes 2-3 hours for split AC, 1-2 hours for window AC. Complex installations with long piping may take 4-5 hours." },
-              { q: "Do you provide AC installation warranty?", a: "Atlas Aircon provides 1-year warranty on installation workmanship. Any installation-related issues within this period are fixed free of charge." },
+              { q: "Do you provide AC installation warranty?", a: "Hitech Aircool Engineers provides 1-year warranty on installation workmanship. Any installation-related issues within this period are fixed free of charge." },
               { q: "Can you relocate my existing AC?", a: "Yes, AC relocation includes uninstallation, transport, reinstallation, gas top-up, and testing. Charges vary by distance and AC type." },
               { q: "What type of copper piping do you use?", a: "We use premium quality copper pipes (0.8mm thickness) with proper insulation. Quality piping prevents gas leaks and maintains AC efficiency." },
               { q: "Is electrical work included in installation?", a: "Basic electrical work is included. MCB installation, dedicated wiring, or major modifications are charged separately after inspection." },
@@ -96,7 +96,7 @@ export default function Pagemostsearchedacrepairandinstallationservi() {
               <details key={i} className="bg-white rounded-xl border border-gray-200 group">
                 <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.q}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
               </details>
@@ -111,7 +111,7 @@ export default function Pagemostsearchedacrepairandinstallationservi() {
           { "@type": "Question", name: "What is included in AC installation?", acceptedAnswer: { "@type": "Answer", text: "AC installation includes site inspection, bracket/stand fitting, copper piping up to 3m, electrical wiring, drain pipe, gas charging, vacuum testing, and final testing." } },
           { "@type": "Question", name: "How much does AC installation cost in Vadodara?", acceptedAnswer: { "@type": "Answer", text: "AC installation costs vary: Split AC from ₹1,500, Window AC from ₹800, Cassette AC from ₹3,500. Additional piping charged at ₹150/meter." } },
           { "@type": "Question", name: "How long does AC installation take?", acceptedAnswer: { "@type": "Answer", text: "Standard AC installation takes 2-3 hours for split AC, 1-2 hours for window AC. Complex installations with long piping may take 4-5 hours." } },
-          { "@type": "Question", name: "Do you provide AC installation warranty?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon provides 1-year warranty on installation workmanship. Any installation-related issues within this period are fixed free of charge." } },
+          { "@type": "Question", name: "Do you provide AC installation warranty?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers provides 1-year warranty on installation workmanship. Any installation-related issues within this period are fixed free of charge." } },
           { "@type": "Question", name: "Can you relocate my existing AC?", acceptedAnswer: { "@type": "Answer", text: "Yes, AC relocation includes uninstallation, transport, reinstallation, gas top-up, and testing. Charges vary by distance and AC type." } },
           { "@type": "Question", name: "What type of copper piping do you use?", acceptedAnswer: { "@type": "Answer", text: "We use premium quality copper pipes (0.8mm thickness) with proper insulation. Quality piping prevents gas leaks and maintains AC efficiency." } },
           { "@type": "Question", name: "Is electrical work included in installation?", acceptedAnswer: { "@type": "Answer", text: "Basic electrical work is included. MCB installation, dedicated wiring, or major modifications are charged separately after inspection." } },
@@ -122,13 +122,13 @@ export default function Pagemostsearchedacrepairandinstallationservi() {
       }) }} />
 
 {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Need Expert HVAC Help?</h2>
-          <p className="text-blue-100 mb-8">Our team is available 24/7 across Gujarat.</p>
+          <p className="text-teal-100 mb-8">Our team is available 24/7 across Gujarat.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+919727257141" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"><Phone size={22} /> Call +91 97272 57141</a>
-            <a href="https://wa.me/919727257141" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">WhatsApp</a>
+            <a href="tel:+919328953665" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"><Phone size={22} /> Call +91 93289 53665</a>
+            <a href="https://wa.me/919328953665" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">WhatsApp</a>
           </div>
         </div>
       </section>

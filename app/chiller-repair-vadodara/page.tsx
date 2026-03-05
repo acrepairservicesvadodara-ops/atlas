@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
 
 export const metadata: Metadata = {
-  title: "Chiller Repair in Vadodara | Industrial Chiller Service | Atlas Aircon",
-  description: "Expert chiller repair and maintenance in Vadodara. Water-cooled, air-cooled, screw chillers. 24/7 emergency service. Call +91 97272 57141 for industrial chiller repair.",
+  title: "Chiller Repair in Vadodara | Industrial Chiller Service | Hitech Aircool Engineers",
+  description: "Expert chiller repair and maintenance in Vadodara. Water-cooled, air-cooled, screw chillers. 24/7 emergency service. Call +91 93289 53665 for industrial chiller repair.",
   keywords: [
     "chiller repair Vadodara",
     "industrial chiller service Vadodara",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "chiller AMC Vadodara",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/chiller-repair-vadodara",
+    canonical: "https://hitechairconditioning.in/chiller-repair-vadodara",
   },
 };
 

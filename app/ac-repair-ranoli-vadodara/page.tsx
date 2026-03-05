@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import AreaPageTemplate from "@/components/AreaPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair in Ranoli, Vadodara | Same Day Service | Atlas Aircon",
-  description: "Best AC repair & service in Ranoli, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 97272 57141 for AC repair in Ranoli.",
+  title: "AC Repair in Ranoli, Vadodara | Same Day Service | Hitech Aircool Engineers",
+  description: "Best AC repair & service in Ranoli, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 93289 53665 for AC repair in Ranoli.",
   keywords: [
     "AC repair Ranoli",
     "AC service Ranoli",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "split AC repair Ranoli",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-ranoli-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-repair-ranoli-vadodara",
   },
 };
 

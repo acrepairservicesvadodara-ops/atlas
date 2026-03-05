@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import AreaPageTemplate from "@/components/AreaPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair in Mandvi, Vadodara | Same Day Service | Atlas Aircon",
-  description: "Best AC repair & service in Mandvi, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 97272 57141 for AC repair in Mandvi.",
+  title: "AC Repair in Mandvi, Vadodara | Same Day Service | Hitech Aircool Engineers",
+  description: "Best AC repair & service in Mandvi, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 93289 53665 for AC repair in Mandvi.",
   keywords: [
     "AC repair Mandvi",
     "AC service Mandvi",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "split AC repair Mandvi",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-mandvi-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-repair-mandvi-vadodara",
   },
 };
 

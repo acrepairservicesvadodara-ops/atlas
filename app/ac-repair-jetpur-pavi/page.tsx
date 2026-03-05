@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import CityPageTemplate from "@/components/CityPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair & Service in Jetpur Pavi | Installation, Service & Repair | Atlas Aircon",
-  description: "Professional AC repair, service & installation in Jetpur Pavi, Gujarat. Industrial & commercial AC service. 20+ years experience, 90-day warranty. Call +91 97272 57141",
+  title: "AC Repair & Service in Jetpur Pavi | Installation, Service & Repair | Hitech Aircool Engineers",
+  description: "Professional AC repair, service & installation in Jetpur Pavi, Gujarat. Industrial & commercial AC service. 20+ years experience, 90-day warranty. Call +91 93289 53665",
   keywords: [
     "AC repair Jetpur Pavi",
     "AC service Jetpur Pavi",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "commercial AC Jetpur Pavi",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-jetpur-pavi",
+    canonical: "https://hitechairconditioning.in/ac-repair-jetpur-pavi",
   },
 };
 

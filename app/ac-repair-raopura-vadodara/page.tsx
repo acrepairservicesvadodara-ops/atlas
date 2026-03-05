@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import AreaPageTemplate from "@/components/AreaPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair in Raopura, Vadodara | Same Day Service | Atlas Aircon",
-  description: "Best AC repair & service in Raopura, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 97272 57141 for AC repair in Raopura.",
+  title: "AC Repair in Raopura, Vadodara | Same Day Service | Hitech Aircool Engineers",
+  description: "Best AC repair & service in Raopura, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 93289 53665 for AC repair in Raopura.",
   keywords: [
     "AC repair Raopura",
     "AC service Raopura",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "split AC repair Raopura",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-raopura-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-repair-raopura-vadodara",
   },
 };
 

@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import AreaPageTemplate from "@/components/AreaPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair in Sayaji Park Society, Vadodara | Same Day Service | Atlas Aircon",
-  description: "Best AC repair & service in Sayaji Park Society, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 97272 57141 for AC repair in Sayaji Park Society.",
+  title: "AC Repair in Sayaji Park Society, Vadodara | Same Day Service | Hitech Aircool Engineers",
+  description: "Best AC repair & service in Sayaji Park Society, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 93289 53665 for AC repair in Sayaji Park Society.",
   keywords: [
     "AC repair Sayaji Park Society",
     "AC service Sayaji Park Society",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "split AC repair Sayaji Park Society",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-sayaji-park-society-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-repair-sayaji-park-society-vadodara",
   },
 };
 

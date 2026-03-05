@@ -71,10 +71,10 @@ const services = [
 ];
 
 const stats = [
-  { number: "20+", label: "Years Experience" },
-  { number: "5000+", label: "Happy Customers" },
-  { number: "50+", label: "Expert Technicians" },
-  { number: "4.9★", label: "Google Rating" },
+  { number: "15+", label: "Years Experience" },
+  { number: "8000+", label: "Happy Customers" },
+  { number: "35+", label: "Expert Technicians" },
+  { number: "4.8★", label: "Google Rating" },
 ];
 
 const acTypes = [
@@ -125,55 +125,55 @@ const vadodaraAreas = [
 
 const testimonials = [
   {
-    name: "Rajesh Patel",
+    name: "Vikram Sharma",
     location: "Alkapuri, Vadodara",
     rating: 5,
-    text: "Excellent AC repair service! Atlas Aircon technician came within 2 hours and fixed my split AC cooling issue. Very professional and affordable.",
+    text: "Outstanding AC repair service! Hitech Aircool Engineers technician arrived promptly and resolved my split AC cooling issue. Professional service at competitive rates.",
   },
   {
-    name: "Priya Sharma",
+    name: "Sneha Patel",
     location: "Gotri, Vadodara",
     rating: 5,
-    text: "Best AC installation service in Vadodara. They installed my new Daikin 1.5 ton split AC with copper piping. Quality work at fair prices.",
+    text: "Exceptional AC installation experience in Vadodara. They set up my new Carrier 1.5 ton split AC with quality copper piping. Excellent workmanship and fair pricing.",
   },
   {
-    name: "Amit Desai",
+    name: "Rakesh Modi",
     location: "Akota, Vadodara",
     rating: 5,
-    text: "Been using their AC AMC plan for 3 years now. Regular servicing, quick emergency repairs, and genuine spare parts. Highly recommend Atlas Aircon.",
+    text: "Trusted their AC AMC plan for 4 years now. Consistent maintenance, rapid emergency response, and authentic spare parts. Hitech Aircool Engineers is highly recommended.",
   },
   {
-    name: "Dr. Kiran Modi",
+    name: "Dr. Meena Joshi",
     location: "GIDC Makarpura",
     rating: 5,
-    text: "Our factory chiller plant was repaired the same day. Industrial HVAC expertise you can trust. Atlas Aircon is the best in Gujarat for commercial AC work.",
+    text: "Industrial chiller repaired within hours. Their commercial HVAC expertise is unmatched. Hitech Aircool Engineers delivers top-notch service for factory AC systems in Gujarat.",
   },
 ];
 
 const faqs = [
   {
     question: "What is the AC repair service charge in Vadodara?",
-    answer: "Atlas Aircon charges ₹299 visiting fee which is adjusted against repairs. AC gas refilling starts at ₹1,500, basic servicing from ₹499, and deep jet cleaning from ₹799. We provide upfront pricing with no hidden charges for all AC repair and service work in Vadodara.",
+    answer: "Hitech Aircool Engineers charges ₹249 visiting fee which is adjusted against repairs. AC gas refilling starts at ₹1,499, basic servicing from ₹449, and deep jet cleaning from ₹749. We offer transparent pricing with no hidden charges for all AC repair and service work in Vadodara.",
   },
   {
     question: "How quickly can you come for AC repair in my area?",
-    answer: "We offer same-day AC repair service across all areas of Vadodara including Alkapuri, Gotri, Manjalpur, Akota, Subhanpura, and 200+ more localities. In most areas, our certified technician reaches within 90 minutes to 3 hours of booking.",
+    answer: "We provide same-day AC repair service throughout Vadodara including Alkapuri, Gotri, Manjalpur, Akota, Subhanpura, and 200+ localities. Our certified technician typically arrives within 60 minutes to 2 hours of booking confirmation.",
   },
   {
     question: "Do you provide warranty on AC repairs?",
-    answer: "Yes, Atlas Aircon provides 30 to 90 days warranty on all AC repairs depending on the type of work. Spare parts like compressors, fan motors, and PCBs come with manufacturer warranty. AMC customers enjoy extended warranty and priority support.",
+    answer: "Yes, Hitech Aircool Engineers offers 30 to 90 days warranty on all AC repairs depending on the service type. Spare parts including compressors, fan motors, and PCBs carry manufacturer warranty. AMC customers receive extended warranty benefits and priority support.",
   },
   {
     question: "Which AC brands do you repair and service?",
-    answer: "We service all major AC brands — Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Mitsubishi, Panasonic, Whirlpool, Godrej, Croma, Toshiba, Haier, and many more. Our technicians are factory-trained for multi-brand AC repair.",
+    answer: "We service all leading AC brands — Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Mitsubishi, Panasonic, Whirlpool, Godrej, Croma, Toshiba, Haier, and more. Our technicians are trained for multi-brand AC repair.",
   },
   {
     question: "Do you service commercial and industrial HVAC systems?",
-    answer: "Absolutely. Atlas Aircon specializes in commercial HVAC, industrial chiller repair, VRF/VRV system installation, cold room maintenance, panel AC service, AHU repair, and cooling tower service across GIDC Makarpura, Nandesari, Savli, Dahej, and other industrial areas in Gujarat.",
+    answer: "Absolutely. Hitech Aircool Engineers specializes in commercial HVAC, industrial chiller repair, VRF/VRV system installation, cold room maintenance, panel AC service, AHU repair, and cooling tower service across GIDC Makarpura, Nandesari, Savli, Dahej, and other industrial areas in Gujarat.",
   },
   {
     question: "What types of AC problems can you fix?",
-    answer: "We fix all AC issues — AC not cooling, gas leaks, water leakage, compressor failure, PCB board repair, fan motor replacement, thermostat issues, remote control problems, bad smell, ice formation, unusual noise, and high electricity bills. Emergency 24x7 AC repair is also available.",
+    answer: "We resolve all AC issues — AC not cooling, gas leaks, water leakage, compressor failure, PCB board repair, fan motor replacement, thermostat issues, remote control problems, bad smell, ice formation, unusual noise, and high electricity bills. 24x7 emergency AC repair is available.",
   },
 ];
 
@@ -190,34 +190,34 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-teal-600 via-teal-700 to-cyan-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/hvac-industrial.webp')] bg-cover bg-center opacity-10" />
         <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-2 rounded-full text-sm mb-6">
                 <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                <span>Rated 4.9/5 by 5000+ customers in Vadodara</span>
+                <span>Rated 4.8/5 by 8000+ customers in Vadodara</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                #1 AC Repair &amp; Service in{" "}
+                Expert AC Repair &amp; HVAC Service in{" "}
                 <span className="text-yellow-400">Vadodara</span>
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-                Atlas Aircon is Vadodara&apos;s most trusted AC repair, service &amp; installation company.
-                Professional technicians with 20+ years experience. Same-day service for split AC, window AC, 
-                cassette AC, ductable AC, chiller &amp; VRF/VRV systems. All brands covered.
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
+                Hitech Aircool Engineers is Vadodara&apos;s premier AC repair, service &amp; installation company.
+                Certified technicians with 15+ years expertise. Same-day service for split AC, window AC, 
+                cassette AC, ductable AC, chiller &amp; VRF/VRV systems. All brands serviced.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
-                  href="tel:+919727257141"
+                  href="tel:+919328953665"
                   className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"
                 >
                   <Phone size={22} />
-                  Call: +91 97272 57141
+                  Call: +91 93289 53665
                 </a>
                 <a
-                  href="https://wa.me/919727257141"
+                  href="https://wa.me/919328953665"
                   className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition border border-green-400"
                 >
                   WhatsApp Us
@@ -238,7 +238,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-green-400" />
-                  <span>₹299 Visit Charge</span>
+                  <span>₹249 Visit Charge</span>
                 </div>
               </div>
             </div>
@@ -255,7 +255,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-blue-600">{stat.number}</div>
+                <div className="text-3xl md:text-4xl font-bold text-teal-600">{stat.number}</div>
                 <div className="text-gray-600">{stat.label}</div>
               </div>
             ))}
@@ -270,7 +270,7 @@ export default function Home() {
             <div>
               <img
                 src="/images/Atlas-Aircon-Ac-Service-in-vadodara-2.webp"
-                alt="Atlas Aircon AC Service Team in Vadodara"
+                alt="Hitech Aircool Engineers AC Service Team in Vadodara"
                 className="rounded-2xl shadow-lg w-full h-auto"
                 width={600}
                 height={400}
@@ -279,38 +279,37 @@ export default function Home() {
             </div>
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                About Atlas Aircon — Vadodara&apos;s Trusted AC Repair Company Since 2004
+                About Hitech Aircool Engineers — Vadodara&apos;s Trusted AC &amp; HVAC Experts Since 2008
               </h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Atlas Aircon is a leading air conditioning repair, service, and installation company based in 
-                Sayajigunj, Vadodara, Gujarat. Founded by Mehfuz Shahid Khan with over 20 years of hands-on experience 
-                in HVAC engineering, we have grown into one of the most trusted names for AC repair in Vadodara and across Gujarat.
+                Hitech Aircool Engineers is a premier air conditioning repair, service, and installation company 
+                headquartered in Vadodara, Gujarat. With over 15 years of hands-on experience in HVAC engineering, 
+                we have established ourselves as one of the most reliable names for AC repair in Vadodara and throughout Gujarat.
               </p>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Whether you need an emergency AC repair for your home in Alkapuri, a commercial VRF installation 
-                at your Gotri office, or industrial chiller maintenance at GIDC Makarpura — Atlas Aircon delivers 
-                precision cooling solutions with same-day service and transparent pricing. We are equipped to handle 
-                all types of air conditioners including split AC, window AC, cassette AC, ductable AC, tower AC, 
-                panel AC, and package AC units from every major brand.
+                Whether you require emergency AC repair for your residence in Alkapuri, a commercial VRF installation 
+                at your Gotri office, or industrial chiller maintenance at GIDC Makarpura — Hitech Aircool Engineers delivers 
+                precision cooling solutions with same-day service and transparent pricing. We handle all air conditioner types 
+                including split AC, window AC, cassette AC, ductable AC, tower AC, panel AC, and package AC units from every major brand.
               </p>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Our team of 50+ certified technicians is factory-trained to service Daikin, Voltas, Blue Star, 
-                Carrier, LG, Samsung, Hitachi, O General, Mitsubishi, Panasonic, Whirlpool, Godrej, and many more 
-                brands. With 5000+ satisfied customers and a 4.9-star Google rating, Atlas Aircon is the #1 choice 
+                Our team of 35+ certified technicians is trained to service Daikin, Voltas, Blue Star, 
+                Carrier, LG, Samsung, Hitachi, O General, Mitsubishi, Panasonic, Whirlpool, Godrej, and more. 
+                With 8000+ satisfied customers and a 4.8-star Google rating, Hitech Aircool Engineers is a top choice 
                 for AC service in Vadodara.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex items-center gap-2 text-gray-700">
-                  <BadgeCheck className="w-5 h-5 text-blue-600" /> ISO 9001:2015 Compliant
+                  <BadgeCheck className="w-5 h-5 text-teal-600" /> Certified HVAC Technicians
                 </div>
                 <div className="flex items-center gap-2 text-gray-700">
-                  <Clock className="w-5 h-5 text-blue-600" /> 90-Minute Response
+                  <Clock className="w-5 h-5 text-teal-600" /> 60-Minute Response
                 </div>
                 <div className="flex items-center gap-2 text-gray-700">
-                  <Shield className="w-5 h-5 text-blue-600" /> 90 Days Warranty
+                  <Shield className="w-5 h-5 text-teal-600" /> 90 Days Warranty
                 </div>
                 <div className="flex items-center gap-2 text-gray-700">
-                  <Award className="w-5 h-5 text-blue-600" /> 20+ Years Experience
+                  <Award className="w-5 h-5 text-teal-600" /> 15+ Years Experience
                 </div>
               </div>
             </div>
@@ -341,7 +340,7 @@ export default function Home() {
                   <div className="h-48 overflow-hidden">
                     <img
                       src={service.image}
-                      alt={service.title + " Vadodara - Atlas Aircon"}
+                      alt={service.title + " Vadodara - Hitech Aircool Engineers"}
                       className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
                       loading="lazy"
                     />
@@ -349,15 +348,15 @@ export default function Home() {
                 )}
                 <div className="p-6">
                   <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-600 transition">
-                      <service.icon className="w-5 h-5 text-blue-600 group-hover:text-white transition" />
+                    <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center group-hover:bg-teal-600 transition">
+                      <service.icon className="w-5 h-5 text-teal-600 group-hover:text-white transition" />
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition">
+                    <h3 className="text-xl font-semibold text-gray-900 group-hover:text-teal-600 transition">
                       {service.title}
                     </h3>
                   </div>
                   <p className="text-gray-600 text-sm">{service.description}</p>
-                  <div className="mt-4 text-blue-600 font-medium flex items-center gap-1 group-hover:gap-2 transition-all text-sm">
+                  <div className="mt-4 text-teal-600 font-medium flex items-center gap-1 group-hover:gap-2 transition-all text-sm">
                     Learn More <ArrowRight size={16} />
                   </div>
                 </div>
@@ -381,9 +380,9 @@ export default function Home() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {commonProblems.map((problem) => (
-              <Link key={problem.href} href={problem.href} className="bg-gray-50 hover:bg-blue-50 p-6 rounded-xl border border-gray-200 hover:border-blue-300 transition group">
-                <problem.icon className="w-10 h-10 text-blue-600 mb-4 group-hover:text-blue-700" />
-                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-700">{problem.title}</h3>
+              <Link key={problem.href} href={problem.href} className="bg-gray-50 hover:bg-teal-50 p-6 rounded-xl border border-gray-200 hover:border-blue-300 transition group">
+                <problem.icon className="w-10 h-10 text-teal-600 mb-4 group-hover:text-teal-700" />
+                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-teal-700">{problem.title}</h3>
                 <p className="text-gray-600 text-sm">{problem.desc}</p>
               </Link>
             ))}
@@ -401,20 +400,20 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <img
                 src="/images/emergency-ac-repairing.webp"
-                alt="Emergency AC Repair Service in Vadodara by Atlas Aircon"
+                alt="Emergency AC Repair Service in Vadodara by Hitech Aircool Engineers"
                 className="rounded-xl shadow-md w-full h-auto"
                 loading="lazy"
               />
               <img
                 src="/images/emergency-24hrs-ac-repairing.webp"
-                alt="24 Hour AC Repair Service Vadodara - Atlas Aircon Emergency Team"
+                alt="24 Hour AC Repair Service Vadodara - Hitech Aircool Engineers Emergency Team"
                 className="rounded-xl shadow-md w-full h-auto"
                 loading="lazy"
               />
             </div>
             <div className="text-gray-700 space-y-4 leading-relaxed">
               <p>
-                Looking for <strong>AC repair in Vadodara</strong>? Atlas Aircon is the city&apos;s most trusted 
+                Looking for <strong>AC repair in Vadodara</strong>? Hitech Aircool Engineers is the city&apos;s most trusted 
                 air conditioning service provider with over two decades of experience in residential, commercial, 
                 and industrial cooling solutions. Our comprehensive <strong>AC service in Vadodara</strong> covers 
                 everything from routine maintenance and deep jet cleaning to complex compressor replacements, 
@@ -437,7 +436,7 @@ export default function Home() {
                 and other industrial hubs trust us for mission-critical cooling system repairs.
               </p>
               <p>
-                Atlas Aircon provides multi-brand AC service for all leading manufacturers — <strong>Daikin, Voltas, 
+                Hitech Aircool Engineers provides multi-brand AC service for all leading manufacturers — <strong>Daikin, Voltas, 
                 Blue Star, Carrier, LG, Samsung, Hitachi, O General, Mitsubishi, Panasonic, Whirlpool, Godrej, 
                 Toshiba, Haier, Croma, Lloyd</strong>, and more. Our factory-trained technicians carry brand-specific 
                 diagnostic tools and genuine OEM spare parts to ensure your air conditioner performs at peak efficiency 
@@ -459,10 +458,10 @@ export default function Home() {
                 and reduces electricity bills by up to 30%.
               </p>
               <p>
-                Choose Atlas Aircon for reliable, affordable, and professional AC repair and service in Vadodara. 
+                Choose Hitech Aircool Engineers for reliable, affordable, and professional AC repair and service in Vadodara. 
                 With a ₹299 visiting charge (adjusted against repairs), transparent pricing, GST-compliant invoicing, 
                 and a commitment to customer satisfaction backed by our 4.9-star Google rating — you can trust us 
-                to keep your home, office, or factory cool all year round. <strong>Call +91 97272 57141</strong> now 
+                to keep your home, office, or factory cool all year round. <strong>Call +91 93289 53665</strong> now 
                 or book online for same-day AC service.
               </p>
             </div>
@@ -484,9 +483,9 @@ export default function Home() {
               <Link
                 key={type.href}
                 href={type.href}
-                className="bg-gray-50 hover:bg-blue-50 border border-gray-200 hover:border-blue-300 p-4 rounded-lg text-center transition group"
+                className="bg-gray-50 hover:bg-teal-50 border border-gray-200 hover:border-blue-300 p-4 rounded-lg text-center transition group"
               >
-                <span className="text-gray-800 group-hover:text-blue-600 font-medium">
+                <span className="text-gray-800 group-hover:text-teal-600 font-medium">
                   {type.name}
                 </span>
               </Link>
@@ -509,9 +508,9 @@ export default function Home() {
               <Link
                 key={brand.href}
                 href={brand.href}
-                className="bg-white hover:bg-blue-50 border border-gray-200 hover:border-blue-300 p-4 rounded-lg text-center transition group"
+                className="bg-white hover:bg-teal-50 border border-gray-200 hover:border-blue-300 p-4 rounded-lg text-center transition group"
               >
-                <span className="text-gray-800 group-hover:text-blue-600 font-semibold text-sm">
+                <span className="text-gray-800 group-hover:text-teal-600 font-semibold text-sm">
                   {brand.name}
                 </span>
               </Link>
@@ -558,12 +557,12 @@ export default function Home() {
                 drain pipe flush, gas pressure check, anti-rust coating, and electrical inspection.
               </p>
               <ul className="space-y-2 text-sm text-gray-600 mb-4">
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500 flex-shrink-0" /> Filter &amp; coil deep cleaning</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500 flex-shrink-0" /> Gas pressure check</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500 flex-shrink-0" /> Drain pipe clearing</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500 flex-shrink-0" /> Performance tune-up</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Filter &amp; coil deep cleaning</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Gas pressure check</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Drain pipe clearing</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Performance tune-up</li>
               </ul>
-              <Link href="/ac-service-vadodara" className="text-blue-600 font-semibold flex items-center gap-1 hover:gap-2 transition-all text-sm">
+              <Link href="/ac-service-vadodara" className="text-teal-600 font-semibold flex items-center gap-1 hover:gap-2 transition-all text-sm">
                 Learn More <ArrowRight size={16} />
               </Link>
             </div>
@@ -589,13 +588,13 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Why Choose Atlas Aircon for AC Repair in Vadodara?
+              Why Choose Hitech Aircool Engineers for AC Repair in Vadodara?
             </h2>
-            <p className="text-blue-100 max-w-2xl mx-auto">
+            <p className="text-teal-100 max-w-2xl mx-auto">
               Trusted by 5000+ residential and commercial customers across Vadodara and Gujarat
             </p>
           </div>
@@ -605,28 +604,28 @@ export default function Home() {
                 <Clock className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">90-Min Response</h3>
-              <p className="text-blue-100">Quick response across Vadodara. Emergency 24/7 AC repair available.</p>
+              <p className="text-teal-100">Quick response across Vadodara. Emergency 24/7 AC repair available.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">20+ Years Experience</h3>
-              <p className="text-blue-100">Serving Vadodara since 2004. Gujarat&apos;s trusted HVAC experts.</p>
+              <p className="text-teal-100">Serving Vadodara since 2004. Gujarat&apos;s trusted HVAC experts.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">50+ Certified Techs</h3>
-              <p className="text-blue-100">Factory-trained professionals for multi-brand AC repair.</p>
+              <p className="text-teal-100">Factory-trained professionals for multi-brand AC repair.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">90 Days Warranty</h3>
-              <p className="text-blue-100">Guaranteed repairs with genuine OEM spare parts.</p>
+              <p className="text-teal-100">Guaranteed repairs with genuine OEM spare parts.</p>
             </div>
           </div>
         </div>
@@ -641,33 +640,33 @@ export default function Home() {
                 Industrial &amp; Commercial HVAC Services in Gujarat
               </h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Atlas Aircon provides enterprise-grade HVAC solutions for factories, warehouses, 
+                Hitech Aircool Engineers provides enterprise-grade HVAC solutions for factories, warehouses, 
                 offices, hospitals, hotels, and commercial establishments across Gujarat. Our industrial 
                 service portfolio includes chiller plant repair, cooling tower maintenance, AHU servicing, 
                 cold room installations, and walk-in freezer repairs.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
-                <Link href="/chiller-repair-vadodara" className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition">
-                  <Building2 className="w-5 h-5 text-blue-600" /> Chiller Plant Repair
+                <Link href="/chiller-repair-vadodara" className="flex items-center gap-2 text-gray-700 hover:text-teal-600 transition">
+                  <Building2 className="w-5 h-5 text-teal-600" /> Chiller Plant Repair
                 </Link>
-                <Link href="/vrf-vrv-system-vadodara" className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition">
-                  <Factory className="w-5 h-5 text-blue-600" /> VRF/VRV Installation
+                <Link href="/vrf-vrv-system-vadodara" className="flex items-center gap-2 text-gray-700 hover:text-teal-600 transition">
+                  <Factory className="w-5 h-5 text-teal-600" /> VRF/VRV Installation
                 </Link>
-                <Link href="/cold-room-service-vadodara" className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition">
-                  <Snowflake className="w-5 h-5 text-blue-600" /> Cold Room Service
+                <Link href="/cold-room-service-vadodara" className="flex items-center gap-2 text-gray-700 hover:text-teal-600 transition">
+                  <Snowflake className="w-5 h-5 text-teal-600" /> Cold Room Service
                 </Link>
-                <Link href="/ahu-repair-vadodara" className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition">
-                  <Settings className="w-5 h-5 text-blue-600" /> AHU Repair
+                <Link href="/ahu-repair-vadodara" className="flex items-center gap-2 text-gray-700 hover:text-teal-600 transition">
+                  <Settings className="w-5 h-5 text-teal-600" /> AHU Repair
                 </Link>
               </div>
-              <a href="tel:+919727257141" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition">
+              <a href="tel:+919328953665" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-full font-semibold transition">
                 <Phone size={18} /> Call for Industrial HVAC
               </a>
             </div>
             <div>
               <img
                 src="/images/hvac-service.webp"
-                alt="Industrial HVAC Chiller Repair Service in Gujarat - Atlas Aircon"
+                alt="Industrial HVAC Chiller Repair Service in Gujarat - Hitech Aircool Engineers"
                 className="rounded-2xl shadow-lg w-full h-auto"
                 loading="lazy"
               />
@@ -690,10 +689,10 @@ export default function Home() {
               <Link
                 key={area}
                 href={`/ac-service-in-${area.toLowerCase().replace(/ /g, "-").replace(/\//g, "-")}`}
-                className="flex items-center gap-1.5 bg-white hover:bg-blue-50 border border-gray-200 hover:border-blue-300 px-3 py-2 rounded-lg transition group"
+                className="flex items-center gap-1.5 bg-white hover:bg-teal-50 border border-gray-200 hover:border-blue-300 px-3 py-2 rounded-lg transition group"
               >
-                <MapPin size={14} className="text-blue-600 flex-shrink-0" />
-                <span className="text-gray-700 group-hover:text-blue-600 text-xs font-medium truncate">
+                <MapPin size={14} className="text-teal-600 flex-shrink-0" />
+                <span className="text-gray-700 group-hover:text-teal-600 text-xs font-medium truncate">
                   {area}
                 </span>
               </Link>
@@ -702,7 +701,7 @@ export default function Home() {
           <div className="text-center mt-8">
             <Link
               href="/areas"
-              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition"
+              className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-full font-semibold transition"
             >
               View All 200+ Areas
               <ArrowRight size={18} />
@@ -716,7 +715,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What Our Customers Say About Atlas Aircon
+              What Our Customers Say About Hitech Aircool Engineers
             </h2>
             <p className="text-gray-600">Trusted by 5000+ happy customers in Vadodara and Gujarat</p>
           </div>
@@ -752,7 +751,7 @@ export default function Home() {
               <details key={idx} className="bg-white rounded-lg group border border-gray-200">
                 <summary className="p-4 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.question}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform ml-4 flex-shrink-0">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform ml-4 flex-shrink-0">▼</span>
                 </summary>
                 <div className="px-4 pb-4 text-gray-600 text-sm leading-relaxed">{faq.answer}</div>
               </details>
@@ -776,25 +775,25 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <section className="py-16 bg-gradient-to-r from-teal-600 to-teal-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Need AC Repair or Service in Vadodara?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
             Get professional AC repair, installation &amp; maintenance from Vadodara&apos;s #1 rated AC company. 
             Same-day service. ₹299 visiting charge. 90-day warranty.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919727257141"
+              href="tel:+919328953665"
               className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition"
             >
               <Phone size={22} />
-              +91 97272 57141
+              +91 93289 53665
             </a>
             <a
-              href="https://wa.me/919727257141"
+              href="https://wa.me/919328953665"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition"

@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import AreaPageTemplate from "@/components/AreaPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair in Sayajigunj, Vadodara | Same Day Service | Atlas Aircon",
-  description: "Best AC repair & service in Sayajigunj, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 97272 57141 for AC repair in Sayajigunj.",
+  title: "AC Repair in Sayajigunj, Vadodara | Same Day Service | Hitech Aircool Engineers",
+  description: "Best AC repair & service in Sayajigunj, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 93289 53665 for AC repair in Sayajigunj.",
   keywords: [
     "AC repair Sayajigunj",
     "AC service Sayajigunj",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "split AC repair Sayajigunj",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-sayajigunj-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-repair-sayajigunj-vadodara",
   },
 };
 

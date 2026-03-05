@@ -14,9 +14,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Voltas AC Error E5 | Indoor Fan Motor Failure | Diagnostic Guide | Atlas Aircon",
+  title: "Voltas AC Error E5 | Indoor Fan Motor Failure | Diagnostic Guide | Hitech Aircool Engineers",
   description:
-    "Voltas AC Error E5 means indoor fan motor failure. Learn the causes (fan capacitor, motor winding, PCB), DIY checks, and professional repair costs. Atlas Aircon Vadodara — Call +91 97272 57141.",
+    "Voltas AC Error E5 means indoor fan motor failure. Learn the causes (fan capacitor, motor winding, PCB), DIY checks, and professional repair costs. Hitech Aircool Engineers Vadodara — Call +91 93289 53665.",
   keywords: [
     "voltas ac error e5",
     "voltas ac error code e5",
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     "voltas ac troubleshooting",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/fault-codes/voltas-ac-error-e5",
+    canonical: "https://hitechairconditioning.in/fault-codes/voltas-ac-error-e5",
   },
   openGraph: {
-    title: "Voltas AC Error E5 — Indoor Fan Motor Failure | Atlas Aircon",
+    title: "Voltas AC Error E5 — Indoor Fan Motor Failure | Hitech Aircool Engineers",
     description:
       "Diagnostic protocol & repair guide for Voltas AC Error E5. Fan not spinning? Suspect: Fan Capacitor or PCB/Motor.",
-    url: "https://atlasaircons.com/fault-codes/voltas-ac-error-e5",
+    url: "https://hitechairconditioning.in/fault-codes/voltas-ac-error-e5",
     type: "article",
   },
 };
@@ -49,15 +49,15 @@ const jsonLd = {
     "Complete diagnostic protocol and repair guide for Voltas AC Error Code E5, which indicates an indoor fan motor failure.",
   author: {
     "@type": "Organization",
-    name: "Atlas Aircon",
+    name: "Hitech Aircool Engineers",
   },
   publisher: {
     "@type": "Organization",
-    name: "Atlas Aircon",
-    url: "https://atlasaircons.com",
+    name: "Hitech Aircool Engineers",
+    url: "https://hitechairconditioning.in",
   },
   mainEntityOfPage:
-    "https://atlasaircons.com/fault-codes/voltas-ac-error-e5",
+    "https://hitechairconditioning.in/fault-codes/voltas-ac-error-e5",
 };
 
 const faqJsonLd = {
@@ -169,7 +169,7 @@ export default function VoltasErrorE5Page() {
             <h2 className="text-3xl font-bold mb-4">
               Decoding the &ldquo;Dead Air&rdquo; Issue
             </h2>
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+            <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8">
               <p className="text-gray-700">
                 The E5 Error targets the <strong>indoor blower unit</strong>.
                 The AC&apos;s brain (PCB) expects speed feedback from the fan motor.
@@ -187,7 +187,7 @@ export default function VoltasErrorE5Page() {
             {/* Basic Checks */}
             <div className="mb-12">
               <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                <Search className="w-6 h-6 text-blue-600" />
+                <Search className="w-6 h-6 text-teal-600" />
                 <span>Basic Checks (Do This First)</span>
               </h3>
               <div className="space-y-6">
@@ -226,8 +226,8 @@ export default function VoltasErrorE5Page() {
             {/* Professional Repair Protocol */}
             <div className="mb-12">
               <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                <Wrench className="w-6 h-6 text-blue-600" />
-                <span>Atlas Aircon Repair Protocol</span>
+                <Wrench className="w-6 h-6 text-teal-600" />
+                <span>Hitech Aircool Engineers Repair Protocol</span>
               </h3>
               <p className="text-gray-600 mb-6">
                 Our technicians troubleshoot E5 in this order:
@@ -280,21 +280,21 @@ export default function VoltasErrorE5Page() {
             </div>
 
             {/* Repair Cost */}
-            <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-xl border border-blue-200 mb-12">
-              <h3 className="text-lg font-bold text-blue-800 mb-4 flex items-center gap-2">
+            <div className="bg-gradient-to-r from-teal-50 to-teal-100 p-8 rounded-xl border border-teal-200 mb-12">
+              <h3 className="text-lg font-bold text-teal-800 mb-4 flex items-center gap-2">
                 <CircleDollarSign className="w-5 h-5" /> Estimated Repair Cost
-                (Atlas Aircon)
+                (Hitech Aircool Engineers)
               </h3>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white p-4 rounded-lg">
                   <p className="text-sm text-gray-500 mb-1">Capacitor</p>
-                  <p className="text-xl font-bold text-blue-700">
+                  <p className="text-xl font-bold text-teal-700">
                     ₹850 – ₹1,200
                   </p>
                 </div>
                 <div className="bg-white p-4 rounded-lg">
                   <p className="text-sm text-gray-500 mb-1">Motor Replace</p>
-                  <p className="text-xl font-bold text-blue-700">₹2,500+</p>
+                  <p className="text-xl font-bold text-teal-700">₹2,500+</p>
                 </div>
               </div>
             </div>
@@ -344,19 +344,19 @@ export default function VoltasErrorE5Page() {
           <div className="flex items-center justify-between max-w-4xl mx-auto">
             <Link
               href="/fault-codes/voltas-ac-error-code-f0"
-              className="flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium transition"
+              className="flex items-center gap-2 text-teal-600 hover:text-teal-800 font-medium transition"
             >
               <ArrowLeft className="w-5 h-5" /> PREV CODE
             </Link>
             <Link
               href="/ac-error-codes"
-              className="text-gray-600 hover:text-blue-600 font-medium transition"
+              className="text-gray-600 hover:text-teal-600 font-medium transition"
             >
               All Error Codes
             </Link>
             <Link
               href="/fault-codes/voltas-ac-error-h6"
-              className="flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium transition"
+              className="flex items-center gap-2 text-teal-600 hover:text-teal-800 font-medium transition"
             >
               NEXT CODE <ArrowRight className="w-5 h-5" />
             </Link>
@@ -373,19 +373,19 @@ export default function VoltasErrorE5Page() {
           </h2>
           <p className="text-red-100 mb-8 max-w-2xl mx-auto">
             Industrial HVAC systems are complex. Don&apos;t risk component failure.
-            The Atlas Aircon engineering squad has successfully cleared Voltas AC
+            The Hitech Aircool Engineers engineering squad has successfully cleared Voltas AC
             Error E5 across multiple sites. We can dispatch a technician immediately.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919727257141"
+              href="tel:+919328953665"
               className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"
             >
               <Phone size={22} />
               Call Expert Now
             </a>
             <a
-              href="https://wa.me/919727257141?text=EMERGENCY:+My+system+is+showing+the+Voltas+AC+Error+E5+code.+I+need+support+now."
+              href="https://wa.me/919328953665?text=EMERGENCY:+My+system+is+showing+the+Voltas+AC+Error+E5+code.+I+need+support+now."
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition"
             >
               Get Live Troubleshooting

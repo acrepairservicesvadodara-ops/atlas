@@ -11,8 +11,8 @@ export default function AppleIcon() {
     (
       <div
         style={{
-          fontSize: 100,
-          background: "linear-gradient(135deg, #1e3a8a, #2563eb, #3b82f6)",
+          fontSize: 90,
+          background: "linear-gradient(135deg, #0f766e, #0d9488, #0891b2)",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -31,18 +31,18 @@ export default function AppleIcon() {
             lineHeight: 1,
           }}
         >
-          A
+          H
         </div>
         <div
           style={{
-            fontSize: 20,
+            fontSize: 14,
             fontWeight: 600,
-            letterSpacing: "2px",
-            marginTop: "-4px",
-            color: "#93c5fd",
+            letterSpacing: "1px",
+            marginTop: "2px",
+            color: "#99f6e4",
           }}
         >
-          ATLAS
+          HITECH
         </div>
       </div>
     ),

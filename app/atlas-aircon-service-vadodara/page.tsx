@@ -4,25 +4,25 @@ import { Phone, CheckCircle, Star, Clock, Shield, Award, MapPin, ArrowRight, Wre
 import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
-  title: "Atlas Aircon Service in Vadodara | Installation, Service & Repair | Atlas Aircon",
-  description: "Atlas Aircon in Vadodara. Expert AC installation, service & repair. 20+ years experience, 90-day warranty. Call +91 97272 57141",
+  title: "Hitech Aircool Engineers Service in Vadodara | Installation, Service & Repair | Hitech Aircool Engineers",
+  description: "Hitech Aircool Engineers in Vadodara. Expert AC installation, service & repair. 20+ years experience, 90-day warranty. Call +91 93289 53665",
   keywords: [
-    "Atlas Aircon Service Vadodara",
-    "atlas aircon service",
-    "Atlas Aircon Service installation",
-    "Atlas Aircon Service service",
-    "Atlas Aircon Service repair",
-    "best Atlas Aircon Service service",
+    "Hitech Aircool Engineers Service Vadodara",
+    "hitech aircool engineers service",
+    "Hitech Aircool Engineers Service installation",
+    "Hitech Aircool Engineers Service service",
+    "Hitech Aircool Engineers Service repair",
+    "best Hitech Aircool Engineers Service service",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/atlas-aircon-service-vadodara",
+    canonical: "https://hitechairconditioning.in/atlas-aircon-service-vadodara",
   },
 };
 
 const keywordData = {
-  title: "Atlas Aircon Service",
+  title: "Hitech Aircool Engineers Service",
   slug: "atlas-aircon-service",
-  description: "Atlas Aircon",
+  description: "Hitech Aircool Engineers",
   category: "Brand"
 };
 
@@ -37,11 +37,11 @@ const getCategoryIcon = () => {
 
 const CategoryIcon = getCategoryIcon();
 
-export default function AtlasAirconServicePage() {
+export default function HitechAircoolServicePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -52,20 +52,20 @@ export default function AtlasAirconServicePage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
                 <span className="text-yellow-400">{keywordData.title}</span> in Vadodara
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
                 {keywordData.description} in Vadodara. Expert AC installation, service & repair by certified technicians. 
                 Same-day service, genuine parts, 90-day warranty.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
-                  href="tel:+919727257141"
+                  href="tel:+919328953665"
                   className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"
                 >
                   <Phone size={22} />
-                  +91 97272 57141
+                  +91 93289 53665
                 </a>
                 <a
-                  href="https://wa.me/919727257141"
+                  href="https://wa.me/919328953665"
                   className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition"
                 >
                   WhatsApp Us
@@ -119,18 +119,18 @@ export default function AtlasAirconServicePage() {
               </ul>
             </div>
             <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-blue-300 hover:shadow-lg transition">
-              <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
-                <Settings className="w-7 h-7 text-blue-600" />
+              <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-4">
+                <Settings className="w-7 h-7 text-teal-600" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Service</h3>
               <p className="text-gray-600 mb-4">
                 Regular {keywordData.title.toLowerCase()} service and maintenance in Vadodara. Keep your AC running efficiently with professional cleaning and tune-up.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Deep filter cleaning</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Coil cleaning & sanitization</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Gas pressure check</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Performance optimization</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Deep filter cleaning</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Coil cleaning & sanitization</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Gas pressure check</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Performance optimization</li>
               </ul>
             </div>
             <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-red-300 hover:shadow-lg transition">
@@ -156,33 +156,33 @@ export default function AtlasAirconServicePage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Why Choose Atlas Aircon for {keywordData.title}?
+            Why Choose Hitech Aircool Engineers for {keywordData.title}?
           </h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">20+ Years Experience</h3>
               <p className="text-gray-600 text-sm">Trusted since 2004</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">90 Days Warranty</h3>
               <p className="text-gray-600 text-sm">On all repairs</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">Same Day Service</h3>
               <p className="text-gray-600 text-sm">Quick response</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Star className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">5000+ Customers</h3>
               <p className="text-gray-600 text-sm">Happy customers</p>
@@ -202,7 +202,7 @@ export default function AtlasAirconServicePage() {
           </p>
           <div className="max-w-3xl mx-auto bg-gray-50 rounded-xl overflow-hidden">
             <table className="w-full">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr>
                   <th className="text-left py-4 px-6">Service</th>
                   <th className="text-right py-4 px-6">Price</th>
@@ -211,23 +211,23 @@ export default function AtlasAirconServicePage() {
               <tbody>
                 <tr className="border-b border-gray-200">
                   <td className="py-4 px-6">AC Installation (Split/Window)</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹1,499 - ₹2,999</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹1,499 - ₹2,999</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-white">
                   <td className="py-4 px-6">AC Service (Basic)</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹399 - ₹599</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹399 - ₹599</td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-4 px-6">AC Deep Cleaning</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹799 - ₹1,199</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹799 - ₹1,199</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-white">
                   <td className="py-4 px-6">AC Repair</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹500 - ₹5,000</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹500 - ₹5,000</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-6">AC Gas Refilling</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹1,500 - ₹3,000</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹1,500 - ₹3,000</td>
                 </tr>
               </tbody>
             </table>
@@ -242,21 +242,21 @@ export default function AtlasAirconServicePage() {
           <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
           <div className="max-w-3xl mx-auto space-y-4">
             {[
-              { q: "What does Atlas Aircon Service Vadodara include?", a: "Atlas Aircon Service Vadodara includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." },
-              { q: "How much does Atlas Aircon Service Vadodara cost?", a: "Atlas Aircon Service Vadodara starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." },
+              { q: "What does Hitech Aircool Engineers Service Vadodara include?", a: "Hitech Aircool Engineers Service Vadodara includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." },
+              { q: "How much does Hitech Aircool Engineers Service Vadodara cost?", a: "Hitech Aircool Engineers Service Vadodara starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." },
               { q: "How often should AC be serviced?", a: "AC should be serviced at least twice a year — before summer and after monsoon. Heavy use environments may need quarterly servicing." },
-              { q: "Will Atlas Aircon Service Vadodara improve cooling?", a: "Yes, proper Atlas Aircon Service Vadodara can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." },
-              { q: "Does Atlas Aircon Service Vadodara reduce electricity bills?", a: "Regular Atlas Aircon Service Vadodara can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." },
-              { q: "How long does Atlas Aircon Service Vadodara take?", a: "Basic Atlas Aircon Service Vadodara takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." },
-              { q: "Can Atlas Aircon Service Vadodara remove bad smell?", a: "Yes, Atlas Aircon Service Vadodara includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." },
-              { q: "Is gas top-up included in Atlas Aircon Service Vadodara?", a: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." },
+              { q: "Will Hitech Aircool Engineers Service Vadodara improve cooling?", a: "Yes, proper Hitech Aircool Engineers Service Vadodara can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." },
+              { q: "Does Hitech Aircool Engineers Service Vadodara reduce electricity bills?", a: "Regular Hitech Aircool Engineers Service Vadodara can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." },
+              { q: "How long does Hitech Aircool Engineers Service Vadodara take?", a: "Basic Hitech Aircool Engineers Service Vadodara takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." },
+              { q: "Can Hitech Aircool Engineers Service Vadodara remove bad smell?", a: "Yes, Hitech Aircool Engineers Service Vadodara includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." },
+              { q: "Is gas top-up included in Hitech Aircool Engineers Service Vadodara?", a: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." },
               { q: "Do you clean outdoor AC unit?", a: "Yes, complete service includes outdoor unit cleaning. Condenser coil cleaning is essential for proper heat rejection." },
               { q: "What's the difference between service and deep cleaning?", a: "Basic service is dry cleaning and inspection. Deep cleaning uses high-pressure jet wash. Chemical wash uses foam for thorough cleaning." }
             ].map((faq, i) => (
               <details key={i} className="bg-white rounded-xl border border-gray-200 group">
                 <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.q}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
               </details>
@@ -268,35 +268,35 @@ export default function AtlasAirconServicePage() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "What does Atlas Aircon Service Vadodara include?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon Service Vadodara includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." } },
-          { "@type": "Question", name: "How much does Atlas Aircon Service Vadodara cost?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon Service Vadodara starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." } },
+          { "@type": "Question", name: "What does Hitech Aircool Engineers Service Vadodara include?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers Service Vadodara includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." } },
+          { "@type": "Question", name: "How much does Hitech Aircool Engineers Service Vadodara cost?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers Service Vadodara starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." } },
           { "@type": "Question", name: "How often should AC be serviced?", acceptedAnswer: { "@type": "Answer", text: "AC should be serviced at least twice a year — before summer and after monsoon. Heavy use environments may need quarterly servicing." } },
-          { "@type": "Question", name: "Will Atlas Aircon Service Vadodara improve cooling?", acceptedAnswer: { "@type": "Answer", text: "Yes, proper Atlas Aircon Service Vadodara can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." } },
-          { "@type": "Question", name: "Does Atlas Aircon Service Vadodara reduce electricity bills?", acceptedAnswer: { "@type": "Answer", text: "Regular Atlas Aircon Service Vadodara can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." } },
-          { "@type": "Question", name: "How long does Atlas Aircon Service Vadodara take?", acceptedAnswer: { "@type": "Answer", text: "Basic Atlas Aircon Service Vadodara takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." } },
-          { "@type": "Question", name: "Can Atlas Aircon Service Vadodara remove bad smell?", acceptedAnswer: { "@type": "Answer", text: "Yes, Atlas Aircon Service Vadodara includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." } },
-          { "@type": "Question", name: "Is gas top-up included in Atlas Aircon Service Vadodara?", acceptedAnswer: { "@type": "Answer", text: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." } },
+          { "@type": "Question", name: "Will Hitech Aircool Engineers Service Vadodara improve cooling?", acceptedAnswer: { "@type": "Answer", text: "Yes, proper Hitech Aircool Engineers Service Vadodara can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." } },
+          { "@type": "Question", name: "Does Hitech Aircool Engineers Service Vadodara reduce electricity bills?", acceptedAnswer: { "@type": "Answer", text: "Regular Hitech Aircool Engineers Service Vadodara can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." } },
+          { "@type": "Question", name: "How long does Hitech Aircool Engineers Service Vadodara take?", acceptedAnswer: { "@type": "Answer", text: "Basic Hitech Aircool Engineers Service Vadodara takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." } },
+          { "@type": "Question", name: "Can Hitech Aircool Engineers Service Vadodara remove bad smell?", acceptedAnswer: { "@type": "Answer", text: "Yes, Hitech Aircool Engineers Service Vadodara includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." } },
+          { "@type": "Question", name: "Is gas top-up included in Hitech Aircool Engineers Service Vadodara?", acceptedAnswer: { "@type": "Answer", text: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." } },
           { "@type": "Question", name: "Do you clean outdoor AC unit?", acceptedAnswer: { "@type": "Answer", text: "Yes, complete service includes outdoor unit cleaning. Condenser coil cleaning is essential for proper heat rejection." } },
           { "@type": "Question", name: "What's the difference between service and deep cleaning?", acceptedAnswer: { "@type": "Answer", text: "Basic service is dry cleaning and inspection. Deep cleaning uses high-pressure jet wash. Chemical wash uses foam for thorough cleaning." } }
         ]
       }) }} />
 
 {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Need {keywordData.title} Service in Vadodara?
           </h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
             Expert AC installation, service & repair for {keywordData.title.toLowerCase()} in Vadodara.
             Same-day service available. Call now!
           </p>
           <a
-            href="tel:+919727257141"
+            href="tel:+919328953665"
             className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"
           >
             <Phone size={22} />
-            Call +91 97272 57141
+            Call +91 93289 53665
           </a>
         </div>
       </section>

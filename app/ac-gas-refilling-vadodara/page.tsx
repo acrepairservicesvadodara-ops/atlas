@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Gas Refilling in Vadodara | AC Gas Charging | Atlas Aircon",
-  description: "Professional AC gas refilling in Vadodara. R22, R32, R410A refrigerants. Leak detection included. Starting ₹800. Call +91 97272 57141 for AC gas charging service.",
+  title: "AC Gas Refilling in Vadodara | AC Gas Charging | Hitech Aircool Engineers",
+  description: "Professional AC gas refilling in Vadodara. R22, R32, R410A refrigerants. Leak detection included. Starting ₹800. Call +91 93289 53665 for AC gas charging service.",
   keywords: [
     "AC gas refilling Vadodara",
     "AC gas charging Vadodara",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "AC gas leak repair Vadodara",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-gas-refilling-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-gas-refilling-vadodara",
   },
 };
 

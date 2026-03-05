@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import AreaPageTemplate from "@/components/AreaPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair in Sun Pharma Road, Vadodara | Same Day Service | Atlas Aircon",
-  description: "Best AC repair & service in Sun Pharma Road, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 97272 57141 for AC repair in Sun Pharma Road.",
+  title: "AC Repair in Sun Pharma Road, Vadodara | Same Day Service | Hitech Aircool Engineers",
+  description: "Best AC repair & service in Sun Pharma Road, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 93289 53665 for AC repair in Sun Pharma Road.",
   keywords: [
     "AC repair Sun Pharma Road",
     "AC service Sun Pharma Road",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "split AC repair Sun Pharma Road",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-sun-pharma-road-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-repair-sun-pharma-road-vadodara",
   },
 };
 

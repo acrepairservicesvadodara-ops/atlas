@@ -22,9 +22,9 @@ import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
   title:
-    "Blue Star AC Service Center Vadodara | Out-of-Warranty Repair | Atlas Aircon",
+    "Blue Star AC Service Center Vadodara | Out-of-Warranty Repair | Hitech Aircool Engineers",
   description:
-    "Independent Blue Star AC service center in Vadodara. Expert out-of-warranty repair, gas charging, PCB repair, deep cleaning. Same-day service, 90-day warranty. Call +91 97272 57141.",
+    "Independent Blue Star AC service center in Vadodara. Expert out-of-warranty repair, gas charging, PCB repair, deep cleaning. Same-day service, 90-day warranty. Call +91 93289 53665.",
   keywords: [
     "blue star ac service center vadodara",
     "blue star ac repair vadodara",
@@ -38,13 +38,13 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical:
-      "https://atlasaircons.com/blue-star-ac-service-center-vadodara",
+      "https://hitechairconditioning.in/blue-star-ac-service-center-vadodara",
   },
   openGraph: {
-    title: "Blue Star AC Service Center Vadodara | Atlas Aircon",
+    title: "Blue Star AC Service Center Vadodara | Hitech Aircool Engineers",
     description:
       "Independent out-of-warranty repair specialist for Blue Star AC in Vadodara. Same-day service with 90-day guarantee.",
-    url: "https://atlasaircons.com/blue-star-ac-service-center-vadodara",
+    url: "https://hitechairconditioning.in/blue-star-ac-service-center-vadodara",
     type: "website",
     images: [
       {
@@ -63,9 +63,9 @@ const jsonLd = {
   name: "Blue Star AC Service Center Vadodara",
   provider: {
     "@type": "LocalBusiness",
-    name: "Atlas Aircon",
-    telephone: "+919727257141",
-    email: "atlasaircon1@gmail.com",
+    name: "Hitech Aircool Engineers",
+    telephone: "+919328953665",
+    email: "hitechairconditioning@gmail.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Sayajigunj",
@@ -90,10 +90,10 @@ const faqJsonLd = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Is Atlas Aircon an authorized Blue Star service center?",
+      name: "Is Hitech Aircool Engineers an authorized Blue Star service center?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No. Atlas Aircon is an independent and unauthorized service provider. We specialize in high-quality out-of-warranty repair works. If your AC is under official warranty, contact Blue Star's official support.",
+        text: "No. Hitech Aircool Engineers is an independent and unauthorized service provider. We specialize in high-quality out-of-warranty repair works. If your AC is under official warranty, contact Blue Star's official support.",
       },
     },
     {
@@ -106,10 +106,10 @@ const faqJsonLd = {
     },
     {
       "@type": "Question",
-      name: "What is the Atlas Aircon Service Guarantee?",
+      name: "What is the Hitech Aircool Engineers Service Guarantee?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "All repairs are backed by our exclusive Atlas Aircon Service Guarantee — if a part we replace fails within the specified period, we fix it for free. This includes a 90-day warranty on labor and 90-day warranty on replaced parts.",
+        text: "All repairs are backed by our exclusive Hitech Aircool Engineers Service Guarantee — if a part we replace fails within the specified period, we fix it for free. This includes a 90-day warranty on labor and 90-day warranty on replaced parts.",
       },
     },
   ],
@@ -128,7 +128,7 @@ export default function BlueStarServiceCenterPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -140,21 +140,21 @@ export default function BlueStarServiceCenterPage() {
                 <span className="text-yellow-400">Blue Star AC Service Center</span>{" "}
                 Vadodara
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
                 Expert independent repair solutions for all cooling systems. We
                 specialize in providing high-quality, out-of-warranty service and
                 maintenance with a full satisfaction guarantee.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
-                  href="tel:+919727257141"
+                  href="tel:+919328953665"
                   className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"
                 >
                   <Phone size={22} />
-                  +91 97272 57141
+                  +91 93289 53665
                 </a>
                 <a
-                  href="https://wa.me/919727257141"
+                  href="https://wa.me/919328953665"
                   className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition"
                 >
                   Book Expert AC Repair
@@ -192,7 +192,7 @@ export default function BlueStarServiceCenterPage() {
                 Service Disclaimer &amp; Warranty Policy
               </h3>
               <p className="text-sm text-amber-700">
-                Atlas Aircon is an <strong>Independent and Unauthorized Service Provider</strong>.
+                Hitech Aircool Engineers is an <strong>Independent and Unauthorized Service Provider</strong>.
                 We are NOT affiliated with any brand&apos;s official service network. Our
                 expertise lies in providing high-quality out-of-warranty repair works.
                 If your AC is still under the manufacturer&apos;s official warranty, we strongly
@@ -212,7 +212,7 @@ export default function BlueStarServiceCenterPage() {
             </h2>
             <div className="prose prose-lg mx-auto text-gray-600 space-y-4">
               <p>
-                At Atlas Aircon, we recognize that once a machine&apos;s official warranty
+                At Hitech Aircool Engineers, we recognize that once a machine&apos;s official warranty
                 expires, owners often face challenges finding reliable, prompt, and
                 affordable technical support. As a specialized Blue Star AC service center
                 in Vadodara, we fill this gap by offering elite repair services that focus on
@@ -303,8 +303,8 @@ export default function BlueStarServiceCenterPage() {
           </h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-blue-300 hover:shadow-lg transition">
-              <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
-                <ThermometerSnowflake className="w-7 h-7 text-blue-600" />
+              <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-4">
+                <ThermometerSnowflake className="w-7 h-7 text-teal-600" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">
                 Residential Split &amp; Window
@@ -315,7 +315,7 @@ export default function BlueStarServiceCenterPage() {
               </p>
               <Link
                 href="/split-ac-service-vadodara"
-                className="text-blue-600 hover:text-blue-800 font-semibold text-sm flex items-center gap-1"
+                className="text-teal-600 hover:text-teal-800 font-semibold text-sm flex items-center gap-1"
               >
                 View Details <ArrowRight className="w-4 h-4" />
               </Link>
@@ -333,7 +333,7 @@ export default function BlueStarServiceCenterPage() {
               </p>
               <Link
                 href="/central-ac-repair-services-vadodara"
-                className="text-blue-600 hover:text-blue-800 font-semibold text-sm flex items-center gap-1"
+                className="text-teal-600 hover:text-teal-800 font-semibold text-sm flex items-center gap-1"
               >
                 View Details <ArrowRight className="w-4 h-4" />
               </Link>
@@ -351,7 +351,7 @@ export default function BlueStarServiceCenterPage() {
               </p>
               <Link
                 href="/chiller-repair-services-vadodara"
-                className="text-blue-600 hover:text-blue-800 font-semibold text-sm flex items-center gap-1"
+                className="text-teal-600 hover:text-teal-800 font-semibold text-sm flex items-center gap-1"
               >
                 View Details <ArrowRight className="w-4 h-4" />
               </Link>
@@ -364,14 +364,14 @@ export default function BlueStarServiceCenterPage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-4">
-            Atlas Aircon Price List for Out-of-Warranty Service
+            Hitech Aircool Engineers Price List for Out-of-Warranty Service
           </h2>
           <p className="text-gray-600 text-center mb-12">
             Transparent pricing with no hidden charges
           </p>
           <div className="max-w-4xl mx-auto bg-white rounded-xl overflow-hidden shadow-sm">
             <table className="w-full">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr>
                   <th className="text-left py-4 px-6">Service</th>
                   <th className="text-right py-4 px-6">Price</th>
@@ -418,7 +418,7 @@ export default function BlueStarServiceCenterPage() {
                     className={`border-b border-gray-200 ${i % 2 === 0 ? "bg-gray-50" : "bg-white"}`}
                   >
                     <td className="py-4 px-6">{row.service}</td>
-                    <td className="py-4 px-6 text-right font-semibold text-blue-600">
+                    <td className="py-4 px-6 text-right font-semibold text-teal-600">
                       {row.price}
                     </td>
                     <td className="py-4 px-6 text-right text-gray-500 text-sm hidden md:table-cell">
@@ -433,7 +433,7 @@ export default function BlueStarServiceCenterPage() {
               labor and part guarantee.{" "}
               <Link
                 href="/ac-repair-service-price-list-air-conditioner-repair-service-cost-in-vadodara-gujarat"
-                className="text-blue-600 hover:underline"
+                className="text-teal-600 hover:underline"
               >
                 View detailed pricing
               </Link>
@@ -528,7 +528,7 @@ export default function BlueStarServiceCenterPage() {
               </p>
               <Link
                 href="/panel-ac-service-vadodara"
-                className="text-blue-600 hover:text-blue-800 font-semibold text-sm flex items-center gap-1"
+                className="text-teal-600 hover:text-teal-800 font-semibold text-sm flex items-center gap-1"
               >
                 Service Guide <ArrowRight className="w-4 h-4" />
               </Link>
@@ -543,7 +543,7 @@ export default function BlueStarServiceCenterPage() {
               </p>
               <Link
                 href="/cold-room-repair-services-vadodara"
-                className="text-blue-600 hover:text-blue-800 font-semibold text-sm flex items-center gap-1"
+                className="text-teal-600 hover:text-teal-800 font-semibold text-sm flex items-center gap-1"
               >
                 View Services <ArrowRight className="w-4 h-4" />
               </Link>
@@ -558,7 +558,7 @@ export default function BlueStarServiceCenterPage() {
               </p>
               <Link
                 href="/hvac-repair-services-vadodara"
-                className="text-blue-600 hover:text-blue-800 font-semibold text-sm flex items-center gap-1"
+                className="text-teal-600 hover:text-teal-800 font-semibold text-sm flex items-center gap-1"
               >
                 Get Quote <ArrowRight className="w-4 h-4" />
               </Link>
@@ -588,7 +588,7 @@ export default function BlueStarServiceCenterPage() {
             ].map((brand) => (
               <span
                 key={brand}
-                className="bg-gray-100 text-gray-700 px-5 py-3 rounded-full font-medium text-sm hover:bg-blue-100 hover:text-blue-700 transition"
+                className="bg-gray-100 text-gray-700 px-5 py-3 rounded-full font-medium text-sm hover:bg-teal-100 hover:text-teal-700 transition"
               >
                 {brand}
               </span>
@@ -604,8 +604,8 @@ export default function BlueStarServiceCenterPage() {
             Areas Covered in Vadodara
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <div className="bg-white p-8 rounded-xl border border-blue-200">
-              <h3 className="text-lg font-bold text-blue-800 mb-4 flex items-center gap-2">
+            <div className="bg-white p-8 rounded-xl border border-teal-200">
+              <h3 className="text-lg font-bold text-teal-800 mb-4 flex items-center gap-2">
                 <MapPin className="w-5 h-5" /> Residential Areas
               </h3>
               <div className="flex flex-wrap gap-2">
@@ -618,7 +618,7 @@ export default function BlueStarServiceCenterPage() {
                 ].map((area) => (
                   <span
                     key={area}
-                    className="bg-blue-50 text-blue-700 text-xs px-3 py-1.5 rounded-full border border-blue-100"
+                    className="bg-teal-50 text-teal-700 text-xs px-3 py-1.5 rounded-full border border-teal-100"
                   >
                     {area}
                   </span>
@@ -652,14 +652,14 @@ export default function BlueStarServiceCenterPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Atlas Aircon vs. Aggregators
+            Hitech Aircool Engineers vs. Aggregators
           </h2>
           <div className="max-w-4xl mx-auto overflow-x-auto">
             <table className="w-full bg-gray-50 rounded-xl overflow-hidden">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr>
                   <th className="text-left py-4 px-6">Feature</th>
-                  <th className="text-center py-4 px-6">Atlas Aircon</th>
+                  <th className="text-center py-4 px-6">Hitech Aircool Engineers</th>
                   <th className="text-center py-4 px-6">Urban Company</th>
                   <th className="text-center py-4 px-6">Local Market</th>
                 </tr>
@@ -728,16 +728,16 @@ export default function BlueStarServiceCenterPage() {
           <div className="max-w-3xl mx-auto space-y-4">
             {[
               {
-                q: "Is Atlas Aircon an authorized Blue Star service center?",
-                a: "No. Atlas Aircon is an independent and unauthorized service provider. We specialize in high-quality out-of-warranty repair works. If your AC is under official warranty, contact Blue Star's official support.",
+                q: "Is Hitech Aircool Engineers an authorized Blue Star service center?",
+                a: "No. Hitech Aircool Engineers is an independent and unauthorized service provider. We specialize in high-quality out-of-warranty repair works. If your AC is under official warranty, contact Blue Star's official support.",
               },
               {
                 q: "Will using your service void my official warranty?",
                 a: "If your unit is still within Blue Star's official warranty period, having it serviced by us (or any independent provider) may void that warranty. We advise you to verify your warranty status before booking.",
               },
               {
-                q: "What is the Atlas Aircon Service Guarantee?",
-                a: "All repairs are backed by our exclusive Atlas Aircon Service Guarantee — if a part we replace fails within the specified period, we fix it for free. This includes a 90-day warranty on labor and 90-day warranty on replaced parts.",
+                q: "What is the Hitech Aircool Engineers Service Guarantee?",
+                a: "All repairs are backed by our exclusive Hitech Aircool Engineers Service Guarantee — if a part we replace fails within the specified period, we fix it for free. This includes a 90-day warranty on labor and 90-day warranty on replaced parts.",
               },
             ].map((faq) => (
               <details
@@ -756,25 +756,25 @@ export default function BlueStarServiceCenterPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Need Blue Star AC Repair in Vadodara?
           </h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
             Expert independent repair for all Blue Star AC models. Same-day service,
             transparent pricing, 90-day guarantee. Call now!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919727257141"
+              href="tel:+919328953665"
               className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"
             >
               <Phone size={22} />
-              Call +91 97272 57141
+              Call +91 93289 53665
             </a>
             <a
-              href="https://wa.me/919727257141"
+              href="https://wa.me/919328953665"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition"
             >
               WhatsApp for Quote

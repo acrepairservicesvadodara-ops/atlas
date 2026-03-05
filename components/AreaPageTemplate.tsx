@@ -65,7 +65,7 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -77,20 +77,20 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
                 AC Repair & Service in{" "}
                 <span className="text-yellow-400">{areaDisplay}</span>, {cityDisplay}
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
                 Professional AC repair, service & installation in {areaDisplay}. 
                 Same-day service, certified technicians, 90-day warranty. All AC brands covered.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
-                  href="tel:+919727257141"
+                  href="tel:+919328953665"
                   className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"
                 >
                   <Phone size={22} />
-                  +91 97272 57141
+                  +91 93289 53665
                 </a>
                 <a
-                  href="https://wa.me/919727257141"
+                  href="https://wa.me/919328953665"
                   className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition"
                 >
                   WhatsApp Us
@@ -132,12 +132,12 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
               <Link
                 key={service.slug}
                 href={`/${service.slug}-${city}`}
-                className="bg-gray-50 hover:bg-blue-50 p-6 rounded-xl border border-gray-200 hover:border-blue-300 transition group"
+                className="bg-gray-50 hover:bg-teal-50 p-6 rounded-xl border border-gray-200 hover:border-blue-300 transition group"
               >
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition">
-                  <service.icon className="w-6 h-6 text-blue-600 group-hover:text-white transition" />
+                <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-teal-600 transition">
+                  <service.icon className="w-6 h-6 text-teal-600 group-hover:text-white transition" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-600">
+                <h3 className="text-xl font-semibold mb-2 group-hover:text-teal-600">
                   {service.name} in {areaDisplay}
                 </h3>
                 <p className="text-gray-600 text-sm">
@@ -184,7 +184,7 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
             {brands.map((brand) => (
               <div
                 key={brand}
-                className="bg-gray-50 p-4 rounded-lg text-center border border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition"
+                className="bg-gray-50 p-4 rounded-lg text-center border border-gray-200 hover:border-blue-300 hover:bg-teal-50 transition"
               >
                 <span className="text-gray-800 font-medium">{brand}</span>
               </div>
@@ -220,19 +220,19 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
               </ul>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
-                <Settings className="w-7 h-7 text-blue-600" />
+              <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-4">
+                <Settings className="w-7 h-7 text-teal-600" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">AC Service in {areaDisplay}</h3>
               <p className="text-gray-600 mb-4">
                 Regular AC service and maintenance in {areaDisplay}. Keep your AC running efficiently with our professional cleaning and servicing.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Deep cleaning of filters</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Evaporator coil cleaning</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Condenser coil cleaning</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Drain pipe cleaning</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Gas pressure check</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Deep cleaning of filters</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Evaporator coil cleaning</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Condenser coil cleaning</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Drain pipe cleaning</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Gas pressure check</li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
@@ -256,10 +256,10 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Why Choose Atlas Aircon in {areaDisplay}?
+            Why Choose Hitech Aircool Engineers in {areaDisplay}?
           </h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
@@ -267,28 +267,28 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
                 <Clock className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Quick Response</h3>
-              <p className="text-blue-100">2-4 hours in {areaDisplay}</p>
+              <p className="text-teal-100">2-4 hours in {areaDisplay}</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">20+ Years</h3>
-              <p className="text-blue-100">Trusted experience</p>
+              <p className="text-teal-100">Trusted experience</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Star className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">4.9 Rating</h3>
-              <p className="text-blue-100">500+ happy customers</p>
+              <p className="text-teal-100">500+ happy customers</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">90-Day Warranty</h3>
-              <p className="text-blue-100">On all services</p>
+              <p className="text-teal-100">On all services</p>
             </div>
           </div>
         </div>
@@ -305,7 +305,7 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
           </p>
           <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-sm overflow-hidden">
             <table className="w-full">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr>
                   <th className="text-left py-4 px-6">Service</th>
                   <th className="text-right py-4 px-6">Price</th>
@@ -314,27 +314,27 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
               <tbody>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-6">AC Inspection & Diagnosis</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹199</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹199</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-6">Basic AC Service (Split)</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹399</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹399</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-6">Deep Cleaning Service</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹799 - ₹1,199</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹799 - ₹1,199</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-6">AC Gas Refilling</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹1,500 - ₹3,000</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹1,500 - ₹3,000</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-6">AC Installation (Split)</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹1,499 - ₹2,999</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹1,499 - ₹2,999</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-6">AC Repair</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹500 - ₹5,000</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹500 - ₹5,000</td>
                 </tr>
               </tbody>
             </table>
@@ -359,9 +359,9 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
               <Link
                 key={nearbyArea.slug}
                 href={`/ac-repair-${nearbyArea.slug}-${city}`}
-                className="flex items-center gap-2 bg-gray-50 hover:bg-blue-50 border border-gray-200 hover:border-blue-300 p-3 rounded-lg transition"
+                className="flex items-center gap-2 bg-gray-50 hover:bg-teal-50 border border-gray-200 hover:border-blue-300 p-3 rounded-lg transition"
               >
-                <MapPin size={14} className="text-blue-600" />
+                <MapPin size={14} className="text-teal-600" />
                 <span className="text-sm font-medium">{nearbyArea.name}</span>
               </Link>
             ))}
@@ -380,7 +380,7 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
               <details key={idx} className="bg-white rounded-lg group shadow-sm">
                 <summary className="p-4 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.question}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-4 pb-4 text-gray-600">{faq.answer}</div>
               </details>
@@ -390,24 +390,24 @@ export default function AreaPageTemplate({ area, areaDisplay, city, cityDisplay,
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <section className="py-16 bg-gradient-to-r from-teal-600 to-teal-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Need AC Service in {areaDisplay}?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
             Call now for expert AC repair, service & installation in {areaDisplay}, {cityDisplay}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919727257141"
+              href="tel:+919328953665"
               className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition"
             >
               <Phone size={22} />
-              +91 97272 57141
+              +91 93289 53665
             </a>
             <a
-              href="https://wa.me/919727257141"
+              href="https://wa.me/919328953665"
               className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition"
             >
               WhatsApp Us

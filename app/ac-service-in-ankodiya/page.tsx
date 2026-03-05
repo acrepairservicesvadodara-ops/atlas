@@ -7,8 +7,8 @@ import {
 import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
-  title: "AC Service & Repair in Ankodiya, Vadodara | Expert Technicians | Atlas Aircon",
-  description: "Best AC service in Ankodiya, Vadodara. Professional AC repair, installation, gas refilling & deep cleaning. 24/7 emergency support. 1-year warranty. Starting \u20B9499. Call +91 97272 57141.",
+  title: "AC Service & Repair in Ankodiya, Vadodara | Expert Technicians | Hitech Aircool Engineers",
+  description: "Best AC service in Ankodiya, Vadodara. Professional AC repair, installation, gas refilling & deep cleaning. 24/7 emergency support. 1-year warranty. Starting \u20B9499. Call +91 93289 53665.",
   keywords: [
     "ac service ankodiya",
     "ac repair ankodiya vadodara",
@@ -22,12 +22,12 @@ export const metadata: Metadata = {
     "refrigerator repair ankodiya",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-service-in-ankodiya",
+    canonical: "https://hitechairconditioning.in/ac-service-in-ankodiya",
   },
   openGraph: {
-    title: "AC Service & Repair in Ankodiya | Atlas Aircon Vadodara",
+    title: "AC Service & Repair in Ankodiya | Hitech Aircool Engineers Vadodara",
     description: "Professional AC repair, installation & maintenance in Ankodiya. 24/7 emergency service, 1-year warranty.",
-    url: "https://atlasaircons.com/ac-service-in-ankodiya",
+    url: "https://hitechairconditioning.in/ac-service-in-ankodiya",
     type: "website",
   },
 };
@@ -38,8 +38,8 @@ const jsonLd = {
   name: "AC Service in Ankodiya",
   provider: {
     "@type": "LocalBusiness",
-    name: "Atlas Aircon",
-    telephone: "+919727257141",
+    name: "Hitech Aircool Engineers",
+    telephone: "+919328953665",
     address: { "@type": "PostalAddress", addressLocality: "Vadodara", addressRegion: "Gujarat", postalCode: "390005", addressCountry: "IN" },
     aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "5000" },
   },
@@ -53,7 +53,7 @@ const faqJsonLd = {
   "@type": "FAQPage",
   mainEntity: [
     { "@type": "Question", name: "How much does AC service cost in Ankodiya?", acceptedAnswer: { "@type": "Answer", text: "Standard AC service in Ankodiya costs \u20B9499-\u20B9799 for window/split ACs. Deep jet cleaning starts at \u20B9499. Visit charges of \u20B9299 are adjusted against the final repair bill." } },
-    { "@type": "Question", name: "Do you provide 24/7 emergency AC repair in Ankodiya?", acceptedAnswer: { "@type": "Answer", text: "Yes, Atlas Aircon provides round-the-clock emergency AC repair across Ankodiya and all of Vadodara. Our technicians can reach you within 45-60 minutes." } },
+    { "@type": "Question", name: "Do you provide 24/7 emergency AC repair in Ankodiya?", acceptedAnswer: { "@type": "Answer", text: "Yes, Hitech Aircool Engineers provides round-the-clock emergency AC repair across Ankodiya and all of Vadodara. Our technicians can reach you within 45-60 minutes." } },
     { "@type": "Question", name: "Which AC brands do you service in Ankodiya?", acceptedAnswer: { "@type": "Answer", text: "We service all major brands including Voltas, LG, Samsung, Daikin, Hitachi, Blue Star, Carrier, O General, Lloyd, Panasonic and more." } },
     { "@type": "Question", name: "Do you offer an AC AMC plan for Ankodiya residents?", acceptedAnswer: { "@type": "Answer", text: "Yes, we offer comprehensive Annual Maintenance Contracts (AMC) covering quarterly servicing, priority emergency calls, and discounted spare parts for homes and offices in Ankodiya." } },
     { "@type": "Question", name: "What warranty do you give on AC repairs?", acceptedAnswer: { "@type": "Answer", text: "All repairs come with a 1-year service warranty and 90-day parts warranty, giving you complete peace of mind." } },
@@ -67,7 +67,7 @@ export default function ACServiceInAnkodiyaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -78,16 +78,16 @@ export default function ACServiceInAnkodiyaPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
                 <span className="text-yellow-400">AC Service &amp; Repair</span> in Ankodiya
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-                Looking for reliable AC service in Ankodiya? Atlas Aircon delivers fast, professional AC repair, installation and maintenance for all brands.
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
+                Looking for reliable AC service in Ankodiya? Hitech Aircool Engineers delivers fast, professional AC repair, installation and maintenance for all brands.
                 Certified technicians, genuine parts, transparent pricing.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <a href="tel:+919727257141" className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg">
+                <a href="tel:+919328953665" className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg">
                   <Phone size={22} />
-                  +91 97272 57141
+                  +91 93289 53665
                 </a>
-                <a href="https://wa.me/919727257141" className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition">
+                <a href="https://wa.me/919328953665" className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition">
                   WhatsApp Us
                 </a>
               </div>
@@ -110,7 +110,7 @@ export default function ACServiceInAnkodiyaPage() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <h2 className="text-3xl font-bold text-center mb-8">Professional AC Service in Ankodiya — Vadodara</h2>
             <p className="text-gray-600">
-              Ankodiya is one of the well-known localities in Vadodara, Gujarat, and homeowners here depend on air conditioning throughout the intense summer months. At Atlas Aircon, we bring over 20 years of HVAC expertise directly to your doorstep in Ankodiya. Whether you need a quick AC gas top-up, an annual maintenance check, or a complete split AC installation, our factory-trained engineers ensure the job is done right the first time.
+              Ankodiya is one of the well-known localities in Vadodara, Gujarat, and homeowners here depend on air conditioning throughout the intense summer months. At Hitech Aircool Engineers, we bring over 20 years of HVAC expertise directly to your doorstep in Ankodiya. Whether you need a quick AC gas top-up, an annual maintenance check, or a complete split AC installation, our factory-trained engineers ensure the job is done right the first time.
             </p>
             <p className="text-gray-600">
               What sets us apart is our commitment to transparency and quality. Every technician carries a digital diagnostic toolkit, and you receive a detailed service report after each visit. We stock genuine spare parts for all major brands — so there is no waiting for components to arrive. For customers in Ankodiya, we typically arrive within 30-60 minutes of booking, making us the fastest AC service provider in the Vadodara region.
@@ -129,7 +129,7 @@ export default function ACServiceInAnkodiyaPage() {
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">Honest pricing with no hidden fees. All rates are for the Ankodiya area.</p>
           <div className="max-w-4xl mx-auto bg-white rounded-xl overflow-hidden shadow-sm">
             <table className="w-full">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr>
                   <th className="text-left py-4 px-6">Service</th>
                   <th className="text-left py-4 px-6 hidden md:table-cell">Details</th>
@@ -149,12 +149,12 @@ export default function ACServiceInAnkodiyaPage() {
                   <tr key={row.s} className={`border-b border-gray-200 ${i % 2 === 0 ? "bg-gray-50" : "bg-white"}`}>
                     <td className="py-4 px-6 font-medium">{row.s}</td>
                     <td className="py-4 px-6 text-gray-500 text-sm hidden md:table-cell">{row.d}</td>
-                    <td className="py-4 px-6 text-right font-semibold text-blue-600 whitespace-nowrap">{row.p}</td>
+                    <td className="py-4 px-6 text-right font-semibold text-teal-600 whitespace-nowrap">{row.p}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
-            <p className="text-sm text-gray-500 p-4 italic">*Final prices may vary based on AC type, tonnage and required parts. <Link href="/ac-service-charges-in-vadodara" className="text-blue-600 hover:underline">View full price list</Link></p>
+            <p className="text-sm text-gray-500 p-4 italic">*Final prices may vary based on AC type, tonnage and required parts. <Link href="/ac-service-charges-in-vadodara" className="text-teal-600 hover:underline">View full price list</Link></p>
           </div>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function ACServiceInAnkodiyaPage() {
       {/* Why Choose — 4 pillars */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Ankodiya Residents Trust Atlas Aircon</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Why Ankodiya Residents Trust Hitech Aircool Engineers</h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             {[
               { icon: Award, t: "20+ Years Experience", d: "Gujarat\u2019s most experienced HVAC team since 2004" },
@@ -171,8 +171,8 @@ export default function ACServiceInAnkodiyaPage() {
               { icon: Star, t: "4.9/5 Star Rating", d: "5,000+ happy customers across Gujarat" },
             ].map((item) => (
               <div key={item.t} className="text-center bg-gray-50 p-6 rounded-xl">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <item.icon className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <item.icon className="w-8 h-8 text-teal-600" />
                 </div>
                 <h3 className="font-semibold mb-2">{item.t}</h3>
                 <p className="text-gray-600 text-sm">{item.d}</p>
@@ -198,7 +198,7 @@ export default function ACServiceInAnkodiyaPage() {
               ].map((item) => (
                 <div key={item.t} className="bg-white p-6 rounded-xl border border-gray-200">
                   <h3 className="font-bold text-gray-900 mb-2 flex items-center gap-2">
-                    <Wrench className="w-5 h-5 text-blue-600" /> {item.t}
+                    <Wrench className="w-5 h-5 text-teal-600" /> {item.t}
                   </h3>
                   <p className="text-gray-600 text-sm">{item.d}</p>
                 </div>
@@ -219,7 +219,7 @@ export default function ACServiceInAnkodiyaPage() {
               { n: "3", t: "Enjoy Cool Comfort", d: "Your AC is restored to peak performance. Pay via cash, UPI or card. Warranty card issued instantly." },
             ].map((item) => (
               <div key={item.n} className="bg-gray-50 p-8 rounded-xl text-center">
-                <div className="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">{item.n}</div>
+                <div className="w-14 h-14 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">{item.n}</div>
                 <h3 className="text-lg font-bold mb-3">{item.t}</h3>
                 <p className="text-gray-600 text-sm">{item.d}</p>
               </div>
@@ -260,7 +260,7 @@ export default function ACServiceInAnkodiyaPage() {
           <h2 className="text-3xl font-bold text-center mb-8">AC Service Across Vadodara</h2>
           <div className="flex flex-wrap justify-center gap-3 max-w-5xl mx-auto">
             {[{"name":"Alkapuri","href":"/ac-service-in-alkapuri"},{"name":"Akota","href":"/ac-service-in-akota"},{"name":"Sayajigunj","href":"/ac-service-in-sayajigunj"},{"name":"Raopura","href":"/ac-service-in-raopura"},{"name":"Mandvi","href":"/ac-service-in-mandvi"},{"name":"Pratapgunj","href":"/ac-service-in-pratapgunj"},{"name":"Fatehgunj","href":"/ac-service-in-fatehgunj"},{"name":"Nizampura","href":"/ac-service-in-nizampura"},{"name":"Chhani","href":"/ac-service-in-chhani"},{"name":"Sama","href":"/ac-service-in-sama"},{"name":"Karelibaug","href":"/ac-service-in-karelibaug"},{"name":"Warasiya","href":"/ac-service-in-warasiya"},{"name":"Harni","href":"/ac-service-in-harni"},{"name":"Ajwa Road","href":"/ac-service-in-ajwa road"},{"name":"Tarsali","href":"/ac-service-in-tarsali"},{"name":"Makarpura","href":"/ac-service-in-makarpura"},{"name":"Maneja","href":"/ac-service-in-maneja"},{"name":"Manjalpur","href":"/ac-service-in-manjalpur"},{"name":"Bhayli","href":"/ac-service-in-bhayli"},{"name":"Gotri","href":"/ac-service-in-gotri"}].map((area) => (
-              <Link key={area.href} href={area.href} className="bg-gray-50 text-blue-700 px-4 py-2.5 rounded-full border border-blue-200 hover:bg-blue-50 hover:border-blue-400 transition text-sm font-medium">
+              <Link key={area.href} href={area.href} className="bg-gray-50 text-teal-700 px-4 py-2.5 rounded-full border border-teal-200 hover:bg-teal-50 hover:border-blue-400 transition text-sm font-medium">
                 {area.name}
               </Link>
             ))}
@@ -269,17 +269,17 @@ export default function ACServiceInAnkodiyaPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Need AC Service in Ankodiya?</h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
             Expert AC repair, installation &amp; maintenance. Same-day service, genuine parts, 1-year warranty. Book now!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+919727257141" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition">
-              <Phone size={22} /> Call +91 97272 57141
+            <a href="tel:+919328953665" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition">
+              <Phone size={22} /> Call +91 93289 53665
             </a>
-            <a href="https://wa.me/919727257141" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">
+            <a href="https://wa.me/919328953665" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">
               WhatsApp for Quote
             </a>
           </div>

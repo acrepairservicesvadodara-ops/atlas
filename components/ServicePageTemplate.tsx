@@ -393,7 +393,7 @@ export default function ServicePageTemplate({ service, location, locationDisplay
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -404,16 +404,16 @@ export default function ServicePageTemplate({ service, location, locationDisplay
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
                 {config.heroTitle.replace("Vadodara", locationDisplay)}
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
                 {config.heroDescription}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
-                  href="tel:+919727257141"
+                  href="tel:+919328953665"
                   className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"
                 >
                   <Phone size={22} />
-                  +91 97272 57141
+                  +91 93289 53665
                 </a>
                 <Link
                   href="/contact"
@@ -468,7 +468,7 @@ export default function ServicePageTemplate({ service, location, locationDisplay
           <div className="max-w-3xl mx-auto">
             <div className="bg-white rounded-xl shadow-sm overflow-hidden">
               <table className="w-full">
-                <thead className="bg-blue-600 text-white">
+                <thead className="bg-teal-600 text-white">
                   <tr>
                     <th className="text-left py-4 px-6">Service</th>
                     <th className="text-right py-4 px-6">Price</th>
@@ -478,7 +478,7 @@ export default function ServicePageTemplate({ service, location, locationDisplay
                   {config.pricing.map((item, idx) => (
                     <tr key={idx} className={idx % 2 === 0 ? "bg-gray-50" : "bg-white"}>
                       <td className="py-4 px-6 text-gray-800">{item.service}</td>
-                      <td className="py-4 px-6 text-right font-semibold text-blue-600">{item.price}</td>
+                      <td className="py-4 px-6 text-right font-semibold text-teal-600">{item.price}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -500,7 +500,7 @@ export default function ServicePageTemplate({ service, location, locationDisplay
           <div className="grid md:grid-cols-4 gap-8">
             {config.process.map((step) => (
               <div key={step.step} className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">
+                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-teal-600">
                   {step.step}
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
@@ -511,11 +511,11 @@ export default function ServicePageTemplate({ service, location, locationDisplay
         </div>
       </section>
 
-      {/* Why Choose Atlas Aircon */}
-      <section className="py-16 bg-blue-600 text-white">
+      {/* Why Choose Hitech Aircool Engineers */}
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Why Choose Atlas Aircon in {locationDisplay}?
+            Why Choose Hitech Aircool Engineers in {locationDisplay}?
           </h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
@@ -523,28 +523,28 @@ export default function ServicePageTemplate({ service, location, locationDisplay
                 <Clock className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Same Day Service</h3>
-              <p className="text-blue-100">Quick response in {locationDisplay}</p>
+              <p className="text-teal-100">Quick response in {locationDisplay}</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">20+ Years Experience</h3>
-              <p className="text-blue-100">Trusted expertise</p>
+              <p className="text-teal-100">Trusted expertise</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">90 Days Warranty</h3>
-              <p className="text-blue-100">On all services</p>
+              <p className="text-teal-100">On all services</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Local Presence</h3>
-              <p className="text-blue-100">Serving {locationDisplay}</p>
+              <p className="text-teal-100">Serving {locationDisplay}</p>
             </div>
           </div>
         </div>
@@ -561,7 +561,7 @@ export default function ServicePageTemplate({ service, location, locationDisplay
               <details key={idx} className="bg-white rounded-lg group shadow-sm">
                 <summary className="p-4 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.question}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-4 pb-4 text-gray-600">{faq.answer}</div>
               </details>
@@ -571,24 +571,24 @@ export default function ServicePageTemplate({ service, location, locationDisplay
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <section className="py-16 bg-gradient-to-r from-teal-600 to-teal-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Need {config.title} in {locationDisplay}?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
             Call now for professional {config.title.toLowerCase()} service. Same-day response!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919727257141"
+              href="tel:+919328953665"
               className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition"
             >
               <Phone size={22} />
-              +91 97272 57141
+              +91 93289 53665
             </a>
             <a
-              href="https://wa.me/919727257141"
+              href="https://wa.me/919328953665"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition"

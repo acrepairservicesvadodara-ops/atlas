@@ -6,8 +6,8 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Marq AC Error SSOLUTIONS | Indoor Temperature Sensor Failure | Diagnostic Guide | Atlas Aircon",
-  description: "Marq AC Error SSOLUTIONS indicates indoor temperature sensor failure. Learn causes, DIY checks, professional repair costs. Expert Marq AC repair in Vadodara. Call +91 97272 57141.",
+  title: "Marq AC Error SSOLUTIONS | Indoor Temperature Sensor Failure | Diagnostic Guide | Hitech Aircool Engineers",
+  description: "Marq AC Error SSOLUTIONS indicates indoor temperature sensor failure. Learn causes, DIY checks, professional repair costs. Expert Marq AC repair in Vadodara. Call +91 93289 53665.",
   keywords: [
     "marq ac error ssolutions",
     "marq ac error code ssolutions",
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     "marq ac repair vadodara",
     "ac error code fix",
   ],
-  alternates: { canonical: "https://atlasaircons.com/fault-codes/marq-ac-error-codes-solutions" },
+  alternates: { canonical: "https://hitechairconditioning.in/fault-codes/marq-ac-error-codes-solutions" },
   openGraph: {
-    title: "Marq AC Error SSOLUTIONS — Indoor Temperature Sensor Failure | Atlas Aircon",
+    title: "Marq AC Error SSOLUTIONS — Indoor Temperature Sensor Failure | Hitech Aircool Engineers",
     description: "Diagnostic protocol & repair guide for Marq AC Error SSOLUTIONS. Suspects: Thermistor or PCB Circuit.",
-    url: "https://atlasaircons.com/fault-codes/marq-ac-error-codes-solutions",
+    url: "https://hitechairconditioning.in/fault-codes/marq-ac-error-codes-solutions",
     type: "article",
   },
 };
@@ -32,9 +32,9 @@ const jsonLd = {
   "@type": "TechArticle",
   headline: "Marq AC Error SSOLUTIONS — Indoor Temperature Sensor Failure",
   description: "Complete diagnostic protocol and repair guide for Marq AC Error Code SSOLUTIONS.",
-  author: { "@type": "Organization", name: "Atlas Aircon" },
-  publisher: { "@type": "Organization", name: "Atlas Aircon", url: "https://atlasaircons.com" },
-  mainEntityOfPage: "https://atlasaircons.com/fault-codes/marq-ac-error-codes-solutions",
+  author: { "@type": "Organization", name: "Hitech Aircool Engineers" },
+  publisher: { "@type": "Organization", name: "Hitech Aircool Engineers", url: "https://hitechairconditioning.in" },
+  mainEntityOfPage: "https://hitechairconditioning.in/fault-codes/marq-ac-error-codes-solutions",
 };
 
 export default function MarqErrorSSOLUTIONSPage() {
@@ -89,7 +89,7 @@ export default function MarqErrorSSOLUTIONSPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Understanding Marq Error SSOLUTIONS</h2>
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+            <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8">
               <p className="text-gray-700">The indoor unit's temperature sensor (thermistor) is sending incorrect readings or has an open circuit. This prevents the AC from regulating temperature properly.</p>
               <p className="text-gray-700 mt-3">
                 <strong>Impact:</strong> If left unaddressed, this error can lead to compressor damage, increased energy consumption, and complete system shutdown. It is critical to resolve SSOLUTIONS promptly to avoid costly repairs.
@@ -98,7 +98,7 @@ export default function MarqErrorSSOLUTIONSPage() {
 
             {/* DIY Checks */}
             <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-              <Search className="w-6 h-6 text-blue-600" /> DIY Troubleshooting Steps
+              <Search className="w-6 h-6 text-teal-600" /> DIY Troubleshooting Steps
             </h3>
             <div className="space-y-4 mb-12">
               {[
@@ -107,7 +107,7 @@ export default function MarqErrorSSOLUTIONSPage() {
                 { step: "Step 3", desc: "Replace thermistor if resistance is out of range" },
               ].map((item) => (
                 <div key={item.step} className="flex gap-4 bg-gray-50 p-5 rounded-xl border border-gray-100">
-                  <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm">{item.step.split(" ")[1]}</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-teal-600 text-white rounded-full flex items-center justify-center font-bold text-sm">{item.step.split(" ")[1]}</div>
                   <p className="text-gray-600 pt-2">{item.desc}</p>
                 </div>
               ))}
@@ -115,23 +115,23 @@ export default function MarqErrorSSOLUTIONSPage() {
 
             {/* Professional Protocol */}
             <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-              <Wrench className="w-6 h-6 text-blue-600" /> Atlas Aircon Repair Protocol
+              <Wrench className="w-6 h-6 text-teal-600" /> Hitech Aircool Engineers Repair Protocol
             </h3>
             <p className="text-gray-600 mb-4">
               Our certified technicians follow a systematic approach to diagnose and resolve the SSOLUTIONS error efficiently. We carry diagnostic tools and common Marq spare parts in our service vehicles, enabling single-visit repairs in most cases.
             </p>
-            <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-xl border border-blue-200 mb-8">
-              <h4 className="text-lg font-bold text-blue-800 mb-4 flex items-center gap-2">
-                <CircleDollarSign className="w-5 h-5" /> Estimated Repair Cost (Atlas Aircon)
+            <div className="bg-gradient-to-r from-teal-50 to-teal-100 p-8 rounded-xl border border-teal-200 mb-8">
+              <h4 className="text-lg font-bold text-teal-800 mb-4 flex items-center gap-2">
+                <CircleDollarSign className="w-5 h-5" /> Estimated Repair Cost (Hitech Aircool Engineers)
               </h4>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white p-4 rounded-lg">
                   <p className="text-sm text-gray-500 mb-1">{("Thermistor: ₹500-₹900").split(":")[0]}</p>
-                  <p className="text-xl font-bold text-blue-700">{("Thermistor: ₹500-₹900").split(": ")[1]}</p>
+                  <p className="text-xl font-bold text-teal-700">{("Thermistor: ₹500-₹900").split(": ")[1]}</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg">
                   <p className="text-sm text-gray-500 mb-1">{("PCB Repair: ₹1,200-₹2,500").split(":")[0]}</p>
-                  <p className="text-xl font-bold text-blue-700">{("PCB Repair: ₹1,200-₹2,500").split(": ")[1]}</p>
+                  <p className="text-xl font-bold text-teal-700">{("PCB Repair: ₹1,200-₹2,500").split(": ")[1]}</p>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function MarqErrorSSOLUTIONSPage() {
               While the basic checks above can help you identify obvious issues, Marq AC systems use sophisticated electronics that require professional diagnostic equipment. If the DIY steps don&apos;t resolve the SSOLUTIONS code, attempting further repairs without proper tools can cause additional damage — turning a ₹500 sensor replacement into a ₹8,000+ PCB replacement.
             </p>
             <p className="text-gray-600 mb-8">
-              Atlas Aircon&apos;s team carries professional-grade multimeters, clamp meters, refrigerant manifold gauges, and brand-specific diagnostic software. We diagnose the exact fault within 15-30 minutes and provide a transparent quote before starting any repair. Our 90-day warranty covers both parts and labor, giving you complete peace of mind.
+              Hitech Aircool Engineers&apos;s team carries professional-grade multimeters, clamp meters, refrigerant manifold gauges, and brand-specific diagnostic software. We diagnose the exact fault within 15-30 minutes and provide a transparent quote before starting any repair. Our 90-day warranty covers both parts and labor, giving you complete peace of mind.
             </p>
           </div>
         </div>
@@ -152,7 +152,7 @@ export default function MarqErrorSSOLUTIONSPage() {
       <section className="py-6 bg-gray-50 border-t border-gray-200">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center max-w-4xl mx-auto">
-            <Link href="/ac-error-codes" className="text-blue-600 hover:text-blue-800 font-medium transition flex items-center gap-2">
+            <Link href="/ac-error-codes" className="text-teal-600 hover:text-teal-800 font-medium transition flex items-center gap-2">
               <ArrowLeft className="w-5 h-5" /> View All Marq Error Codes
             </Link>
           </div>
@@ -166,21 +166,21 @@ export default function MarqErrorSSOLUTIONSPage() {
           <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
           <div className="max-w-3xl mx-auto space-y-4">
             {[
-              { q: "What marq ac error codes solutionss does Atlas Aircon provide?", a: "Atlas Aircon provides marq ac error codes solutions, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." },
-              { q: "How do I book marq ac error codes solutions?", a: "Call +91 97272 57141, WhatsApp us, or book online. Same-day service available across Vadodara." },
+              { q: "What marq ac error codes solutionss does Hitech Aircool Engineers provide?", a: "Hitech Aircool Engineers provides marq ac error codes solutions, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." },
+              { q: "How do I book marq ac error codes solutions?", a: "Call +91 93289 53665, WhatsApp us, or book online. Same-day service available across Vadodara." },
               { q: "What is your service charge?", a: "Inspection charge is ₹299 (adjusted against repairs). Basic service from ₹499, deep cleaning from ₹799, gas refilling from ₹1,500." },
               { q: "Do you provide warranty?", a: "Yes, 30-90 days warranty on repairs, 1 year on installation. Spare parts carry manufacturer warranty." },
               { q: "Which brands do you service?", a: "We service all brands: Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Panasonic, Godrej, and more." },
-              { q: "Is emergency service available?", a: "Yes, 24/7 emergency marq ac error codes solutions available. Call +91 97272 57141 for immediate assistance." },
+              { q: "Is emergency service available?", a: "Yes, 24/7 emergency marq ac error codes solutions available. Call +91 93289 53665 for immediate assistance." },
               { q: "What payment methods do you accept?", a: "Cash, UPI (GPay, PhonePe), bank transfer, and cards. Payment after service completion." },
               { q: "Do you offer AMC?", a: "Yes, AMC from ₹1,999/year includes free services, priority support, and repair discounts." },
-              { q: "Where are you located?", a: "Atlas Aircon is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." },
+              { q: "Where are you located?", a: "Hitech Aircool Engineers is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." },
               { q: "What are your working hours?", a: "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM. 24/7 emergency service available." }
             ].map((faq, i) => (
               <details key={i} className="bg-white rounded-xl border border-gray-200 group">
                 <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.q}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
               </details>
@@ -192,15 +192,15 @@ export default function MarqErrorSSOLUTIONSPage() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "What marq ac error codes solutionss does Atlas Aircon provide?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon provides marq ac error codes solutions, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." } },
-          { "@type": "Question", name: "How do I book marq ac error codes solutions?", acceptedAnswer: { "@type": "Answer", text: "Call +91 97272 57141, WhatsApp us, or book online. Same-day service available across Vadodara." } },
+          { "@type": "Question", name: "What marq ac error codes solutionss does Hitech Aircool Engineers provide?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers provides marq ac error codes solutions, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." } },
+          { "@type": "Question", name: "How do I book marq ac error codes solutions?", acceptedAnswer: { "@type": "Answer", text: "Call +91 93289 53665, WhatsApp us, or book online. Same-day service available across Vadodara." } },
           { "@type": "Question", name: "What is your service charge?", acceptedAnswer: { "@type": "Answer", text: "Inspection charge is ₹299 (adjusted against repairs). Basic service from ₹499, deep cleaning from ₹799, gas refilling from ₹1,500." } },
           { "@type": "Question", name: "Do you provide warranty?", acceptedAnswer: { "@type": "Answer", text: "Yes, 30-90 days warranty on repairs, 1 year on installation. Spare parts carry manufacturer warranty." } },
           { "@type": "Question", name: "Which brands do you service?", acceptedAnswer: { "@type": "Answer", text: "We service all brands: Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Panasonic, Godrej, and more." } },
-          { "@type": "Question", name: "Is emergency service available?", acceptedAnswer: { "@type": "Answer", text: "Yes, 24/7 emergency marq ac error codes solutions available. Call +91 97272 57141 for immediate assistance." } },
+          { "@type": "Question", name: "Is emergency service available?", acceptedAnswer: { "@type": "Answer", text: "Yes, 24/7 emergency marq ac error codes solutions available. Call +91 93289 53665 for immediate assistance." } },
           { "@type": "Question", name: "What payment methods do you accept?", acceptedAnswer: { "@type": "Answer", text: "Cash, UPI (GPay, PhonePe), bank transfer, and cards. Payment after service completion." } },
           { "@type": "Question", name: "Do you offer AMC?", acceptedAnswer: { "@type": "Answer", text: "Yes, AMC from ₹1,999/year includes free services, priority support, and repair discounts." } },
-          { "@type": "Question", name: "Where are you located?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." } },
+          { "@type": "Question", name: "Where are you located?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." } },
           { "@type": "Question", name: "What are your working hours?", acceptedAnswer: { "@type": "Answer", text: "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM. 24/7 emergency service available." } }
         ]
       }) }} />
@@ -214,10 +214,10 @@ export default function MarqErrorSSOLUTIONSPage() {
             Don&apos;t risk further damage. Our expert technicians have resolved this exact error across hundreds of Marq units. We can dispatch to your location immediately.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+919727257141" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition">
+            <a href="tel:+919328953665" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition">
               <Phone size={22} /> Call Expert Now
             </a>
-            <a href={`https://wa.me/919727257141?text=${encodeURIComponent("HELP: My Marq AC is showing error SSOLUTIONS. I need support.")}`} className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">
+            <a href={`https://wa.me/919328953665?text=${encodeURIComponent("HELP: My Marq AC is showing error SSOLUTIONS. I need support.")}`} className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">
               Get Live Troubleshooting
             </a>
           </div>

@@ -10,10 +10,10 @@ export default function BlogCard({ post }: BlogCardProps) {
   return (
     <article className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition group flex flex-col">
       {/* Color accent bar */}
-      <div className="h-1.5 bg-gradient-to-r from-blue-500 to-blue-700" />
+      <div className="h-1.5 bg-gradient-to-r from-teal-500 to-teal-700" />
 
       <div className="p-5 flex flex-col flex-1">
-        <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition">
+        <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-teal-600 transition">
           <Link href={`/${post.slug}`}>{post.title}</Link>
         </h3>
 
@@ -45,7 +45,7 @@ export default function BlogCard({ post }: BlogCardProps) {
 
         <Link
           href={`/${post.slug}`}
-          className="inline-flex items-center gap-1.5 text-blue-600 hover:text-blue-700 font-medium text-sm transition mt-auto"
+          className="inline-flex items-center gap-1.5 text-teal-600 hover:text-teal-700 font-medium text-sm transition mt-auto"
         >
           Read Article
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

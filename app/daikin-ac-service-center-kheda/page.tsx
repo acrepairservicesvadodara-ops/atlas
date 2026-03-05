@@ -8,8 +8,8 @@ import {
 import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
-  title: "Daikin AC Service Center Kheda | Out-of-Warranty Repair Expert | Atlas Aircon",
-  description: "Independent Daikin AC service center in Kheda. Expert out-of-warranty split AC repair, gas charging, PCB repair, deep cleaning & compressor overhaul. Same-day service. Call +91 97272 57141.",
+  title: "Daikin AC Service Center Kheda | Out-of-Warranty Repair Expert | Hitech Aircool Engineers",
+  description: "Independent Daikin AC service center in Kheda. Expert out-of-warranty split AC repair, gas charging, PCB repair, deep cleaning & compressor overhaul. Same-day service. Call +91 93289 53665.",
   keywords: [
     "daikin ac service center kheda",
     "daikin ac repair kheda",
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     "ac service center kheda",
     "best ac repair kheda",
   ],
-  alternates: { canonical: "https://atlasaircons.com/daikin-ac-service-center-kheda" },
+  alternates: { canonical: "https://hitechairconditioning.in/daikin-ac-service-center-kheda" },
   openGraph: {
-    title: "Daikin AC Service Center Kheda | Atlas Aircon",
+    title: "Daikin AC Service Center Kheda | Hitech Aircool Engineers",
     description: "Independent out-of-warranty Daikin AC repair specialist in Kheda. Same-day service, 90-day guarantee.",
-    url: "https://atlasaircons.com/daikin-ac-service-center-kheda",
+    url: "https://hitechairconditioning.in/daikin-ac-service-center-kheda",
     type: "website",
   },
 };
@@ -35,7 +35,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Daikin AC Service Center Kheda",
-  provider: { "@type": "LocalBusiness", name: "Atlas Aircon", telephone: "+919727257141" },
+  provider: { "@type": "LocalBusiness", name: "Hitech Aircool Engineers", telephone: "+919328953665" },
   areaServed: { "@type": "City", name: "Kheda" },
   serviceType: "AC Repair Service",
   description: "Independent, out-of-warranty Daikin AC repair, maintenance and installation in Kheda, Gujarat.",
@@ -45,10 +45,10 @@ const faqJsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "Is Atlas Aircon an authorized Daikin service center in Kheda?", acceptedAnswer: { "@type": "Answer", text: "No. Atlas Aircon is an independent service provider specializing in high-quality out-of-warranty repairs. If your Daikin AC is under official warranty, contact Daikin directly." } },
+    { "@type": "Question", name: "Is Hitech Aircool Engineers an authorized Daikin service center in Kheda?", acceptedAnswer: { "@type": "Answer", text: "No. Hitech Aircool Engineers is an independent service provider specializing in high-quality out-of-warranty repairs. If your Daikin AC is under official warranty, contact Daikin directly." } },
     { "@type": "Question", name: "How quickly can you repair my Daikin AC in Kheda?", acceptedAnswer: { "@type": "Answer", text: "We offer same-day service across Kheda. Our technicians typically arrive within 45-60 minutes of your call for emergency repairs." } },
     { "@type": "Question", name: "What is the cost of Daikin AC gas refilling in Kheda?", acceptedAnswer: { "@type": "Answer", text: "Gas refilling for Daikin ACs starts at \u20B92,500 including leak detection. Final cost depends on the refrigerant type (R32/R410A) and quantity needed." } },
-    { "@type": "Question", name: "Do you provide warranty on Daikin AC repairs?", acceptedAnswer: { "@type": "Answer", text: "Yes, all repairs are backed by our 90-day labor warranty and 90-day parts warranty under the Atlas Aircon Service Guarantee." } },
+    { "@type": "Question", name: "Do you provide warranty on Daikin AC repairs?", acceptedAnswer: { "@type": "Answer", text: "Yes, all repairs are backed by our 90-day labor warranty and 90-day parts warranty under the Hitech Aircool Engineers Service Guarantee." } },
   ],
 };
 
@@ -59,7 +59,7 @@ export default function DaikinServiceCenterKhedaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -69,14 +69,14 @@ export default function DaikinServiceCenterKhedaPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
                 <span className="text-yellow-400">Daikin AC Service Center</span> Kheda
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
                 Expert independent repair solutions for Daikin air conditioners in Kheda. Specializing in out-of-warranty service with same-day dispatch and a full satisfaction guarantee.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <a href="tel:+919727257141" className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg">
-                  <Phone size={22} /> +91 97272 57141
+                <a href="tel:+919328953665" className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg">
+                  <Phone size={22} /> +91 93289 53665
                 </a>
-                <a href="https://wa.me/919727257141" className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition">
+                <a href="https://wa.me/919328953665" className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition">
                   Book Expert Repair
                 </a>
               </div>
@@ -99,7 +99,7 @@ export default function DaikinServiceCenterKhedaPage() {
           <div className="flex items-start gap-3 max-w-4xl mx-auto">
             <AlertTriangle className="w-6 h-6 text-amber-600 flex-shrink-0 mt-0.5" />
             <p className="text-sm text-amber-700">
-              <strong>Important:</strong> Atlas Aircon is an <strong>Independent and Unauthorized Service Provider</strong>. We are NOT affiliated with Daikin or any brand&apos;s official service network. We specialize in out-of-warranty repairs only. If your unit is under manufacturer warranty, contact Daikin&apos;s official support.
+              <strong>Important:</strong> Hitech Aircool Engineers is an <strong>Independent and Unauthorized Service Provider</strong>. We are NOT affiliated with Daikin or any brand&apos;s official service network. We specialize in out-of-warranty repairs only. If your unit is under manufacturer warranty, contact Daikin&apos;s official support.
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function DaikinServiceCenterKhedaPage() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <h2 className="text-3xl font-bold mb-6">Why Choose Our Independent Daikin AC Service in Kheda?</h2>
             <p className="text-gray-600">
-              Once your Daikin air conditioner&apos;s official warranty expires, finding quality repair at a reasonable cost becomes a challenge. Authorized centers often push for full-unit replacements on older models or charge premium rates for simple repairs. As Kheda&apos;s leading independent Daikin AC service center, Atlas Aircon specializes in component-level repair that extends the life of your equipment at a fraction of the replacement cost.
+              Once your Daikin air conditioner&apos;s official warranty expires, finding quality repair at a reasonable cost becomes a challenge. Authorized centers often push for full-unit replacements on older models or charge premium rates for simple repairs. As Kheda&apos;s leading independent Daikin AC service center, Hitech Aircool Engineers specializes in component-level repair that extends the life of your equipment at a fraction of the replacement cost.
             </p>
             <p className="text-gray-600">
               Our technicians are factory-trained on Daikin&apos;s proprietary inverter technology, PCB architecture, and refrigeration circuits. We maintain a local inventory of common Daikin spare parts — capacitors, thermistors, fan motors, and PCB boards — so most repairs are completed in a single visit. With over 20 years of experience across Kheda and all of Gujarat, we&apos;ve built a reputation for honesty, speed, and technical precision.
@@ -155,7 +155,7 @@ export default function DaikinServiceCenterKhedaPage() {
           <p className="text-gray-600 text-center mb-12">Transparent pricing for out-of-warranty service</p>
           <div className="max-w-3xl mx-auto bg-gray-50 rounded-xl overflow-hidden">
             <table className="w-full">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr><th className="text-left py-4 px-6">Service</th><th className="text-right py-4 px-6">Price</th><th className="text-right py-4 px-6 hidden md:table-cell">Warranty</th></tr>
               </thead>
               <tbody>
@@ -169,7 +169,7 @@ export default function DaikinServiceCenterKhedaPage() {
                 ].map((row, i) => (
                   <tr key={row.s} className={`border-b border-gray-200 ${i % 2 === 0 ? "bg-white" : ""}`}>
                     <td className="py-4 px-6">{row.s}</td>
-                    <td className="py-4 px-6 text-right font-semibold text-blue-600">{row.p}</td>
+                    <td className="py-4 px-6 text-right font-semibold text-teal-600">{row.p}</td>
                     <td className="py-4 px-6 text-right text-gray-500 text-sm hidden md:table-cell">{row.w}</td>
                   </tr>
                 ))}
@@ -189,7 +189,7 @@ export default function DaikinServiceCenterKhedaPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
             {["Blue Star","Voltas","Daikin","LG","Samsung","Carrier","Hitachi","Lloyd","Godrej","Panasonic","Haier","Whirlpool","O General","Toshiba","Mitsubishi"].map((b) => (
-              <span key={b} className="bg-white text-gray-700 px-5 py-3 rounded-full font-medium text-sm border border-gray-200 hover:bg-blue-50 hover:text-blue-700 hover:border-blue-300 transition">{b}</span>
+              <span key={b} className="bg-white text-gray-700 px-5 py-3 rounded-full font-medium text-sm border border-gray-200 hover:bg-teal-50 hover:text-teal-700 hover:border-blue-300 transition">{b}</span>
             ))}
           </div>
         </div>
@@ -201,10 +201,10 @@ export default function DaikinServiceCenterKhedaPage() {
           <h2 className="text-3xl font-bold text-center mb-12">Daikin AC Service FAQs — Kheda</h2>
           <div className="max-w-3xl mx-auto space-y-4">
             {[
-              { q: "Is Atlas Aircon an authorized Daikin service center?", a: "No. We are an independent provider specializing in out-of-warranty repairs. For units under official warranty, contact Daikin directly." },
+              { q: "Is Hitech Aircool Engineers an authorized Daikin service center?", a: "No. We are an independent provider specializing in out-of-warranty repairs. For units under official warranty, contact Daikin directly." },
               { q: "How quickly can you repair my Daikin AC in Kheda?", a: "Same-day service is standard. Emergency calls are attended within 45-60 minutes across Kheda." },
               { q: "What is the cost of Daikin AC gas refilling?", a: "Gas refilling starts at \u20B92,500 including leak detection. Cost depends on refrigerant type and quantity." },
-              { q: "Do you provide warranty on repairs?", a: "Yes — 90-day labor warranty and 90-day parts warranty under our Atlas Aircon Service Guarantee." },
+              { q: "Do you provide warranty on repairs?", a: "Yes — 90-day labor warranty and 90-day parts warranty under our Hitech Aircool Engineers Service Guarantee." },
               { q: "Can you repair Daikin inverter AC PCB?", a: "Absolutely. We do component-level PCB repair for all Daikin inverter models, saving you the cost of full board replacement." },
             ].map((faq) => (
               <details key={faq.q} className="group bg-gray-50 rounded-xl border border-gray-200">
@@ -220,17 +220,17 @@ export default function DaikinServiceCenterKhedaPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Need Daikin AC Repair in Kheda?</h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
             Expert independent Daikin AC repair with same-day service, transparent pricing, and 90-day guarantee. Call now!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+919727257141" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition">
-              <Phone size={22} /> Call +91 97272 57141
+            <a href="tel:+919328953665" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition">
+              <Phone size={22} /> Call +91 93289 53665
             </a>
-            <a href="https://wa.me/919727257141" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">
+            <a href="https://wa.me/919328953665" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">
               WhatsApp for Quote
             </a>
           </div>

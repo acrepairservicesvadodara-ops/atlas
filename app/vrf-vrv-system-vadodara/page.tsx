@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
 
 export const metadata: Metadata = {
-  title: "VRF VRV System Service in Vadodara | VRF Installation | Atlas Aircon",
-  description: "Expert VRF/VRV system service in Vadodara. Daikin, Mitsubishi, LG authorized service. Installation, repair, maintenance. Call +91 97272 57141 for VRF system service.",
+  title: "VRF VRV System Service in Vadodara | VRF Installation | Hitech Aircool Engineers",
+  description: "Expert VRF/VRV system service in Vadodara. Daikin, Mitsubishi, LG authorized service. Installation, repair, maintenance. Call +91 93289 53665 for VRF system service.",
   keywords: [
     "VRF system Vadodara",
     "VRV system Vadodara",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "VRF AMC Vadodara",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/vrf-vrv-system-vadodara",
+    canonical: "https://hitechairconditioning.in/vrf-vrv-system-vadodara",
   },
 };
 

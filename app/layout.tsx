@@ -12,12 +12,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://atlasaircons.com"),
+  metadataBase: new URL("https://hitechairconditioning.in"),
   title: {
-    default: "Atlas Aircon - AC Repair & Service in Vadodara | AC Installation Expert",
-    template: "%s | Atlas Aircon Vadodara"
+    default: "Hitech Aircool Engineers - AC Repair & Service in Vadodara | HVAC Experts",
+    template: "%s | Hitech Aircool Engineers Vadodara"
   },
-  description: "Best AC repair & service in Vadodara. Expert AC installation, AMC, gas refilling, chiller repair & HVAC solutions. 20+ years experience. Call +91 97272 57141 for same-day service.",
+  description: "Top-rated AC repair & HVAC service in Vadodara. Expert AC installation, AMC, gas refilling, chiller repair & maintenance. Certified technicians. Call +91 93289 53665 for emergency service.",
   keywords: [
     "AC repair Vadodara",
     "AC service Vadodara",
@@ -31,11 +31,11 @@ export const metadata: Metadata = {
     "AC gas refilling Vadodara",
     "panel AC service",
     "VRF VRV system",
-    "Atlas Aircon"
+    "Hitech Aircool Engineers"
   ],
-  authors: [{ name: "Atlas Aircon" }],
-  creator: "Atlas Aircon",
-  publisher: "Atlas Aircon",
+  authors: [{ name: "Hitech Aircool Engineers" }],
+  creator: "Hitech Aircool Engineers",
+  publisher: "Hitech Aircool Engineers",
   robots: {
     index: true,
     follow: true,
@@ -50,49 +50,49 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://atlasaircons.com",
-    siteName: "Atlas Aircon",
-    title: "Atlas Aircon - Best AC Repair & Service in Vadodara",
-    description: "Professional AC repair, service & installation in Vadodara. 20+ years experience, 5000+ satisfied customers. Same-day service available.",
+    url: "https://hitechairconditioning.in",
+    siteName: "Hitech Aircool Engineers",
+    title: "Hitech Aircool Engineers - Expert AC Repair & HVAC Service in Vadodara",
+    description: "Professional AC repair, service & installation in Vadodara. Certified HVAC technicians, 8000+ satisfied customers. 24x7 emergency service available.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Atlas Aircon - AC Repair Service Vadodara",
+        alt: "Hitech Aircool Engineers - AC Repair Service Vadodara",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Atlas Aircon - AC Repair & Service Vadodara",
-    description: "Expert AC repair, installation & maintenance in Vadodara. Call +91 97272 57141",
+    title: "Hitech Aircool Engineers - AC Repair & HVAC Service Vadodara",
+    description: "Expert AC repair, installation & maintenance in Vadodara. Call +91 93289 53665",
     images: ["/og-image.jpg"],
   },
   verification: {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://atlasaircons.com",
+    canonical: "https://hitechairconditioning.in",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://atlasaircons.com",
-  name: "Atlas Aircon",
-  image: "https://atlasaircons.com/logo.png",
-  description: "Professional AC repair, service & installation company in Vadodara with 20+ years of experience.",
-  url: "https://atlasaircons.com",
-  telephone: "+919727257141",
-  email: "atlasaircon1@gmail.com",
+  "@id": "https://hitechairconditioning.in",
+  name: "Hitech Aircool Engineers",
+  image: "https://hitechairconditioning.in/logo.png",
+  description: "Professional AC repair, HVAC service & installation company in Vadodara with certified technicians and 24x7 emergency support.",
+  url: "https://hitechairconditioning.in",
+  telephone: "+919328953665",
+  email: "hitechairconditioning@gmail.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Sayajigunj",
+    streetAddress: "Vadodara",
     addressLocality: "Vadodara",
     addressRegion: "Gujarat",
-    postalCode: "390005",
+    postalCode: "390001",
     addressCountry: "IN"
   },
   geo: {
@@ -103,22 +103,16 @@ const jsonLd = {
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "09:00",
-      closes: "20:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Sunday",
-      opens: "10:00",
-      closes: "18:00"
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "08:00",
+      closes: "21:00"
     }
   ],
   priceRange: "₹₹",
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "500",
+    ratingValue: "4.8",
+    reviewCount: "850",
     bestRating: "5",
     worstRating: "1"
   },
@@ -131,8 +125,8 @@ const jsonLd = {
     { "@type": "City", name: "Rajkot" }
   ],
   sameAs: [
-    "https://www.facebook.com/atlasaircon",
-    "https://www.instagram.com/atlasaircon"
+    "https://www.facebook.com/hitechairconditioning",
+    "https://www.instagram.com/hitechairconditioning"
   ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",

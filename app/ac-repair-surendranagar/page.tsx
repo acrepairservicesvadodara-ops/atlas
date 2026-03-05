@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import CityPageTemplate from "@/components/CityPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair & Service in Surendranagar | Installation, Service & Repair | Atlas Aircon",
-  description: "Professional AC repair, service & installation in Surendranagar, Gujarat. Industrial & commercial AC service. 20+ years experience, 90-day warranty. Call +91 97272 57141",
+  title: "AC Repair & Service in Surendranagar | Installation, Service & Repair | Hitech Aircool Engineers",
+  description: "Professional AC repair, service & installation in Surendranagar, Gujarat. Industrial & commercial AC service. 20+ years experience, 90-day warranty. Call +91 93289 53665",
   keywords: [
     "AC repair Surendranagar",
     "AC service Surendranagar",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "commercial AC Surendranagar",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-surendranagar",
+    canonical: "https://hitechairconditioning.in/ac-repair-surendranagar",
   },
 };
 

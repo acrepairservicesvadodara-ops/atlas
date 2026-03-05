@@ -43,7 +43,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://atlasaircons.com/sitemap.xml",
-    host: "https://atlasaircons.com",
+    sitemap: "https://hitechairconditioning.in/sitemap.xml",
+    host: "https://hitechairconditioning.in",
   };
 }

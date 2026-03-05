@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import AreaPageTemplate from "@/components/AreaPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair in New Sama Road, Vadodara | Same Day Service | Atlas Aircon",
-  description: "Best AC repair & service in New Sama Road, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 97272 57141 for AC repair in New Sama Road.",
+  title: "AC Repair in New Sama Road, Vadodara | Same Day Service | Hitech Aircool Engineers",
+  description: "Best AC repair & service in New Sama Road, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 93289 53665 for AC repair in New Sama Road.",
   keywords: [
     "AC repair New Sama Road",
     "AC service New Sama Road",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "split AC repair New Sama Road",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-new-sama-road-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-repair-new-sama-road-vadodara",
   },
 };
 

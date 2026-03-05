@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Atlas Aircon - AC Repair & Service in Vadodara";
+export const alt = "Hitech Aircool Engineers - AC Repair & Service in Vadodara";
 export const size = {
   width: 1200,
   height: 630,
@@ -12,7 +12,7 @@ export default function OGImage() {
     (
       <div
         style={{
-          background: "linear-gradient(135deg, #0f172a, #1e3a8a, #1e40af)",
+          background: "linear-gradient(135deg, #042f2e, #0f766e, #0d9488)",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -36,7 +36,7 @@ export default function OGImage() {
             style={{
               width: "80px",
               height: "80px",
-              background: "linear-gradient(135deg, #3b82f6, #60a5fa)",
+              background: "linear-gradient(135deg, #14b8a6, #22d3d1)",
               borderRadius: "16px",
               display: "flex",
               alignItems: "center",
@@ -46,17 +46,17 @@ export default function OGImage() {
               color: "white",
             }}
           >
-            A
+            H
           </div>
           <div
             style={{
-              fontSize: "48px",
+              fontSize: "42px",
               fontWeight: 800,
               color: "white",
               letterSpacing: "-1px",
             }}
           >
-            Atlas Aircon
+            Hitech Aircool Engineers
           </div>
         </div>
 
@@ -64,7 +64,7 @@ export default function OGImage() {
         <div
           style={{
             fontSize: "32px",
-            color: "#93c5fd",
+            color: "#99f6e4",
             fontWeight: 600,
             marginBottom: "32px",
             textAlign: "center",
@@ -118,7 +118,7 @@ export default function OGImage() {
             color: "#0f172a",
           }}
         >
-          Call +91 97272 57141
+          Call +91 93289 53665
         </div>
       </div>
     ),

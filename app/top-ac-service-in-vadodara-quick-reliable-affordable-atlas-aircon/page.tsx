@@ -4,13 +4,13 @@ import { Phone, CheckCircle, Star, Shield, Award, Clock, MapPin, ArrowRight, Wre
 import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
-  title: "Top AC Service In Vadodara | Atlas Aircon Gujarat",
-  description: "Why Choose Atlas Aircon for AC Service in Vadodara? Certified Technicians with Years of Experience ensuring accurate diagnosis and repairs Comprehen...",
-  alternates: { canonical: "https://atlasaircons.com/top-ac-service-in-vadodara-quick-reliable-affordable-atlas-aircon" },
+  title: "Top AC Service In Vadodara | Hitech Aircool Engineers Gujarat",
+  description: "Why Choose Hitech Aircool Engineers for AC Service in Vadodara? Certified Technicians with Years of Experience ensuring accurate diagnosis and repairs Comprehen...",
+  alternates: { canonical: "https://hitechairconditioning.in/top-ac-service-in-vadodara-quick-reliable-affordable-atlas-aircon" },
   openGraph: {
-    title: "Top AC Service In Vadodara | Atlas Aircon",
-    description: "Why Choose Atlas Aircon for AC Service in Vadodara? Certified Technicians with Years of Experience ensuring accurate diagnosis and repairs Comprehen...",
-    url: "https://atlasaircons.com/top-ac-service-in-vadodara-quick-reliable-affordable-atlas-aircon",
+    title: "Top AC Service In Vadodara | Hitech Aircool Engineers",
+    description: "Why Choose Hitech Aircool Engineers for AC Service in Vadodara? Certified Technicians with Years of Experience ensuring accurate diagnosis and repairs Comprehen...",
+    url: "https://hitechairconditioning.in/top-ac-service-in-vadodara-quick-reliable-affordable-atlas-aircon",
     type: "website",
     images: ["/images/products/Window-ac-repair-service.webp"],
   },
@@ -22,8 +22,8 @@ const jsonLd = {
   name: "Top AC Service In Vadodara",
   provider: {
     "@type": "LocalBusiness",
-    name: "Atlas Aircon",
-    telephone: "+919727257141",
+    name: "Hitech Aircool Engineers",
+    telephone: "+919328953665",
     address: { "@type": "PostalAddress", addressLocality: "Vadodara", addressRegion: "Gujarat", postalCode: "390005", addressCountry: "IN" },
     aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "5000" },
   },
@@ -36,7 +36,7 @@ export default function Pagetopacserviceinvadodaraquickreliableaffor() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -44,10 +44,10 @@ export default function Pagetopacserviceinvadodaraquickreliableaffor() {
                 <MapPin className="w-4 h-4" /><span>Vadodara, Gujarat</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Top AC Service In Vadodara</h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">Why Choose Atlas Aircon for AC Service in Vadodara? Certified Technicians with Years of Experience ensuring accurate diagnosis and repairs Comprehen...</p>
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">Why Choose Hitech Aircool Engineers for AC Service in Vadodara? Certified Technicians with Years of Experience ensuring accurate diagnosis and repairs Comprehen...</p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <a href="tel:+919727257141" className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"><Phone size={22} /> +91 97272 57141</a>
-                <a href="https://wa.me/919727257141" className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition">WhatsApp Us</a>
+                <a href="tel:+919328953665" className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"><Phone size={22} /> +91 93289 53665</a>
+                <a href="https://wa.me/919328953665" className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition">WhatsApp Us</a>
               </div>
               <div className="flex flex-wrap gap-4 text-sm">
                 {["Certified Technicians", "24/7 Emergency", "Genuine Parts", "4.9\u2605 Rated"].map(b => (
@@ -64,7 +64,7 @@ export default function Pagetopacserviceinvadodaraquickreliableaffor() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto prose prose-lg">
-            <p className="text-gray-600 mb-4">Why Choose Atlas Aircon for AC Service in Vadodara? Certified Technicians with Years of Experience ensuring accurate diagnosis and repairs Comprehen...</p>
+            <p className="text-gray-600 mb-4">Why Choose Hitech Aircool Engineers for AC Service in Vadodara? Certified Technicians with Years of Experience ensuring accurate diagnosis and repairs Comprehen...</p>
           </div>
         </div>
       </section>
@@ -84,7 +84,7 @@ export default function Pagetopacserviceinvadodaraquickreliableaffor() {
       {/* Why Choose */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Atlas Aircon</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Hitech Aircool Engineers</h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             {[
               { icon: Award, t: "20+ Years Experience", d: "Gujarat\u2019s most experienced HVAC team" },
@@ -93,7 +93,7 @@ export default function Pagetopacserviceinvadodaraquickreliableaffor() {
               { icon: Star, t: "4.9/5 Rating", d: "5,000+ happy customers" },
             ].map(item => (
               <div key={item.t} className="text-center bg-gray-50 p-6 rounded-xl">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4"><item.icon className="w-8 h-8 text-blue-600" /></div>
+                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4"><item.icon className="w-8 h-8 text-teal-600" /></div>
                 <h3 className="font-semibold mb-2">{item.t}</h3>
                 <p className="text-gray-600 text-sm">{item.d}</p>
               </div>
@@ -108,7 +108,7 @@ export default function Pagetopacserviceinvadodaraquickreliableaffor() {
           <h2 className="text-2xl font-bold text-center mb-8">Brands We Service</h2>
           <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
             {["Blue Star","Voltas","Daikin","LG","Samsung","Carrier","Hitachi","Lloyd","Godrej","Panasonic","Haier","Whirlpool","O General","Toshiba","Mitsubishi"].map(b => (
-              <span key={b} className="bg-white text-gray-700 px-5 py-3 rounded-full text-sm border border-gray-200 hover:bg-blue-50 transition">{b}</span>
+              <span key={b} className="bg-white text-gray-700 px-5 py-3 rounded-full text-sm border border-gray-200 hover:bg-teal-50 transition">{b}</span>
             ))}
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Pagetopacserviceinvadodaraquickreliableaffor() {
           <h2 className="text-2xl font-bold text-center mb-8">Service Areas</h2>
           <div className="flex flex-wrap justify-center gap-3 max-w-5xl mx-auto">
             {[{"name":"Alkapuri","href":"/ac-service-in-alkapuri"},{"name":"Akota","href":"/ac-service-in-akota"},{"name":"Sayajigunj","href":"/ac-service-in-sayajigunj"},{"name":"Raopura","href":"/ac-service-in-raopura"},{"name":"Mandvi","href":"/ac-service-in-mandvi"},{"name":"Pratapgunj","href":"/ac-service-in-pratapgunj"},{"name":"Fatehgunj","href":"/ac-service-in-fatehgunj"},{"name":"Nizampura","href":"/ac-service-in-nizampura"},{"name":"Chhani","href":"/ac-service-in-chhani"},{"name":"Sama","href":"/ac-service-in-sama"},{"name":"Karelibaug","href":"/ac-service-in-karelibaug"},{"name":"Warasiya","href":"/ac-service-in-warasiya"},{"name":"Harni","href":"/ac-service-in-harni"},{"name":"Ajwa Road","href":"/ac-service-in-ajwa-road"},{"name":"Tarsali","href":"/ac-service-in-tarsali"},{"name":"Makarpura","href":"/ac-service-in-makarpura"}].map((area: { href: string; name: string }) => (
-              <Link key={area.href} href={area.href} className="bg-white text-blue-700 px-4 py-2.5 rounded-full border border-blue-200 hover:bg-blue-50 transition text-sm font-medium">{area.name}</Link>
+              <Link key={area.href} href={area.href} className="bg-white text-teal-700 px-4 py-2.5 rounded-full border border-teal-200 hover:bg-teal-50 transition text-sm font-medium">{area.name}</Link>
             ))}
           </div>
         </div>
@@ -133,21 +133,21 @@ export default function Pagetopacserviceinvadodaraquickreliableaffor() {
           <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
           <div className="max-w-3xl mx-auto space-y-4">
             {[
-              { q: "What does Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon include?", a: "Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." },
-              { q: "How much does Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon cost?", a: "Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." },
+              { q: "What does Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers include?", a: "Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." },
+              { q: "How much does Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers cost?", a: "Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." },
               { q: "How often should AC be serviced?", a: "AC should be serviced at least twice a year — before summer and after monsoon. Heavy use environments may need quarterly servicing." },
-              { q: "Will Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon improve cooling?", a: "Yes, proper Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." },
-              { q: "Does Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon reduce electricity bills?", a: "Regular Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." },
-              { q: "How long does Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon take?", a: "Basic Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." },
-              { q: "Can Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon remove bad smell?", a: "Yes, Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." },
-              { q: "Is gas top-up included in Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon?", a: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." },
+              { q: "Will Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers improve cooling?", a: "Yes, proper Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." },
+              { q: "Does Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers reduce electricity bills?", a: "Regular Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." },
+              { q: "How long does Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers take?", a: "Basic Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." },
+              { q: "Can Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers remove bad smell?", a: "Yes, Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." },
+              { q: "Is gas top-up included in Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers?", a: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." },
               { q: "Do you clean outdoor AC unit?", a: "Yes, complete service includes outdoor unit cleaning. Condenser coil cleaning is essential for proper heat rejection." },
               { q: "What's the difference between service and deep cleaning?", a: "Basic service is dry cleaning and inspection. Deep cleaning uses high-pressure jet wash. Chemical wash uses foam for thorough cleaning." }
             ].map((faq, i) => (
               <details key={i} className="bg-white rounded-xl border border-gray-200 group">
                 <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.q}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
               </details>
@@ -159,27 +159,27 @@ export default function Pagetopacserviceinvadodaraquickreliableaffor() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "What does Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon include?", acceptedAnswer: { "@type": "Answer", text: "Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." } },
-          { "@type": "Question", name: "How much does Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon cost?", acceptedAnswer: { "@type": "Answer", text: "Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." } },
+          { "@type": "Question", name: "What does Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers include?", acceptedAnswer: { "@type": "Answer", text: "Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers includes filter cleaning, coil jet wash, drain pipe clearing, gas pressure check, electrical inspection, fan motor check, and performance testing." } },
+          { "@type": "Question", name: "How much does Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers cost?", acceptedAnswer: { "@type": "Answer", text: "Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers starts from ₹499 for basic service. Deep jet cleaning is ₹799 for split AC, ₹599 for window AC. Chemical wash starts from ₹999." } },
           { "@type": "Question", name: "How often should AC be serviced?", acceptedAnswer: { "@type": "Answer", text: "AC should be serviced at least twice a year — before summer and after monsoon. Heavy use environments may need quarterly servicing." } },
-          { "@type": "Question", name: "Will Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon improve cooling?", acceptedAnswer: { "@type": "Answer", text: "Yes, proper Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." } },
-          { "@type": "Question", name: "Does Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon reduce electricity bills?", acceptedAnswer: { "@type": "Answer", text: "Regular Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." } },
-          { "@type": "Question", name: "How long does Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon take?", acceptedAnswer: { "@type": "Answer", text: "Basic Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." } },
-          { "@type": "Question", name: "Can Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon remove bad smell?", acceptedAnswer: { "@type": "Answer", text: "Yes, Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." } },
-          { "@type": "Question", name: "Is gas top-up included in Top Ac Service In Vadodara Quick Reliable Affordable Atlas Aircon?", acceptedAnswer: { "@type": "Answer", text: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." } },
+          { "@type": "Question", name: "Will Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers improve cooling?", acceptedAnswer: { "@type": "Answer", text: "Yes, proper Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers can improve cooling efficiency by 20-30%. Dirty filters and coils reduce airflow and heat exchange." } },
+          { "@type": "Question", name: "Does Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers reduce electricity bills?", acceptedAnswer: { "@type": "Answer", text: "Regular Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers can reduce electricity consumption by 15-25%. A well-maintained AC runs more efficiently, saving power." } },
+          { "@type": "Question", name: "How long does Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers take?", acceptedAnswer: { "@type": "Answer", text: "Basic Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers takes 30-45 minutes. Deep cleaning with jet wash takes 1-1.5 hours. Chemical foam cleaning takes about 2 hours." } },
+          { "@type": "Question", name: "Can Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers remove bad smell?", acceptedAnswer: { "@type": "Answer", text: "Yes, Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers includes cleaning of filters, coils, and drain pan which removes bacteria and mold causing odors. Anti-bacterial spray applied." } },
+          { "@type": "Question", name: "Is gas top-up included in Top Ac Service In Vadodara Quick Reliable Affordable Hitech Aircool Engineers?", acceptedAnswer: { "@type": "Answer", text: "Basic service includes gas pressure check. If gas is low, top-up is charged separately — R22 from ₹1,500, R32/R410A from ₹2,000." } },
           { "@type": "Question", name: "Do you clean outdoor AC unit?", acceptedAnswer: { "@type": "Answer", text: "Yes, complete service includes outdoor unit cleaning. Condenser coil cleaning is essential for proper heat rejection." } },
           { "@type": "Question", name: "What's the difference between service and deep cleaning?", acceptedAnswer: { "@type": "Answer", text: "Basic service is dry cleaning and inspection. Deep cleaning uses high-pressure jet wash. Chemical wash uses foam for thorough cleaning." } }
         ]
       }) }} />
 
 {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Need Professional Help?</h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Expert technicians, genuine parts, same-day service. Contact Atlas Aircon now!</p>
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">Expert technicians, genuine parts, same-day service. Contact Hitech Aircool Engineers now!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+919727257141" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"><Phone size={22} /> Call +91 97272 57141</a>
-            <a href="https://wa.me/919727257141" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">WhatsApp</a>
+            <a href="tel:+919328953665" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"><Phone size={22} /> Call +91 93289 53665</a>
+            <a href="https://wa.me/919328953665" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition">WhatsApp</a>
           </div>
         </div>
       </section>

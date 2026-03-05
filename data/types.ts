@@ -1,17 +1,15 @@
 // ============================================================
-// Atlas Aircon — Master Data Types
-// Generated: 4 March 2026
-// Source: https://www.atlasaircons.com (WordPress + WooCommerce)
-// Sitemaps: page-sitemap (201), product-sitemap (202), post-sitemap (171)
+// Hitech Aircool Engineers — Master Data Types
+// Domain: hitechairconditioning.in
 // ============================================================
 
 export interface Product {
   name: string;
   slug: string;
   url: string;
-  price: number | string; // number or "variable" for variable-priced products
+  price: number | string;
   sku: string;
-  category: ProductCategory;
+  category: string;
   tags?: string[];
   description: string;
   metaTitle?: string;
@@ -31,7 +29,7 @@ export type ProductCategory =
   | "Copper Pipe"
   | "Air Curtain"
   | "Spare Parts"
-  | "Atlas Aircon Products";
+  | "Hitech Products";
 
 export interface ServicePage {
   slug: string;

@@ -164,34 +164,34 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
+              <div className="w-12 h-12 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-xl">H</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Atlas Aircon</h3>
-                <p className="text-xs text-gray-400">Est. 2004</p>
+                <h3 className="text-xl font-bold">Hitech Aircool Engineers</h3>
+                <p className="text-xs text-gray-400">Est. 2008</p>
               </div>
             </div>
             <p className="text-gray-400 mb-4">
-              Professional AC installation, service & repair in Vadodara. 
-              Trusted by 5000+ customers with 20+ years of experience.
+              Expert AC & HVAC installation, maintenance & repair services in Vadodara. 
+              Serving 8000+ satisfied customers with certified technicians.
             </p>
             <div className="flex flex-col gap-3">
-              <a href="tel:+919727257141" className="flex items-center gap-2 text-gray-300 hover:text-white">
-                <Phone size={18} className="text-blue-500" />
-                +91 97272 57141
+              <a href="tel:+919328953665" className="flex items-center gap-2 text-gray-300 hover:text-white">
+                <Phone size={18} className="text-teal-500" />
+                +91 93289 53665
               </a>
-              <a href="mailto:atlasaircon1@gmail.com" className="flex items-center gap-2 text-gray-300 hover:text-white">
-                <Mail size={18} className="text-blue-500" />
-                atlasaircon1@gmail.com
+              <a href="mailto:hitechairconditioning@gmail.com" className="flex items-center gap-2 text-gray-300 hover:text-white">
+                <Mail size={18} className="text-teal-500" />
+                hitechairconditioning@gmail.com
               </a>
               <div className="flex items-start gap-2 text-gray-300">
-                <MapPin size={18} className="text-blue-500 mt-1 flex-shrink-0" />
-                <span>Sayajigunj, Vadodara, Gujarat 390005</span>
+                <MapPin size={18} className="text-teal-500 mt-1 flex-shrink-0" />
+                <span>Vadodara, Gujarat 390001</span>
               </div>
               <div className="flex items-center gap-2 text-gray-300">
-                <Clock size={18} className="text-blue-500" />
-                Mon-Sat: 9AM-8PM | Sun: 10AM-6PM
+                <Clock size={18} className="text-teal-500" />
+                Mon-Sun: 8AM-9PM | 24x7 Emergency
               </div>
             </div>
 
@@ -201,7 +201,7 @@ export default function Footer() {
               <ul className="flex flex-wrap gap-x-4 gap-y-2">
                 {quickLinks.map((link) => (
                   <li key={link.href}>
-                    <Link href={link.href} className="text-gray-400 hover:text-blue-400 transition">
+                    <Link href={link.href} className="text-gray-400 hover:text-teal-400 transition">
                       {link.name}
                     </Link>
                   </li>
@@ -216,7 +216,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {services.map((service) => (
                 <li key={service.href}>
-                  <Link href={service.href} className="text-gray-400 hover:text-blue-400 transition text-sm">
+                  <Link href={service.href} className="text-gray-400 hover:text-teal-400 transition text-sm">
                     {service.name}
                   </Link>
                 </li>
@@ -230,7 +230,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {acTypes.map((type) => (
                 <li key={type.href}>
-                  <Link href={type.href} className="text-gray-400 hover:text-blue-400 transition text-sm">
+                  <Link href={type.href} className="text-gray-400 hover:text-teal-400 transition text-sm">
                     {type.name}
                   </Link>
                 </li>
@@ -244,7 +244,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {acBrands.map((brand) => (
                 <li key={brand.href}>
-                  <Link href={brand.href} className="text-gray-400 hover:text-blue-400 transition text-sm">
+                  <Link href={brand.href} className="text-gray-400 hover:text-teal-400 transition text-sm">
                     {brand.name}
                   </Link>
                 </li>
@@ -258,13 +258,13 @@ export default function Footer() {
             <ul className="space-y-2">
               {allAreas.slice(0, 12).map((area) => (
                 <li key={area.href}>
-                  <Link href={area.href} className="text-gray-400 hover:text-blue-400 transition text-sm">
+                  <Link href={area.href} className="text-gray-400 hover:text-teal-400 transition text-sm">
                     {area.name}
                   </Link>
                 </li>
               ))}
               <li>
-                <Link href="/areas" className="text-blue-400 hover:text-blue-300 font-medium text-sm">
+                <Link href="/areas" className="text-teal-400 hover:text-teal-300 font-medium text-sm">
                   View All 214 Areas →
                 </Link>
               </li>
@@ -280,7 +280,7 @@ export default function Footer() {
               <Link 
                 key={area.href} 
                 href={area.href} 
-                className="text-gray-400 hover:text-blue-400 transition text-xs truncate"
+                className="text-gray-400 hover:text-teal-400 transition text-xs truncate"
                 title={`AC Service in ${area.name}`}
               >
                 {area.name}
@@ -297,7 +297,7 @@ export default function Footer() {
               <Link 
                 key={service.href} 
                 href={service.href} 
-                className="text-gray-400 hover:text-blue-400 transition text-sm"
+                className="text-gray-400 hover:text-teal-400 transition text-sm"
               >
                 {service.name}
               </Link>
@@ -315,7 +315,7 @@ export default function Footer() {
                   <Link 
                     key={service.href} 
                     href={service.href} 
-                    className="text-gray-400 hover:text-blue-400 transition text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition text-sm"
                   >
                     {service.name}
                   </Link>
@@ -329,7 +329,7 @@ export default function Footer() {
                   <Link 
                     key={service.href} 
                     href={service.href} 
-                    className="text-gray-400 hover:text-blue-400 transition text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition text-sm"
                   >
                     {service.name}
                   </Link>
@@ -347,7 +347,7 @@ export default function Footer() {
               <Link 
                 key={city.href} 
                 href={city.href} 
-                className="text-gray-400 hover:text-blue-400 transition text-sm"
+                className="text-gray-400 hover:text-teal-400 transition text-sm"
               >
                 {city.name}
               </Link>
@@ -360,13 +360,13 @@ export default function Footer() {
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-            <span className="text-gray-400 text-sm">Follow Us:</span>
+            <span className="text-gray-400 text-sm">Connect With Us:</span>
             <div className="flex gap-3">
               <a
-                href="https://www.facebook.com/atlasaircon"
+                href="https://www.facebook.com/hitechairconditioning"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition"
+                className="w-10 h-10 bg-teal-600 rounded-full flex items-center justify-center hover:bg-teal-700 transition"
                 aria-label="Facebook"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -374,7 +374,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.instagram.com/atlasaircon"
+                href="https://www.instagram.com/hitechairconditioning"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 rounded-full flex items-center justify-center hover:opacity-90 transition"
@@ -385,7 +385,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.youtube.com/@atlasaircon"
+                href="https://www.youtube.com/@hitechairconditioning"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition"
@@ -396,7 +396,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://wa.me/919727257141"
+                href="https://wa.me/919328953665"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition"
@@ -416,7 +416,7 @@ export default function Footer() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Atlas Aircon. All rights reserved.
+              © {new Date().getFullYear()} Hitech Aircool Engineers. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <Link href="/about" className="text-gray-400 hover:text-white">

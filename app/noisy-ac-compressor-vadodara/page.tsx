@@ -4,8 +4,8 @@ import { Phone, CheckCircle, Star, Clock, Shield, Award, MapPin, ArrowRight, Wre
 import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
-  title: "Noisy AC Compressor in Vadodara | Installation, Service & Repair | Atlas Aircon",
-  description: "AC compressor noise fix in Vadodara. Expert AC installation, service & repair. 20+ years experience, 90-day warranty. Call +91 97272 57141",
+  title: "Noisy AC Compressor in Vadodara | Installation, Service & Repair | Hitech Aircool Engineers",
+  description: "AC compressor noise fix in Vadodara. Expert AC installation, service & repair. 20+ years experience, 90-day warranty. Call +91 93289 53665",
   keywords: [
     "Noisy AC Compressor Vadodara",
     "noisy ac compressor",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "best Noisy AC Compressor service",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/noisy-ac-compressor-vadodara",
+    canonical: "https://hitechairconditioning.in/noisy-ac-compressor-vadodara",
   },
 };
 
@@ -41,7 +41,7 @@ export default function NoisyACCompressorPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -52,20 +52,20 @@ export default function NoisyACCompressorPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
                 <span className="text-yellow-400">{keywordData.title}</span> in Vadodara
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
                 {keywordData.description} in Vadodara. Expert AC installation, service & repair by certified technicians. 
                 Same-day service, genuine parts, 90-day warranty.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
-                  href="tel:+919727257141"
+                  href="tel:+919328953665"
                   className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"
                 >
                   <Phone size={22} />
-                  +91 97272 57141
+                  +91 93289 53665
                 </a>
                 <a
-                  href="https://wa.me/919727257141"
+                  href="https://wa.me/919328953665"
                   className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition"
                 >
                   WhatsApp Us
@@ -119,18 +119,18 @@ export default function NoisyACCompressorPage() {
               </ul>
             </div>
             <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-blue-300 hover:shadow-lg transition">
-              <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
-                <Settings className="w-7 h-7 text-blue-600" />
+              <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-4">
+                <Settings className="w-7 h-7 text-teal-600" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Service</h3>
               <p className="text-gray-600 mb-4">
                 Regular {keywordData.title.toLowerCase()} service and maintenance in Vadodara. Keep your AC running efficiently with professional cleaning and tune-up.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Deep filter cleaning</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Coil cleaning & sanitization</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Gas pressure check</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Performance optimization</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Deep filter cleaning</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Coil cleaning & sanitization</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Gas pressure check</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Performance optimization</li>
               </ul>
             </div>
             <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-red-300 hover:shadow-lg transition">
@@ -156,33 +156,33 @@ export default function NoisyACCompressorPage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Why Choose Atlas Aircon for {keywordData.title}?
+            Why Choose Hitech Aircool Engineers for {keywordData.title}?
           </h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">20+ Years Experience</h3>
               <p className="text-gray-600 text-sm">Trusted since 2004</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">90 Days Warranty</h3>
               <p className="text-gray-600 text-sm">On all repairs</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">Same Day Service</h3>
               <p className="text-gray-600 text-sm">Quick response</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Star className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">5000+ Customers</h3>
               <p className="text-gray-600 text-sm">Happy customers</p>
@@ -202,7 +202,7 @@ export default function NoisyACCompressorPage() {
           </p>
           <div className="max-w-3xl mx-auto bg-gray-50 rounded-xl overflow-hidden">
             <table className="w-full">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr>
                   <th className="text-left py-4 px-6">Service</th>
                   <th className="text-right py-4 px-6">Price</th>
@@ -211,23 +211,23 @@ export default function NoisyACCompressorPage() {
               <tbody>
                 <tr className="border-b border-gray-200">
                   <td className="py-4 px-6">AC Installation (Split/Window)</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹1,499 - ₹2,999</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹1,499 - ₹2,999</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-white">
                   <td className="py-4 px-6">AC Service (Basic)</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹399 - ₹599</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹399 - ₹599</td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-4 px-6">AC Deep Cleaning</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹799 - ₹1,199</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹799 - ₹1,199</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-white">
                   <td className="py-4 px-6">AC Repair</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹500 - ₹5,000</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹500 - ₹5,000</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-6">AC Gas Refilling</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹1,500 - ₹3,000</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹1,500 - ₹3,000</td>
                 </tr>
               </tbody>
             </table>
@@ -242,21 +242,21 @@ export default function NoisyACCompressorPage() {
           <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
           <div className="max-w-3xl mx-auto space-y-4">
             {[
-              { q: "What noisy ac compressor vadodaras does Atlas Aircon provide?", a: "Atlas Aircon provides noisy ac compressor vadodara, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." },
-              { q: "How do I book noisy ac compressor vadodara?", a: "Call +91 97272 57141, WhatsApp us, or book online. Same-day service available across Vadodara." },
+              { q: "What noisy ac compressor vadodaras does Hitech Aircool Engineers provide?", a: "Hitech Aircool Engineers provides noisy ac compressor vadodara, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." },
+              { q: "How do I book noisy ac compressor vadodara?", a: "Call +91 93289 53665, WhatsApp us, or book online. Same-day service available across Vadodara." },
               { q: "What is your service charge?", a: "Inspection charge is ₹299 (adjusted against repairs). Basic service from ₹499, deep cleaning from ₹799, gas refilling from ₹1,500." },
               { q: "Do you provide warranty?", a: "Yes, 30-90 days warranty on repairs, 1 year on installation. Spare parts carry manufacturer warranty." },
               { q: "Which brands do you service?", a: "We service all brands: Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Panasonic, Godrej, and more." },
-              { q: "Is emergency service available?", a: "Yes, 24/7 emergency noisy ac compressor vadodara available. Call +91 97272 57141 for immediate assistance." },
+              { q: "Is emergency service available?", a: "Yes, 24/7 emergency noisy ac compressor vadodara available. Call +91 93289 53665 for immediate assistance." },
               { q: "What payment methods do you accept?", a: "Cash, UPI (GPay, PhonePe), bank transfer, and cards. Payment after service completion." },
               { q: "Do you offer AMC?", a: "Yes, AMC from ₹1,999/year includes free services, priority support, and repair discounts." },
-              { q: "Where are you located?", a: "Atlas Aircon is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." },
+              { q: "Where are you located?", a: "Hitech Aircool Engineers is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." },
               { q: "What are your working hours?", a: "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM. 24/7 emergency service available." }
             ].map((faq, i) => (
               <details key={i} className="bg-white rounded-xl border border-gray-200 group">
                 <summary className="p-5 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.q}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-5 pb-5 text-gray-600">{faq.a}</div>
               </details>
@@ -268,35 +268,35 @@ export default function NoisyACCompressorPage() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "What noisy ac compressor vadodaras does Atlas Aircon provide?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon provides noisy ac compressor vadodara, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." } },
-          { "@type": "Question", name: "How do I book noisy ac compressor vadodara?", acceptedAnswer: { "@type": "Answer", text: "Call +91 97272 57141, WhatsApp us, or book online. Same-day service available across Vadodara." } },
+          { "@type": "Question", name: "What noisy ac compressor vadodaras does Hitech Aircool Engineers provide?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers provides noisy ac compressor vadodara, service, installation, AMC, gas refilling, and maintenance for all brands and types in Vadodara." } },
+          { "@type": "Question", name: "How do I book noisy ac compressor vadodara?", acceptedAnswer: { "@type": "Answer", text: "Call +91 93289 53665, WhatsApp us, or book online. Same-day service available across Vadodara." } },
           { "@type": "Question", name: "What is your service charge?", acceptedAnswer: { "@type": "Answer", text: "Inspection charge is ₹299 (adjusted against repairs). Basic service from ₹499, deep cleaning from ₹799, gas refilling from ₹1,500." } },
           { "@type": "Question", name: "Do you provide warranty?", acceptedAnswer: { "@type": "Answer", text: "Yes, 30-90 days warranty on repairs, 1 year on installation. Spare parts carry manufacturer warranty." } },
           { "@type": "Question", name: "Which brands do you service?", acceptedAnswer: { "@type": "Answer", text: "We service all brands: Daikin, Voltas, Blue Star, Carrier, LG, Samsung, Hitachi, O General, Panasonic, Godrej, and more." } },
-          { "@type": "Question", name: "Is emergency service available?", acceptedAnswer: { "@type": "Answer", text: "Yes, 24/7 emergency noisy ac compressor vadodara available. Call +91 97272 57141 for immediate assistance." } },
+          { "@type": "Question", name: "Is emergency service available?", acceptedAnswer: { "@type": "Answer", text: "Yes, 24/7 emergency noisy ac compressor vadodara available. Call +91 93289 53665 for immediate assistance." } },
           { "@type": "Question", name: "What payment methods do you accept?", acceptedAnswer: { "@type": "Answer", text: "Cash, UPI (GPay, PhonePe), bank transfer, and cards. Payment after service completion." } },
           { "@type": "Question", name: "Do you offer AMC?", acceptedAnswer: { "@type": "Answer", text: "Yes, AMC from ₹1,999/year includes free services, priority support, and repair discounts." } },
-          { "@type": "Question", name: "Where are you located?", acceptedAnswer: { "@type": "Answer", text: "Atlas Aircon is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." } },
+          { "@type": "Question", name: "Where are you located?", acceptedAnswer: { "@type": "Answer", text: "Hitech Aircool Engineers is based in Sayajigunj, Vadodara. We serve all areas across Vadodara and Gujarat." } },
           { "@type": "Question", name: "What are your working hours?", acceptedAnswer: { "@type": "Answer", text: "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM. 24/7 emergency service available." } }
         ]
       }) }} />
 
 {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Need {keywordData.title} Service in Vadodara?
           </h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
             Expert AC installation, service & repair for {keywordData.title.toLowerCase()} in Vadodara.
             Same-day service available. Call now!
           </p>
           <a
-            href="tel:+919727257141"
+            href="tel:+919328953665"
             className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"
           >
             <Phone size={22} />
-            Call +91 97272 57141
+            Call +91 93289 53665
           </a>
         </div>
       </section>

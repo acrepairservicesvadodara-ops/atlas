@@ -1,6 +1,6 @@
 // ============================================================
-// Atlas Aircon — Blog Posts Data (171 URLs from post-sitemap.xml)
-// Source: https://www.atlasaircons.com/post-sitemap.xml
+// Hitech Aircool Engineers — Blog Posts Data (171 URLs from post-sitemap.xml)
+// Source: https://www.hitechairconditioning.in/post-sitemap.xml
 // All blog posts have UNIQUE content (verified by crawling)
 // ============================================================
 
@@ -12,9 +12,9 @@ export const blogPosts: BlogPost[] = [
   // ============================================================
   {
     slug: "pressure-washer-power-jet-ac-service",
-    url: "https://www.atlasaircons.com/pressure-washer-power-jet-ac-service/",
+    url: "https://www.hitechairconditioning.in/pressure-washer-power-jet-ac-service/",
     title: "Pressure Washer & Power Jet AC Service: The Ultimate Guide for Vadodara",
-    contentSummary: "17-min deep guide: The Illusion of Standard AC Servicing (aggregator trap), Why Power Jet is a Game-Changer, Atlas Aircon 6-Phase Protocol, Hidden Costs of Dirty AC (financial breakdown), pricing table.",
+    contentSummary: "17-min deep guide: The Illusion of Standard AC Servicing (aggregator trap), Why Power Jet is a Game-Changer, Hitech Aircool Engineers 6-Phase Protocol, Hidden Costs of Dirty AC (financial breakdown), pricing table.",
     hasUniqueContent: true,
     readTime: "17 Min",
     lastModified: "2026-02-25",
@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "power-jet-ac-service-in-vadodara",
-    url: "https://www.atlasaircons.com/power-jet-ac-service-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/power-jet-ac-service-in-vadodara/",
     title: "Power Jet AC Service in Vadodara: The Ultimate Solution for AC Cooling Problems",
     contentSummary: "Shorter power jet guide: Anatomy of AC Failure (Biofilm Threat), Atlas Hydro-Extraction Protocol, service tariffs (Power Jet ₹499/₹599, Chemical Wash ₹899/₹999, Gas Recharge from ₹2500).",
     hasUniqueContent: true,
@@ -31,7 +31,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-cleaning-services-in-vadodara",
-    url: "https://www.atlasaircons.com/ac-cleaning-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/ac-cleaning-services-in-vadodara/",
     title: "Unlock Ultimate Coolness: 3 Essential AC Cleaning Services in Vadodara You Can't Ignore!",
     contentSummary: "Overview of 3 cleaning methods: Chemical Wash from ₹999, Jet Pressure Washer from ₹599, Jet Spray from ₹499. Why Choose Atlas, common issues solved.",
     hasUniqueContent: true,
@@ -40,7 +40,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "successful-chiller-repair-waghodia-2026",
-    url: "https://www.atlasaircons.com/successful-chiller-repair-waghodia-2026/",
+    url: "https://www.hitechairconditioning.in/successful-chiller-repair-waghodia-2026/",
     title: "Successful Chiller Repair at Waghodia GIDC: Feb 2026 Case Study",
     contentSummary: "Technical case study at Cryogas facility. Water contamination in refrigeration circuit. Evaporator Coil Replacement, Danfoss 5.5 TR Compressor upgrade, Nitrogen/CTC flushing.",
     hasUniqueContent: true,
@@ -49,7 +49,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "industrial-ac-bill-high",
-    url: "https://www.atlasaircons.com/industrial-ac-bill-high/",
+    url: "https://www.hitechairconditioning.in/industrial-ac-bill-high/",
     title: "5 Reasons Your Industrial AC Bill is High (and How to Calculate Real Costs)",
     contentSummary: "5 reasons: Dirty Condenser Coils, Aging Equipment/Low SEER, Improper Insulation, Incorrect Tonnage, Power Factor/Peak Demand Penalties. Embedded AC Tonnage Calculator.",
     hasUniqueContent: true,
@@ -58,7 +58,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "dont-buy-a-1-5-ton-ac",
-    url: "https://www.atlasaircons.com/dont-buy-a-1-5-ton-ac/",
+    url: "https://www.hitechairconditioning.in/dont-buy-a-1-5-ton-ac/",
     title: "Don't Buy a 1.5 Ton AC Until You Read This (2026 Guide)",
     contentSummary: "AC buyer's guide: BTUs vs Tons, Silent Killers of Cooling, Inverter Technology 2026, EER/SEER/ISEER Ratings, Smart Features, Installation standards, Aluminium vs Copper Condensers.",
     hasUniqueContent: true,
@@ -68,7 +68,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "panel-ac-centrifugal-fan",
-    url: "https://www.atlasaircons.com/panel-ac-centrifugal-fan/",
+    url: "https://www.hitechairconditioning.in/panel-ac-centrifugal-fan/",
     title: "Panel AC Centrifugal Fan: Ultimate Solution Guide",
     contentSummary: "Centrifugal fan guide: Impeller Designs (Forward-Curved, Backward-Curved, Radial Blower), pricing (FC ₹3k-5.5k, BC ₹8.5k-15k, Radial ₹12k+), repair issues.",
     hasUniqueContent: true,
@@ -78,7 +78,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-service-charges-in-vadodara",
-    url: "https://www.atlasaircons.com/ac-service-charges-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/ac-service-charges-in-vadodara/",
     title: "Decoding the Cost of Cool: Unveiling Exclusive AC Service Charges in Vadodara",
     contentSummary: "Pricing blog: General ₹499-699, Deep Jet ₹899-1199, Gas Refilling ₹1200-1500, Installation ₹1500-2000, PCB Repair ₹1500-3500. Types of services, brands, error codes.",
     hasUniqueContent: true,
@@ -88,7 +88,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-service-center-vadodara-3",
-    url: "https://www.atlasaircons.com/ac-service-center-vadodara-3/",
+    url: "https://www.hitechairconditioning.in/ac-service-center-vadodara-3/",
     title: "Your Premier AC Service Center in Vadodara",
     contentSummary: "Card-based design, 4-step service process, pricing plans (Basic ₹499, Deep Clean ₹999, AMC ₹1,999), testimonials.",
     hasUniqueContent: true,
@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
   // ============================================================
   {
     slug: "ac-compressor-repair-and-replacement-services",
-    url: "https://www.atlasaircons.com/ac-compressor-repair-and-replacement-services/",
+    url: "https://www.hitechairconditioning.in/ac-compressor-repair-and-replacement-services/",
     title: "AC Compressor Repair and Replacement Services",
     contentSummary: "5.5T compressor product/service page. Danfoss HLP072 ₹32-40k, Copeland CR72 ₹31-40k, Emerson ZR72 ₹38-45k. Technical specs, 3D compressor view.",
     hasUniqueContent: true,
@@ -110,7 +110,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-conditioner-copper-wire-in-vadodara",
-    url: "https://www.atlasaircons.com/air-conditioner-copper-wire-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/air-conditioner-copper-wire-in-vadodara/",
     title: "Premium AC Copper Wire (2.5mm — 3 Core & 4 Core)",
     contentSummary: "Product-focused: AC copper wire pricing (3 Core ₹75-95/m, 4 Core ₹98-120/m), 99.9% Electrolytic Copper, FR PVC, ISI IS 694 certified.",
     hasUniqueContent: true,
@@ -120,8 +120,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-blower-motor",
-    url: "https://www.atlasaircons.com/ac-blower-motor/",
-    title: "Atlas Aircon AC Blower Motor",
+    url: "https://www.hitechairconditioning.in/ac-blower-motor/",
+    title: "Hitech Aircool Engineers AC Blower Motor",
     contentSummary: "E-commerce style page. 3 types: Indoor Blower ₹4,500, Air Cooler Fan Motor, HVAC/AHU Blower. Prices: Window ₹2-3.5k, Split ₹2.5-4.5k, AHU ₹5-8.5k+.",
     hasUniqueContent: true,
     readTime: "8 Min",
@@ -130,7 +130,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "refrigerator-compressor-repair-vadodara",
-    url: "https://www.atlasaircons.com/refrigerator-compressor-repair-vadodara/",
+    url: "https://www.hitechairconditioning.in/refrigerator-compressor-repair-vadodara/",
     title: "#1 Refrigerator Compressor Repair Vadodara",
     contentSummary: "Fridge compressor repair: Diagnostic ₹299, Relay ₹700-1500, Gas ₹1200-2500, Minor Repair ₹1500-3000, PCB ₹2500-5000, Compressor ₹4500-10000+.",
     hasUniqueContent: true,
@@ -139,7 +139,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "emergency-ac-repairing-service",
-    url: "https://www.atlasaircons.com/emergency-ac-repairing-service/",
+    url: "https://www.hitechairconditioning.in/emergency-ac-repairing-service/",
     title: "AC Trouble? We've Got the Ultimate Fix, 24/7 Emergency AC Repairing Service!",
     contentSummary: "Emergency service hub: Not Working, Loud Noise, Water Leakage, Ice on Pipe, Bad Smell. AMC ₹2,600-5,000. 14 Gujarat cities covered.",
     hasUniqueContent: true,
@@ -149,7 +149,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-fan-motor-sales-and-repair-service",
-    url: "https://www.atlasaircons.com/ac-fan-motor-sales-and-repair-service/",
+    url: "https://www.hitechairconditioning.in/ac-fan-motor-sales-and-repair-service/",
     title: "Expert Air Conditioner Fan Motor Sales & Repair Services",
     contentSummary: "Fan motor sales/repair: Condenser Motor from ₹800, Blower Motor from ₹3500, Fan Motor Sales from ₹2500, Split AC Motor from ₹2900, Window AC Motor from ₹600.",
     hasUniqueContent: true,
@@ -158,7 +158,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "installation-and-fitting-ac",
-    url: "https://www.atlasaircons.com/installation-and-fitting-ac/",
+    url: "https://www.hitechairconditioning.in/installation-and-fitting-ac/",
     title: "Top-Rated AC & HVAC Installation Services — Affordable Prices in Gujarat",
     contentSummary: "Installation pricing: Split ₹1,099-2,500, Window ₹1,200-2,200, Duct ₹5,500-12,500, AHU ₹9,000-22,000. Local SEO keyword cluster section.",
     hasUniqueContent: true,
@@ -167,7 +167,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-copper-piping-installation-in-vadodara",
-    url: "https://www.atlasaircons.com/ac-copper-piping-installation-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/ac-copper-piping-installation-in-vadodara/",
     title: "The Ultimate Guide to Flawless Copper Piping in 2025: Your AC's Lifeline",
     contentSummary: "Copper piping guide: Applications, brands (RR Kabel, Thailand Make), pricing per meter (1/4\" ₹350-450 to 1-1/8\" ₹1500-1800).",
     hasUniqueContent: true,
@@ -177,8 +177,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "trusted-ac-gas-charging",
-    url: "https://www.atlasaircons.com/trusted-ac-gas-charging/",
-    title: "Refrigerant Gas for AC, HVAC & Chillers — Unlock Superior Cooling with Atlas Aircon",
+    url: "https://www.hitechairconditioning.in/trusted-ac-gas-charging/",
+    title: "Refrigerant Gas for AC, HVAC & Chillers — Unlock Superior Cooling with Hitech Aircool Engineers",
     contentSummary: "8 gas types compared: R22 ₹1450-2280, R32 ₹1520-1600, R410A ₹1500-1700, R407C, R404A, R134a, R290/R600a, R717 ₹3500.",
     hasUniqueContent: true,
     readTime: "3 Min",
@@ -187,7 +187,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-air-filters-sales-service",
-    url: "https://www.atlasaircons.com/ac-air-filters-sales-service/",
+    url: "https://www.hitechairconditioning.in/ac-air-filters-sales-service/",
     title: "The Ultimate Guide to AC Air Filters for Your AC, HVAC & AHU in Vadodara & Gujarat",
     contentSummary: "4 filter types: Disposable Pleated ₹300-800, Washable ₹700-1500, Activated Carbon ₹900-2500, HEPA ₹1500-5000. AHU filters also covered.",
     hasUniqueContent: true,
@@ -197,7 +197,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "old-ac-buyer-in-vadodara",
-    url: "https://www.atlasaircons.com/old-ac-buyer-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/old-ac-buyer-in-vadodara/",
     title: "Sell Your Old AC in Vadodara: Get the Best Price, Instantly!",
     contentSummary: "Used AC buying service: Window up to ₹4,500, Split up to ₹7,000. 3-step process (Quote, Pickup, Pay). Free demolition. 20+ brands.",
     hasUniqueContent: true,
@@ -211,7 +211,7 @@ export const blogPosts: BlogPost[] = [
   // ============================================================
   {
     slug: "inverter-ac-service-experts-in-vadodara",
-    url: "https://www.atlasaircons.com/inverter-ac-service-experts-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/inverter-ac-service-experts-in-vadodara/",
     title: "Inverter AC Service Experts in Vadodara",
     contentSummary: "Inverter AC specialized service guide.",
     hasUniqueContent: true,
@@ -219,7 +219,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-conditioner-condenser-repair",
-    url: "https://www.atlasaircons.com/air-conditioner-condenser-repair/",
+    url: "https://www.hitechairconditioning.in/air-conditioner-condenser-repair/",
     title: "Air Conditioner Condenser Repair",
     contentSummary: "AC condenser repair guide and service pricing.",
     hasUniqueContent: true,
@@ -227,7 +227,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "central-ac-installation-repair-service",
-    url: "https://www.atlasaircons.com/central-ac-installation-repair-service/",
+    url: "https://www.hitechairconditioning.in/central-ac-installation-repair-service/",
     title: "Central AC Installation & Repair Service",
     contentSummary: "Central AC systems installation and repair guide for commercial buildings.",
     hasUniqueContent: true,
@@ -235,7 +235,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "when-to-buy-an-ac-in-india",
-    url: "https://www.atlasaircons.com/when-to-buy-an-ac-in-india/",
+    url: "https://www.hitechairconditioning.in/when-to-buy-an-ac-in-india/",
     title: "When to Buy an AC in India",
     contentSummary: "AC buying guide — best season, discounts, brand comparison.",
     hasUniqueContent: true,
@@ -243,7 +243,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-repair-vadodara-charges",
-    url: "https://www.atlasaircons.com/ac-repair-vadodara-charges/",
+    url: "https://www.hitechairconditioning.in/ac-repair-vadodara-charges/",
     title: "AC Repair Vadodara Charges",
     contentSummary: "Comprehensive AC repair charges breakdown for Vadodara.",
     hasUniqueContent: true,
@@ -251,7 +251,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "cold-room-repair-service-vadodara",
-    url: "https://www.atlasaircons.com/cold-room-repair-service-vadodara/",
+    url: "https://www.hitechairconditioning.in/cold-room-repair-service-vadodara/",
     title: "Cold Room Repair Service Vadodara",
     contentSummary: "Cold room repair for pharma and food industries in Vadodara.",
     hasUniqueContent: true,
@@ -259,7 +259,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-on-rent-vadodara",
-    url: "https://www.atlasaircons.com/ac-on-rent-vadodara/",
+    url: "https://www.hitechairconditioning.in/ac-on-rent-vadodara/",
     title: "AC on Rent Vadodara",
     contentSummary: "AC rental service in Vadodara — monthly plans, available models.",
     hasUniqueContent: true,
@@ -267,7 +267,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "emergency-ahu-repair",
-    url: "https://www.atlasaircons.com/emergency-ahu-repair/",
+    url: "https://www.hitechairconditioning.in/emergency-ahu-repair/",
     title: "Emergency AHU Repair",
     contentSummary: "Air Handling Unit emergency repair services.",
     hasUniqueContent: true,
@@ -275,7 +275,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-gas-refilling",
-    url: "https://www.atlasaircons.com/ac-gas-refilling/",
+    url: "https://www.hitechairconditioning.in/ac-gas-refilling/",
     title: "AC Gas Refilling",
     contentSummary: "AC gas refilling service guide — R22, R32, R410A types and pricing.",
     hasUniqueContent: true,
@@ -283,7 +283,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "top-refrigerator-repair-services-in-vadodara",
-    url: "https://www.atlasaircons.com/top-refrigerator-repair-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/top-refrigerator-repair-services-in-vadodara/",
     title: "Top Refrigerator Repair Services in Vadodara",
     contentSummary: "Comprehensive refrigerator repair services listing with price tables.",
     hasUniqueContent: true,
@@ -291,7 +291,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "washing-machine-repair-in-vadodara",
-    url: "https://www.atlasaircons.com/washing-machine-repair-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/washing-machine-repair-in-vadodara/",
     title: "Washing Machine Repair in Vadodara",
     contentSummary: "Washing machine repair services — all brands and types.",
     hasUniqueContent: true,
@@ -299,7 +299,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-fitting-vadodara-charges",
-    url: "https://www.atlasaircons.com/ac-fitting-vadodara-charges/",
+    url: "https://www.hitechairconditioning.in/ac-fitting-vadodara-charges/",
     title: "AC Fitting Vadodara Charges",
     contentSummary: "AC fitting and installation charges breakdown.",
     hasUniqueContent: true,
@@ -307,7 +307,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "window-ac-repair-vadodara-charges",
-    url: "https://www.atlasaircons.com/window-ac-repair-vadodara-charges/",
+    url: "https://www.hitechairconditioning.in/window-ac-repair-vadodara-charges/",
     title: "Window AC Repair Vadodara Charges",
     contentSummary: "Window AC repair pricing details.",
     hasUniqueContent: true,
@@ -315,7 +315,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "portable-air-conditioner-ac-repairing-service",
-    url: "https://www.atlasaircons.com/portable-air-conditioner-ac-repairing-service/",
+    url: "https://www.hitechairconditioning.in/portable-air-conditioner-ac-repairing-service/",
     title: "Portable Air Conditioner Repairing Service",
     contentSummary: "Portable AC repair and maintenance guide.",
     hasUniqueContent: true,
@@ -323,7 +323,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "cassette-ac-repair-services-in-vadodara",
-    url: "https://www.atlasaircons.com/cassette-ac-repair-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/cassette-ac-repair-services-in-vadodara/",
     title: "Cassette AC Repair Services in Vadodara",
     contentSummary: "Cassette AC repair service for commercial spaces.",
     hasUniqueContent: true,
@@ -331,7 +331,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "cassette-ac-repair-in-vadodara-charges",
-    url: "https://www.atlasaircons.com/cassette-ac-repair-in-vadodara-charges/",
+    url: "https://www.hitechairconditioning.in/cassette-ac-repair-in-vadodara-charges/",
     title: "Cassette AC Repair in Vadodara Charges",
     contentSummary: "Cassette AC repair pricing tables.",
     hasUniqueContent: true,
@@ -339,7 +339,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "common-inverter-ac-issues",
-    url: "https://www.atlasaircons.com/common-inverter-ac-issues/",
+    url: "https://www.hitechairconditioning.in/common-inverter-ac-issues/",
     title: "Common Inverter AC Issues",
     contentSummary: "Troubleshooting guide for common inverter AC problems.",
     hasUniqueContent: true,
@@ -347,7 +347,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "washing-machine-repair-in-vadodara-2",
-    url: "https://www.atlasaircons.com/washing-machine-repair-in-vadodara-2/",
+    url: "https://www.hitechairconditioning.in/washing-machine-repair-in-vadodara-2/",
     title: "Washing Machine Repair in Vadodara",
     contentSummary: "Updated washing machine repair page with new pricing.",
     hasUniqueContent: true,
@@ -355,7 +355,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "advance-panel-ac-service-center",
-    url: "https://www.atlasaircons.com/advance-panel-ac-service-center/",
+    url: "https://www.hitechairconditioning.in/advance-panel-ac-service-center/",
     title: "Advance Panel AC Service Center",
     contentSummary: "Advanced panel AC repair for industrial applications.",
     hasUniqueContent: true,
@@ -363,7 +363,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "rittal-panel-ac-service-center",
-    url: "https://www.atlasaircons.com/rittal-panel-ac-service-center/",
+    url: "https://www.hitechairconditioning.in/rittal-panel-ac-service-center/",
     title: "Rittal Panel AC Service Center",
     contentSummary: "Rittal brand-specific panel AC repair services.",
     hasUniqueContent: true,
@@ -375,7 +375,7 @@ export const blogPosts: BlogPost[] = [
   // ============================================================
   {
     slug: "comprehensive-walk-in-freezer-repair-services-ensuring-optimal-performance",
-    url: "https://www.atlasaircons.com/comprehensive-walk-in-freezer-repair-services-ensuring-optimal-performance/",
+    url: "https://www.hitechairconditioning.in/comprehensive-walk-in-freezer-repair-services-ensuring-optimal-performance/",
     title: "Comprehensive Walk-in Freezer Repair Services",
     contentSummary: "Walk-in freezer repair guide for commercial kitchens and cold storage.",
     hasUniqueContent: true,
@@ -383,7 +383,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "cold-room-repair-in-vadodara",
-    url: "https://www.atlasaircons.com/cold-room-repair-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/cold-room-repair-in-vadodara/",
     title: "Cold Room Repair in Vadodara",
     contentSummary: "Cold room repair services in Vadodara for pharma/food sectors.",
     hasUniqueContent: true,
@@ -391,7 +391,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "refrigerator-cooling-repair-service",
-    url: "https://www.atlasaircons.com/refrigerator-cooling-repair-service/",
+    url: "https://www.hitechairconditioning.in/refrigerator-cooling-repair-service/",
     title: "Refrigerator Cooling Repair Service",
     contentSummary: "Fridge cooling issues diagnosis and repair.",
     hasUniqueContent: true,
@@ -399,7 +399,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "gas-refilling-services",
-    url: "https://www.atlasaircons.com/gas-refilling-services/",
+    url: "https://www.hitechairconditioning.in/gas-refilling-services/",
     title: "Gas Refilling Services",
     contentSummary: "AC and refrigerator gas refilling services guide.",
     hasUniqueContent: true,
@@ -407,7 +407,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "circuit-pcb-repair-service",
-    url: "https://www.atlasaircons.com/circuit-pcb-repair-service/",
+    url: "https://www.hitechairconditioning.in/circuit-pcb-repair-service/",
     title: "Circuit PCB Repair Service",
     contentSummary: "AC and appliance PCB board repair services.",
     hasUniqueContent: true,
@@ -415,7 +415,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "window-ac-repair-and-service",
-    url: "https://www.atlasaircons.com/window-ac-repair-and-service/",
+    url: "https://www.hitechairconditioning.in/window-ac-repair-and-service/",
     title: "Window AC Repair and Service",
     contentSummary: "Window AC repair, installation, and maintenance guide.",
     hasUniqueContent: true,
@@ -423,7 +423,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "tower-ac-repair-and-service-in-vadodara",
-    url: "https://www.atlasaircons.com/tower-ac-repair-and-service-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/tower-ac-repair-and-service-in-vadodara/",
     title: "Tower AC Repair and Service in Vadodara",
     contentSummary: "Tower/floor-standing AC repair services.",
     hasUniqueContent: true,
@@ -431,7 +431,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "split-ac-installation-and-repair-service",
-    url: "https://www.atlasaircons.com/split-ac-installation-and-repair-service/",
+    url: "https://www.hitechairconditioning.in/split-ac-installation-and-repair-service/",
     title: "Split AC Installation and Repair Service",
     contentSummary: "Split AC installation guide with pricing.",
     hasUniqueContent: true,
@@ -439,7 +439,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "second-hand-ac-buyers-dealers",
-    url: "https://www.atlasaircons.com/second-hand-ac-buyers-dealers/",
+    url: "https://www.hitechairconditioning.in/second-hand-ac-buyers-dealers/",
     title: "Second Hand AC Buyers & Dealers",
     contentSummary: "Buy/sell used AC units. Dealers directory.",
     hasUniqueContent: true,
@@ -447,7 +447,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ductable-ac-installation-repair-services",
-    url: "https://www.atlasaircons.com/ductable-ac-installation-repair-services/",
+    url: "https://www.hitechairconditioning.in/ductable-ac-installation-repair-services/",
     title: "Ductable AC Installation & Repair Services",
     contentSummary: "Ductable AC installation and repair for commercial spaces.",
     hasUniqueContent: true,
@@ -455,7 +455,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "central-ac-maintenance-services",
-    url: "https://www.atlasaircons.com/central-ac-maintenance-services/",
+    url: "https://www.hitechairconditioning.in/central-ac-maintenance-services/",
     title: "Central AC Maintenance Services",
     contentSummary: "Central AC preventive maintenance plans and services.",
     hasUniqueContent: true,
@@ -463,7 +463,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "cassette-ac-repair-service",
-    url: "https://www.atlasaircons.com/cassette-ac-repair-service/",
+    url: "https://www.hitechairconditioning.in/cassette-ac-repair-service/",
     title: "Cassette AC Repair Service",
     contentSummary: "Cassette AC repair service guide.",
     hasUniqueContent: true,
@@ -471,7 +471,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "professional-standard-ac-installation-service",
-    url: "https://www.atlasaircons.com/professional-standard-ac-installation-service/",
+    url: "https://www.hitechairconditioning.in/professional-standard-ac-installation-service/",
     title: "Professional Standard AC Installation Service",
     contentSummary: "Standard AC installation with quality copper piping and vacuum pump.",
     hasUniqueContent: true,
@@ -479,7 +479,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "drain-pipe-repair-vadodara",
-    url: "https://www.atlasaircons.com/drain-pipe-repair-vadodara/",
+    url: "https://www.hitechairconditioning.in/drain-pipe-repair-vadodara/",
     title: "Drain Pipe Repair Vadodara",
     contentSummary: "AC drain pipe repair and unclogging service.",
     hasUniqueContent: true,
@@ -487,7 +487,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "oxygen-copper-piping-vadodara",
-    url: "https://www.atlasaircons.com/oxygen-copper-piping-vadodara/",
+    url: "https://www.hitechairconditioning.in/oxygen-copper-piping-vadodara/",
     title: "Oxygen Copper Piping Vadodara",
     contentSummary: "Medical-grade oxygen copper piping installation.",
     hasUniqueContent: true,
@@ -495,7 +495,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "refrigerator-circuit-repair-vadodara",
-    url: "https://www.atlasaircons.com/refrigerator-circuit-repair-vadodara/",
+    url: "https://www.hitechairconditioning.in/refrigerator-circuit-repair-vadodara/",
     title: "Refrigerator Circuit Repair Vadodara",
     contentSummary: "Refrigerator electrical circuit and PCB repair.",
     hasUniqueContent: true,
@@ -503,7 +503,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "chiller-manufacters",
-    url: "https://www.atlasaircons.com/chiller-manufacters/",
+    url: "https://www.hitechairconditioning.in/chiller-manufacters/",
     title: "Chiller Manufacturers",
     contentSummary: "Guide to chiller manufacturers and brands.",
     hasUniqueContent: true,
@@ -511,7 +511,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-cooler-repair-in-vadodara",
-    url: "https://www.atlasaircons.com/air-cooler-repair-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/air-cooler-repair-in-vadodara/",
     title: "Air Cooler Repair in Vadodara",
     contentSummary: "Air cooler repair services — all brands.",
     hasUniqueContent: true,
@@ -519,15 +519,15 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "how-atlas-aircon-ensures-fast-efficient-ac-repair-services-in-vadodara",
-    url: "https://www.atlasaircons.com/how-atlas-aircon-ensures-fast-efficient-ac-repair-services-in-vadodara/",
-    title: "How Atlas Aircon Ensures Fast & Efficient AC Repair Services in Vadodara",
+    url: "https://www.hitechairconditioning.in/how-atlas-aircon-ensures-fast-efficient-ac-repair-services-in-vadodara/",
+    title: "How Hitech Aircool Engineers Ensures Fast & Efficient AC Repair Services in Vadodara",
     contentSummary: "Company process and methodology article.",
     hasUniqueContent: true,
     lastModified: "2025-06-23",
   },
   {
     slug: "inverter-air-conditioner-pcb-repair",
-    url: "https://www.atlasaircons.com/inverter-air-conditioner-pcb-repair/",
+    url: "https://www.hitechairconditioning.in/inverter-air-conditioner-pcb-repair/",
     title: "Inverter Air Conditioner PCB Repair",
     contentSummary: "Inverter AC PCB board diagnosis and repair guide.",
     hasUniqueContent: true,
@@ -535,7 +535,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-service-near-me",
-    url: "https://www.atlasaircons.com/ac-service-near-me/",
+    url: "https://www.hitechairconditioning.in/ac-service-near-me/",
     title: "AC Service Near Me",
     contentSummary: "Local AC service landing page.",
     hasUniqueContent: true,
@@ -543,7 +543,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "emergency-ac-breakdown-vadodara",
-    url: "https://www.atlasaircons.com/emergency-ac-breakdown-vadodara/",
+    url: "https://www.hitechairconditioning.in/emergency-ac-breakdown-vadodara/",
     title: "Emergency AC Breakdown Vadodara",
     contentSummary: "Emergency AC breakdown repair — 24/7 response.",
     hasUniqueContent: true,
@@ -551,7 +551,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "affordable-and-expert-ac-repair-service",
-    url: "https://www.atlasaircons.com/affordable-and-expert-ac-repair-service/",
+    url: "https://www.hitechairconditioning.in/affordable-and-expert-ac-repair-service/",
     title: "Affordable and Expert AC Repair Service",
     contentSummary: "Budget-friendly AC repair services overview.",
     hasUniqueContent: true,
@@ -559,7 +559,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "best-hvac-to-buy-for-your-office-in-this-summer-2019",
-    url: "https://www.atlasaircons.com/best-hvac-to-buy-for-your-office-in-this-summer-2019/",
+    url: "https://www.hitechairconditioning.in/best-hvac-to-buy-for-your-office-in-this-summer-2019/",
     title: "Best HVAC to Buy for Your Office",
     contentSummary: "Office HVAC buying guide — system types, sizing, brands.",
     hasUniqueContent: true,
@@ -567,7 +567,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "best-refrigerator-repair-services-in-vadodara",
-    url: "https://www.atlasaircons.com/best-refrigerator-repair-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/best-refrigerator-repair-services-in-vadodara/",
     title: "Best Refrigerator Repair Services in Vadodara",
     contentSummary: "Top-rated refrigerator repair services listing.",
     hasUniqueContent: true,
@@ -575,7 +575,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "refrigerator-repairs-at-your-doorstep",
-    url: "https://www.atlasaircons.com/refrigerator-repairs-at-your-doorstep/",
+    url: "https://www.hitechairconditioning.in/refrigerator-repairs-at-your-doorstep/",
     title: "Refrigerator Repairs at Your Doorstep",
     contentSummary: "Home visit refrigerator repair service.",
     hasUniqueContent: true,
@@ -583,7 +583,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "best-air-cooler-repair-services-provider",
-    url: "https://www.atlasaircons.com/best-air-cooler-repair-services-provider/",
+    url: "https://www.hitechairconditioning.in/best-air-cooler-repair-services-provider/",
     title: "Best Air Cooler Repair Services Provider",
     contentSummary: "Air cooler repair provider profile.",
     hasUniqueContent: true,
@@ -591,7 +591,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "how-to-service-ac-at-home",
-    url: "https://www.atlasaircons.com/how-to-service-ac-at-home/",
+    url: "https://www.hitechairconditioning.in/how-to-service-ac-at-home/",
     title: "How to Service AC at Home",
     contentSummary: "DIY AC maintenance tips for homeowners.",
     hasUniqueContent: true,
@@ -599,7 +599,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "package-ac-repair",
-    url: "https://www.atlasaircons.com/package-ac-repair/",
+    url: "https://www.hitechairconditioning.in/package-ac-repair/",
     title: "Package AC Repair",
     contentSummary: "Package AC repair guide for commercial units.",
     hasUniqueContent: true,
@@ -607,7 +607,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "deep-cleaning-ac-service-in-vadodara",
-    url: "https://www.atlasaircons.com/deep-cleaning-ac-service-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/deep-cleaning-ac-service-in-vadodara/",
     title: "Deep Cleaning AC Service in Vadodara",
     contentSummary: "Deep AC cleaning services — process and pricing.",
     hasUniqueContent: true,
@@ -615,7 +615,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-cooler-repair-at-your-doorstep",
-    url: "https://www.atlasaircons.com/air-cooler-repair-at-your-doorstep/",
+    url: "https://www.hitechairconditioning.in/air-cooler-repair-at-your-doorstep/",
     title: "Air Cooler Repair at Your Doorstep",
     contentSummary: "Doorstep air cooler repair services.",
     hasUniqueContent: true,
@@ -623,7 +623,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "eco-friendly-air-conditioning",
-    url: "https://www.atlasaircons.com/eco-friendly-air-conditioning/",
+    url: "https://www.hitechairconditioning.in/eco-friendly-air-conditioning/",
     title: "Eco-Friendly Air Conditioning",
     contentSummary: "Green/eco-friendly AC systems and refrigerants guide.",
     hasUniqueContent: true,
@@ -631,7 +631,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "top-ac-installation-services",
-    url: "https://www.atlasaircons.com/top-ac-installation-services/",
+    url: "https://www.hitechairconditioning.in/top-ac-installation-services/",
     title: "Top AC Installation Services",
     contentSummary: "Best AC installation services comparison.",
     hasUniqueContent: true,
@@ -639,7 +639,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-cleaning-and-refrigerant-refill-services",
-    url: "https://www.atlasaircons.com/ac-cleaning-and-refrigerant-refill-services/",
+    url: "https://www.hitechairconditioning.in/ac-cleaning-and-refrigerant-refill-services/",
     title: "AC Cleaning and Refrigerant Refill Services",
     contentSummary: "Combined cleaning + gas refilling service guide.",
     hasUniqueContent: true,
@@ -647,7 +647,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-service-and-repair-near",
-    url: "https://www.atlasaircons.com/ac-service-and-repair-near/",
+    url: "https://www.hitechairconditioning.in/ac-service-and-repair-near/",
     title: "AC Service and Repair Near You",
     contentSummary: "Local search landing page for AC repair.",
     hasUniqueContent: true,
@@ -655,7 +655,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-conditioner-gas-refilling-charges",
-    url: "https://www.atlasaircons.com/air-conditioner-gas-refilling-charges/",
+    url: "https://www.hitechairconditioning.in/air-conditioner-gas-refilling-charges/",
     title: "Air Conditioner Gas Refilling Charges",
     contentSummary: "Gas refilling price breakdown by type and tonnage.",
     hasUniqueContent: true,
@@ -663,7 +663,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "symphony-air-cooler-repair-service",
-    url: "https://www.atlasaircons.com/symphony-air-cooler-repair-service/",
+    url: "https://www.hitechairconditioning.in/symphony-air-cooler-repair-service/",
     title: "Symphony Air Cooler Repair Service",
     contentSummary: "Symphony brand-specific air cooler repair.",
     hasUniqueContent: true,
@@ -671,7 +671,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "who-invented-the-air-conditioner-how-it-works",
-    url: "https://www.atlasaircons.com/who-invented-the-air-conditioner-how-it-works/",
+    url: "https://www.hitechairconditioning.in/who-invented-the-air-conditioner-how-it-works/",
     title: "Who Invented the Air Conditioner & How It Works",
     contentSummary: "Educational article about AC history and working principle.",
     hasUniqueContent: true,
@@ -679,7 +679,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "dehumidifier-repair-services",
-    url: "https://www.atlasaircons.com/dehumidifier-repair-services/",
+    url: "https://www.hitechairconditioning.in/dehumidifier-repair-services/",
     title: "Dehumidifier Repair Services",
     contentSummary: "Dehumidifier repair and maintenance.",
     hasUniqueContent: true,
@@ -687,7 +687,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "foam-jet-ac-servicing",
-    url: "https://www.atlasaircons.com/foam-jet-ac-servicing/",
+    url: "https://www.hitechairconditioning.in/foam-jet-ac-servicing/",
     title: "Foam Jet AC Servicing",
     contentSummary: "Foam jet AC cleaning method explanation and pricing.",
     hasUniqueContent: true,
@@ -695,7 +695,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-chemical-wash-deep-cleaning-services",
-    url: "https://www.atlasaircons.com/ac-chemical-wash-deep-cleaning-services/",
+    url: "https://www.hitechairconditioning.in/ac-chemical-wash-deep-cleaning-services/",
     title: "AC Chemical Wash & Deep Cleaning Services",
     contentSummary: "Chemical wash process guide and benefits.",
     hasUniqueContent: true,
@@ -703,7 +703,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "croma-ac-repair-services",
-    url: "https://www.atlasaircons.com/croma-ac-repair-services/",
+    url: "https://www.hitechairconditioning.in/croma-ac-repair-services/",
     title: "Croma AC Repair Services",
     contentSummary: "Croma brand-specific AC repair.",
     hasUniqueContent: true,
@@ -711,7 +711,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-cooler-repair-services-near-me",
-    url: "https://www.atlasaircons.com/air-cooler-repair-services-near-me/",
+    url: "https://www.hitechairconditioning.in/air-cooler-repair-services-near-me/",
     title: "Air Cooler Repair Services Near Me",
     contentSummary: "Local air cooler repair services.",
     hasUniqueContent: true,
@@ -719,7 +719,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "split-window-ac-installation-services-in-vadodara",
-    url: "https://www.atlasaircons.com/split-window-ac-installation-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/split-window-ac-installation-services-in-vadodara/",
     title: "Split & Window AC Installation Services in Vadodara",
     contentSummary: "Combined split and window AC installation guide.",
     hasUniqueContent: true,
@@ -727,7 +727,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "cruise-ac-repair-services",
-    url: "https://www.atlasaircons.com/cruise-ac-repair-services/",
+    url: "https://www.hitechairconditioning.in/cruise-ac-repair-services/",
     title: "Cruise AC Repair Services",
     contentSummary: "Cruise brand AC repair services.",
     hasUniqueContent: true,
@@ -735,7 +735,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "home-air-conditioner-maintenance-tips",
-    url: "https://www.atlasaircons.com/home-air-conditioner-maintenance-tips/",
+    url: "https://www.hitechairconditioning.in/home-air-conditioner-maintenance-tips/",
     title: "Home Air Conditioner Maintenance Tips",
     contentSummary: "DIY maintenance tips for home AC units.",
     hasUniqueContent: true,
@@ -743,7 +743,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "hvac-air-ventilation-grills",
-    url: "https://www.atlasaircons.com/hvac-air-ventilation-grills/",
+    url: "https://www.hitechairconditioning.in/hvac-air-ventilation-grills/",
     title: "HVAC Air Ventilation Grills",
     contentSummary: "HVAC grills product guide and installation.",
     hasUniqueContent: true,
@@ -751,7 +751,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "refrigerator-repair-cost-in-vadodara",
-    url: "https://www.atlasaircons.com/refrigerator-repair-cost-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/refrigerator-repair-cost-in-vadodara/",
     title: "Refrigerator Repair Cost in Vadodara",
     contentSummary: "Refrigerator repair pricing breakdown.",
     hasUniqueContent: true,
@@ -759,7 +759,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-conditioner-maintenance-services-in-vadodara",
-    url: "https://www.atlasaircons.com/air-conditioner-maintenance-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/air-conditioner-maintenance-services-in-vadodara/",
     title: "Air Conditioner Maintenance Services in Vadodara",
     contentSummary: "AC maintenance plans and preventive care services.",
     hasUniqueContent: true,
@@ -767,7 +767,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "how-to-clean-an-air-conditioner-filter",
-    url: "https://www.atlasaircons.com/how-to-clean-an-air-conditioner-filter/",
+    url: "https://www.hitechairconditioning.in/how-to-clean-an-air-conditioner-filter/",
     title: "How to Clean an Air Conditioner Filter",
     contentSummary: "Step-by-step AC filter cleaning guide.",
     hasUniqueContent: true,
@@ -775,7 +775,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "advantages-disadvantages-of-air-conditioning-system-on-human-health",
-    url: "https://www.atlasaircons.com/advantages-disadvantages-of-air-conditioning-system-on-human-health/",
+    url: "https://www.hitechairconditioning.in/advantages-disadvantages-of-air-conditioning-system-on-human-health/",
     title: "Advantages & Disadvantages of Air Conditioning on Health",
     contentSummary: "Health effects of AC systems — benefits and risks.",
     hasUniqueContent: true,
@@ -783,7 +783,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-cleaning-charges-in-vadodara",
-    url: "https://www.atlasaircons.com/ac-cleaning-charges-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/ac-cleaning-charges-in-vadodara/",
     title: "AC Cleaning Charges in Vadodara",
     contentSummary: "AC cleaning service pricing table.",
     hasUniqueContent: true,
@@ -791,7 +791,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "latest-hvac-systems-in-the-market",
-    url: "https://www.atlasaircons.com/latest-hvac-systems-in-the-market/",
+    url: "https://www.hitechairconditioning.in/latest-hvac-systems-in-the-market/",
     title: "Latest HVAC Systems in the Market",
     contentSummary: "New HVAC technology and product overview.",
     hasUniqueContent: true,
@@ -799,7 +799,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "top-load-washing-machine-repair-service",
-    url: "https://www.atlasaircons.com/top-load-washing-machine-repair-service/",
+    url: "https://www.hitechairconditioning.in/top-load-washing-machine-repair-service/",
     title: "Top Load Washing Machine Repair Service",
     contentSummary: "Top-load washing machine repair guide.",
     hasUniqueContent: true,
@@ -807,7 +807,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "fridge-repair-service-in-vadodara",
-    url: "https://www.atlasaircons.com/fridge-repair-service-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/fridge-repair-service-in-vadodara/",
     title: "Fridge Repair Service in Vadodara",
     contentSummary: "Fridge repair services listing.",
     hasUniqueContent: true,
@@ -815,7 +815,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "most-searched-ac-repair-and-installation-service",
-    url: "https://www.atlasaircons.com/most-searched-ac-repair-and-installation-service/",
+    url: "https://www.hitechairconditioning.in/most-searched-ac-repair-and-installation-service/",
     title: "Most Searched AC Repair and Installation Service",
     contentSummary: "Popular AC repair services overview.",
     hasUniqueContent: true,
@@ -823,7 +823,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "samsung-refrigerator-repair-in-vadodara",
-    url: "https://www.atlasaircons.com/samsung-refrigerator-repair-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/samsung-refrigerator-repair-in-vadodara/",
     title: "Samsung Refrigerator Repair in Vadodara",
     contentSummary: "Samsung brand-specific fridge repair.",
     hasUniqueContent: true,
@@ -831,7 +831,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-not-cooling",
-    url: "https://www.atlasaircons.com/ac-not-cooling/",
+    url: "https://www.hitechairconditioning.in/ac-not-cooling/",
     title: "AC Not Cooling",
     contentSummary: "Troubleshooting guide for AC not cooling issues.",
     hasUniqueContent: true,
@@ -839,7 +839,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "emergency-ac-repair-in-vadodara",
-    url: "https://www.atlasaircons.com/emergency-ac-repair-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/emergency-ac-repair-in-vadodara/",
     title: "Emergency AC Repair in Vadodara",
     contentSummary: "24/7 emergency AC repair in Vadodara.",
     hasUniqueContent: true,
@@ -847,7 +847,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "refrigerator-repair-in-vadodara-frost-defrost-experts-atlas-aircon",
-    url: "https://www.atlasaircons.com/refrigerator-repair-in-vadodara-frost-defrost-experts-atlas-aircon/",
+    url: "https://www.hitechairconditioning.in/refrigerator-repair-in-vadodara-frost-defrost-experts-atlas-aircon/",
     title: "Refrigerator Repair in Vadodara — Frost & Defrost Experts",
     contentSummary: "Expert refrigerator defrost system repair.",
     hasUniqueContent: true,
@@ -855,7 +855,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "vadodara-ac-dead-get-your-split-ac-cooling-again",
-    url: "https://www.atlasaircons.com/vadodara-ac-dead-get-your-split-ac-cooling-again/",
+    url: "https://www.hitechairconditioning.in/vadodara-ac-dead-get-your-split-ac-cooling-again/",
     title: "Vadodara AC Dead? Get Your Split AC Cooling Again",
     contentSummary: "Split AC troubleshooting and repair guide.",
     hasUniqueContent: true,
@@ -863,7 +863,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "fast-refrigerator-repair-in-vadodara",
-    url: "https://www.atlasaircons.com/fast-refrigerator-repair-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/fast-refrigerator-repair-in-vadodara/",
     title: "Fast Refrigerator Repair in Vadodara",
     contentSummary: "Same-day refrigerator repair service.",
     hasUniqueContent: true,
@@ -871,7 +871,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "hvac-contractors-in-vadodara",
-    url: "https://www.atlasaircons.com/hvac-contractors-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/hvac-contractors-in-vadodara/",
     title: "HVAC Contractors in Vadodara",
     contentSummary: "HVAC contractor services for commercial projects.",
     hasUniqueContent: true,
@@ -883,7 +883,7 @@ export const blogPosts: BlogPost[] = [
   // ============================================================
   {
     slug: "vadodaras-leading-air-cooler-service-provider",
-    url: "https://www.atlasaircons.com/vadodaras-leading-air-cooler-service-provider/",
+    url: "https://www.hitechairconditioning.in/vadodaras-leading-air-cooler-service-provider/",
     title: "Vadodara's Leading Air Cooler Service Provider",
     contentSummary: "Air cooler service provider profile.",
     hasUniqueContent: true,
@@ -891,7 +891,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "voice-controlled-air-conditioners-by-lg",
-    url: "https://www.atlasaircons.com/voice-controlled-air-conditioners-by-lg/",
+    url: "https://www.hitechairconditioning.in/voice-controlled-air-conditioners-by-lg/",
     title: "Voice Controlled Air Conditioners by LG",
     contentSummary: "LG smart AC with voice control — features and review.",
     hasUniqueContent: true,
@@ -899,7 +899,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "water-cooler-repair-service-near-me",
-    url: "https://www.atlasaircons.com/water-cooler-repair-service-near-me/",
+    url: "https://www.hitechairconditioning.in/water-cooler-repair-service-near-me/",
     title: "Water Cooler Repair Service Near Me",
     contentSummary: "Local water cooler repair services.",
     hasUniqueContent: true,
@@ -907,7 +907,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "pcb-repair-services-in-vadodara",
-    url: "https://www.atlasaircons.com/pcb-repair-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/pcb-repair-services-in-vadodara/",
     title: "PCB Repair Services in Vadodara",
     contentSummary: "AC PCB board repair services.",
     hasUniqueContent: true,
@@ -915,7 +915,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ai-controlled-air-conditioner-by-lg-to-improve-your-comfort",
-    url: "https://www.atlasaircons.com/ai-controlled-air-conditioner-by-lg-to-improve-your-comfort/",
+    url: "https://www.hitechairconditioning.in/ai-controlled-air-conditioner-by-lg-to-improve-your-comfort/",
     title: "AI-Controlled Air Conditioner by LG",
     contentSummary: "LG ThinQ AI AC review article.",
     hasUniqueContent: true,
@@ -923,7 +923,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "electrolux-ac-repair",
-    url: "https://www.atlasaircons.com/electrolux-ac-repair/",
+    url: "https://www.hitechairconditioning.in/electrolux-ac-repair/",
     title: "Electrolux AC Repair",
     contentSummary: "Electrolux brand AC repair service.",
     hasUniqueContent: true,
@@ -931,7 +931,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "fully-automatic-washing-machine-repair",
-    url: "https://www.atlasaircons.com/fully-automatic-washing-machine-repair/",
+    url: "https://www.hitechairconditioning.in/fully-automatic-washing-machine-repair/",
     title: "Fully Automatic Washing Machine Repair",
     contentSummary: "Fully automatic washing machine repair guide.",
     hasUniqueContent: true,
@@ -939,7 +939,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-conditioner-maintenance",
-    url: "https://www.atlasaircons.com/air-conditioner-maintenance/",
+    url: "https://www.hitechairconditioning.in/air-conditioner-maintenance/",
     title: "Air Conditioner Maintenance",
     contentSummary: "AC maintenance best practices guide.",
     hasUniqueContent: true,
@@ -947,7 +947,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "how-to-cut-down-ac-bills-effectively",
-    url: "https://www.atlasaircons.com/how-to-cut-down-ac-bills-effectively/",
+    url: "https://www.hitechairconditioning.in/how-to-cut-down-ac-bills-effectively/",
     title: "How to Cut Down AC Bills Effectively",
     contentSummary: "AC energy-saving tips and electricity bill reduction.",
     hasUniqueContent: true,
@@ -955,7 +955,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "how-to-choose-the-best-air-conditioner-for-your-home",
-    url: "https://www.atlasaircons.com/how-to-choose-the-best-air-conditioner-for-your-home/",
+    url: "https://www.hitechairconditioning.in/how-to-choose-the-best-air-conditioner-for-your-home/",
     title: "How to Choose the Best Air Conditioner for Your Home",
     contentSummary: "Home AC buying guide — tonnage, type, features.",
     hasUniqueContent: true,
@@ -963,7 +963,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "professional-ac-maintenance-services",
-    url: "https://www.atlasaircons.com/professional-ac-maintenance-services/",
+    url: "https://www.hitechairconditioning.in/professional-ac-maintenance-services/",
     title: "Professional AC Maintenance Services",
     contentSummary: "Professional AC preventive maintenance.",
     hasUniqueContent: true,
@@ -971,7 +971,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "how-to-buy-air-conditioner-based-on-star-ratings-for-your-needs",
-    url: "https://www.atlasaircons.com/how-to-buy-air-conditioner-based-on-star-ratings-for-your-needs/",
+    url: "https://www.hitechairconditioning.in/how-to-buy-air-conditioner-based-on-star-ratings-for-your-needs/",
     title: "How to Buy AC Based on Star Ratings",
     contentSummary: "BEE star rating explained — 1-star to 5-star comparison.",
     hasUniqueContent: true,
@@ -979,7 +979,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "cube-ac-repairs-in-vadodara",
-    url: "https://www.atlasaircons.com/cube-ac-repairs-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/cube-ac-repairs-in-vadodara/",
     title: "Cube AC Repairs in Vadodara",
     contentSummary: "Cube brand AC repair.",
     hasUniqueContent: true,
@@ -987,7 +987,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "choose-best-ac-repair-service-vadodara",
-    url: "https://www.atlasaircons.com/choose-best-ac-repair-service-vadodara/",
+    url: "https://www.hitechairconditioning.in/choose-best-ac-repair-service-vadodara/",
     title: "Choose Best AC Repair Service Vadodara",
     contentSummary: "How to choose the best AC repair service.",
     hasUniqueContent: true,
@@ -995,7 +995,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-installation-in-vadodara-get-your-air-conditioner-installed-with-ease",
-    url: "https://www.atlasaircons.com/ac-installation-in-vadodara-get-your-air-conditioner-installed-with-ease/",
+    url: "https://www.hitechairconditioning.in/ac-installation-in-vadodara-get-your-air-conditioner-installed-with-ease/",
     title: "AC Installation in Vadodara — Get Your Air Conditioner Installed with Ease",
     contentSummary: "Comprehensive AC installation guide with 22 images.",
     hasUniqueContent: true,
@@ -1003,7 +1003,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "top-10-air-conditioners-to-buy-in-summer-2018",
-    url: "https://www.atlasaircons.com/top-10-air-conditioners-to-buy-in-summer-2018/",
+    url: "https://www.hitechairconditioning.in/top-10-air-conditioners-to-buy-in-summer-2018/",
     title: "Top 10 Air Conditioners to Buy",
     contentSummary: "AC buying guide — top 10 model recommendations.",
     hasUniqueContent: true,
@@ -1011,7 +1011,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-shifting-services-in-vadodara",
-    url: "https://www.atlasaircons.com/ac-shifting-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/ac-shifting-services-in-vadodara/",
     title: "AC Shifting Services in Vadodara",
     contentSummary: "AC relocation/shifting service guide.",
     hasUniqueContent: true,
@@ -1019,7 +1019,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "the-cost-of-ac-repair-what-to-expect-and-how-to-avoid-overpaying",
-    url: "https://www.atlasaircons.com/the-cost-of-ac-repair-what-to-expect-and-how-to-avoid-overpaying/",
+    url: "https://www.hitechairconditioning.in/the-cost-of-ac-repair-what-to-expect-and-how-to-avoid-overpaying/",
     title: "The Cost of AC Repair: What to Expect",
     contentSummary: "AC repair cost guide — avoid overpaying tips.",
     hasUniqueContent: true,
@@ -1027,7 +1027,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "how-to-shift-split-ac",
-    url: "https://www.atlasaircons.com/how-to-shift-split-ac/",
+    url: "https://www.hitechairconditioning.in/how-to-shift-split-ac/",
     title: "How to Shift Split AC",
     contentSummary: "Step-by-step split AC shifting/relocation guide.",
     hasUniqueContent: true,
@@ -1035,7 +1035,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-swing-motor-repair-services",
-    url: "https://www.atlasaircons.com/ac-swing-motor-repair-services/",
+    url: "https://www.hitechairconditioning.in/ac-swing-motor-repair-services/",
     title: "AC Swing Motor Repair Services",
     contentSummary: "AC louver/swing motor repair.",
     hasUniqueContent: true,
@@ -1043,7 +1043,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "256-2",
-    url: "https://www.atlasaircons.com/256-2/",
+    url: "https://www.hitechairconditioning.in/256-2/",
     title: "AC Service Article",
     contentSummary: "Misc AC service article (WordPress draft slug).",
     hasUniqueContent: true,
@@ -1051,7 +1051,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "carrier-ac-repair-services",
-    url: "https://www.atlasaircons.com/carrier-ac-repair-services/",
+    url: "https://www.hitechairconditioning.in/carrier-ac-repair-services/",
     title: "Carrier AC Repair Services",
     contentSummary: "Carrier brand AC repair services.",
     hasUniqueContent: true,
@@ -1059,7 +1059,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-repair-services-for-your-home",
-    url: "https://www.atlasaircons.com/ac-repair-services-for-your-home/",
+    url: "https://www.hitechairconditioning.in/ac-repair-services-for-your-home/",
     title: "AC Repair Services for Your Home",
     contentSummary: "Home AC repair services overview.",
     hasUniqueContent: true,
@@ -1067,7 +1067,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "split-ac-installation-in-vadodara",
-    url: "https://www.atlasaircons.com/split-ac-installation-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/split-ac-installation-in-vadodara/",
     title: "Split AC Installation in Vadodara",
     contentSummary: "Split AC installation guide for Vadodara.",
     hasUniqueContent: true,
@@ -1075,7 +1075,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-remote-control",
-    url: "https://www.atlasaircons.com/ac-remote-control/",
+    url: "https://www.hitechairconditioning.in/ac-remote-control/",
     title: "AC Remote Control",
     contentSummary: "Universal AC remote control guide.",
     hasUniqueContent: true,
@@ -1083,7 +1083,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "blue-star-ac-repair-services",
-    url: "https://www.atlasaircons.com/blue-star-ac-repair-services/",
+    url: "https://www.hitechairconditioning.in/blue-star-ac-repair-services/",
     title: "Blue Star AC Repair Services",
     contentSummary: "Blue Star brand AC repair.",
     hasUniqueContent: true,
@@ -1091,7 +1091,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "premier-air-conditioning-service-in-vadodara",
-    url: "https://www.atlasaircons.com/premier-air-conditioning-service-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/premier-air-conditioning-service-in-vadodara/",
     title: "Premier Air Conditioning Service in Vadodara",
     contentSummary: "Premium AC service provider profile.",
     hasUniqueContent: true,
@@ -1099,7 +1099,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "the-best-ac-repairing-services-in-vadodara",
-    url: "https://www.atlasaircons.com/the-best-ac-repairing-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/the-best-ac-repairing-services-in-vadodara/",
     title: "The Best AC Repairing Services in Vadodara",
     contentSummary: "Top AC repair services comparison.",
     hasUniqueContent: true,
@@ -1107,7 +1107,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "willis-carrier-got-the-worlds-first-air-conditioner-patent",
-    url: "https://www.atlasaircons.com/willis-carrier-got-the-worlds-first-air-conditioner-patent/",
+    url: "https://www.hitechairconditioning.in/willis-carrier-got-the-worlds-first-air-conditioner-patent/",
     title: "Willis Carrier Got the World's First Air Conditioner Patent",
     contentSummary: "Historical article about AC invention.",
     hasUniqueContent: true,
@@ -1115,7 +1115,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "washing-machine-repair-service-centers",
-    url: "https://www.atlasaircons.com/washing-machine-repair-service-centers/",
+    url: "https://www.hitechairconditioning.in/washing-machine-repair-service-centers/",
     title: "Washing Machine Repair Service Centers",
     contentSummary: "Washing machine service center listings.",
     hasUniqueContent: true,
@@ -1123,7 +1123,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-cooling-coil-repair-services",
-    url: "https://www.atlasaircons.com/ac-cooling-coil-repair-services/",
+    url: "https://www.hitechairconditioning.in/ac-cooling-coil-repair-services/",
     title: "AC Cooling Coil Repair Services",
     contentSummary: "Evaporator/cooling coil repair guide.",
     hasUniqueContent: true,
@@ -1131,7 +1131,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "new-heating-ventilation-air-conditioning-hvac-regulations",
-    url: "https://www.atlasaircons.com/new-heating-ventilation-air-conditioning-hvac-regulations/",
+    url: "https://www.hitechairconditioning.in/new-heating-ventilation-air-conditioning-hvac-regulations/",
     title: "New HVAC Regulations",
     contentSummary: "Updated HVAC regulations and compliance.",
     hasUniqueContent: true,
@@ -1139,7 +1139,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "portable-ac-installation-and-repair-service",
-    url: "https://www.atlasaircons.com/portable-ac-installation-and-repair-service/",
+    url: "https://www.hitechairconditioning.in/portable-ac-installation-and-repair-service/",
     title: "Portable AC Installation and Repair Service",
     contentSummary: "Portable AC setup and repair.",
     hasUniqueContent: true,
@@ -1147,7 +1147,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "home-appliance-repair",
-    url: "https://www.atlasaircons.com/home-appliance-repair/",
+    url: "https://www.hitechairconditioning.in/home-appliance-repair/",
     title: "Home Appliance Repair",
     contentSummary: "All home appliance repair services.",
     hasUniqueContent: true,
@@ -1155,7 +1155,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "gree-ac-repair",
-    url: "https://www.atlasaircons.com/gree-ac-repair/",
+    url: "https://www.hitechairconditioning.in/gree-ac-repair/",
     title: "Gree AC Repair",
     contentSummary: "Gree brand AC repair service.",
     hasUniqueContent: true,
@@ -1163,7 +1163,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "most-common-air-conditioner-problems",
-    url: "https://www.atlasaircons.com/most-common-air-conditioner-problems/",
+    url: "https://www.hitechairconditioning.in/most-common-air-conditioner-problems/",
     title: "Most Common Air Conditioner Problems",
     contentSummary: "Common AC problems troubleshooting guide.",
     hasUniqueContent: true,
@@ -1171,7 +1171,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "common-problems-and-benefits-of-ac-repair",
-    url: "https://www.atlasaircons.com/common-problems-and-benefits-of-ac-repair/",
+    url: "https://www.hitechairconditioning.in/common-problems-and-benefits-of-ac-repair/",
     title: "Common Problems and Benefits of AC Repair",
     contentSummary: "Why repair your AC — benefits analysis.",
     hasUniqueContent: true,
@@ -1179,7 +1179,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-service-vadodara-summer-ready",
-    url: "https://www.atlasaircons.com/ac-service-vadodara-summer-ready/",
+    url: "https://www.hitechairconditioning.in/ac-service-vadodara-summer-ready/",
     title: "AC Service Vadodara — Summer Ready",
     contentSummary: "Pre-summer AC service checklist.",
     hasUniqueContent: true,
@@ -1187,7 +1187,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "why-does-your-air-conditioner-blower-hot-air",
-    url: "https://www.atlasaircons.com/why-does-your-air-conditioner-blower-hot-air/",
+    url: "https://www.hitechairconditioning.in/why-does-your-air-conditioner-blower-hot-air/",
     title: "Why Does Your Air Conditioner Blow Hot Air?",
     contentSummary: "AC blowing hot air troubleshooting.",
     hasUniqueContent: true,
@@ -1195,7 +1195,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "front-load-washing-machine-repair-service",
-    url: "https://www.atlasaircons.com/front-load-washing-machine-repair-service/",
+    url: "https://www.hitechairconditioning.in/front-load-washing-machine-repair-service/",
     title: "Front Load Washing Machine Repair Service",
     contentSummary: "Front-load washing machine repair.",
     hasUniqueContent: true,
@@ -1203,7 +1203,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "godrej-ac-repair",
-    url: "https://www.atlasaircons.com/godrej-ac-repair/",
+    url: "https://www.hitechairconditioning.in/godrej-ac-repair/",
     title: "Godrej AC Repair",
     contentSummary: "Godrej brand AC repair services.",
     hasUniqueContent: true,
@@ -1211,7 +1211,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "various-types-of-air-conditioners-and-their-applications-you-must-know-before-buying",
-    url: "https://www.atlasaircons.com/various-types-of-air-conditioners-and-their-applications-you-must-know-before-buying/",
+    url: "https://www.hitechairconditioning.in/various-types-of-air-conditioners-and-their-applications-you-must-know-before-buying/",
     title: "Various Types of Air Conditioners and Their Applications",
     contentSummary: "AC types comparison — split, window, cassette, ductable, central, VRF.",
     hasUniqueContent: true,
@@ -1219,7 +1219,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "guide-on-air-conditioner-maintenance-service-selection",
-    url: "https://www.atlasaircons.com/guide-on-air-conditioner-maintenance-service-selection/",
+    url: "https://www.hitechairconditioning.in/guide-on-air-conditioner-maintenance-service-selection/",
     title: "Guide on AC Maintenance Service Selection",
     contentSummary: "How to choose the right AC maintenance plan.",
     hasUniqueContent: true,
@@ -1227,7 +1227,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "252-2",
-    url: "https://www.atlasaircons.com/252-2/",
+    url: "https://www.hitechairconditioning.in/252-2/",
     title: "AC Article",
     contentSummary: "Misc AC article (WordPress draft slug).",
     hasUniqueContent: true,
@@ -1235,7 +1235,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "water-cooler-repair-services-in-vadodara",
-    url: "https://www.atlasaircons.com/water-cooler-repair-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/water-cooler-repair-services-in-vadodara/",
     title: "Water Cooler Repair Services in Vadodara",
     contentSummary: "Water cooler repair services guide.",
     hasUniqueContent: true,
@@ -1243,7 +1243,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "samsung-air-conditioner-feel-of-cool-and-comfortable-oasis-at-the-comfort-of-your-house",
-    url: "https://www.atlasaircons.com/samsung-air-conditioner-feel-of-cool-and-comfortable-oasis-at-the-comfort-of-your-house/",
+    url: "https://www.hitechairconditioning.in/samsung-air-conditioner-feel-of-cool-and-comfortable-oasis-at-the-comfort-of-your-house/",
     title: "Samsung Air Conditioner Review",
     contentSummary: "Samsung AC features and review.",
     hasUniqueContent: true,
@@ -1251,7 +1251,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "daikin-ac-repair-maintenance-services",
-    url: "https://www.atlasaircons.com/daikin-ac-repair-maintenance-services/",
+    url: "https://www.hitechairconditioning.in/daikin-ac-repair-maintenance-services/",
     title: "Daikin AC Repair & Maintenance Services",
     contentSummary: "Daikin brand AC repair and maintenance.",
     hasUniqueContent: true,
@@ -1259,7 +1259,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "amazonbasics-ac-repair-services",
-    url: "https://www.atlasaircons.com/amazonbasics-ac-repair-services/",
+    url: "https://www.hitechairconditioning.in/amazonbasics-ac-repair-services/",
     title: "AmazonBasics AC Repair Services",
     contentSummary: "AmazonBasics brand AC repair.",
     hasUniqueContent: true,
@@ -1267,7 +1267,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "semi-automatic-washing-machine-repair",
-    url: "https://www.atlasaircons.com/semi-automatic-washing-machine-repair/",
+    url: "https://www.hitechairconditioning.in/semi-automatic-washing-machine-repair/",
     title: "Semi-Automatic Washing Machine Repair",
     contentSummary: "Semi-automatic washing machine repair guide.",
     hasUniqueContent: true,
@@ -1275,7 +1275,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "the-benefits-of-regular-ac-and-refrigerator-maintenance",
-    url: "https://www.atlasaircons.com/the-benefits-of-regular-ac-and-refrigerator-maintenance/",
+    url: "https://www.hitechairconditioning.in/the-benefits-of-regular-ac-and-refrigerator-maintenance/",
     title: "Benefits of Regular AC and Refrigerator Maintenance",
     contentSummary: "Why regular maintenance matters.",
     hasUniqueContent: true,
@@ -1283,7 +1283,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "haier-ac-repair",
-    url: "https://www.atlasaircons.com/haier-ac-repair/",
+    url: "https://www.hitechairconditioning.in/haier-ac-repair/",
     title: "Haier AC Repair",
     contentSummary: "Haier brand AC repair.",
     hasUniqueContent: true,
@@ -1291,7 +1291,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "window-ac-installation-and-repair-service",
-    url: "https://www.atlasaircons.com/window-ac-installation-and-repair-service/",
+    url: "https://www.hitechairconditioning.in/window-ac-installation-and-repair-service/",
     title: "Window AC Installation and Repair Service",
     contentSummary: "Window AC installation guide.",
     hasUniqueContent: true,
@@ -1299,7 +1299,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-conditioning-repair-installation-and-refilling-services",
-    url: "https://www.atlasaircons.com/air-conditioning-repair-installation-and-refilling-services/",
+    url: "https://www.hitechairconditioning.in/air-conditioning-repair-installation-and-refilling-services/",
     title: "Air Conditioning Repair, Installation and Refilling Services",
     contentSummary: "All-in-one AC services guide.",
     hasUniqueContent: true,
@@ -1307,7 +1307,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "blue-star-ac-installation-and-repair-service",
-    url: "https://www.atlasaircons.com/blue-star-ac-installation-and-repair-service/",
+    url: "https://www.hitechairconditioning.in/blue-star-ac-installation-and-repair-service/",
     title: "Blue Star AC Installation and Repair Service",
     contentSummary: "Blue Star brand installation and repair.",
     hasUniqueContent: true,
@@ -1315,7 +1315,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "car-ac-repair-service",
-    url: "https://www.atlasaircons.com/car-ac-repair-service/",
+    url: "https://www.hitechairconditioning.in/car-ac-repair-service/",
     title: "Car AC Repair Service",
     contentSummary: "Automotive AC repair services.",
     hasUniqueContent: true,
@@ -1323,7 +1323,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "the-growth-of-precision-air-conditioning-systems",
-    url: "https://www.atlasaircons.com/the-growth-of-precision-air-conditioning-systems/",
+    url: "https://www.hitechairconditioning.in/the-growth-of-precision-air-conditioning-systems/",
     title: "The Growth of Precision Air Conditioning Systems",
     contentSummary: "Precision AC for data centers article.",
     hasUniqueContent: true,
@@ -1331,7 +1331,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "experienced-refrigerator-fridge-repairing",
-    url: "https://www.atlasaircons.com/experienced-refrigerator-fridge-repairing/",
+    url: "https://www.hitechairconditioning.in/experienced-refrigerator-fridge-repairing/",
     title: "Experienced Refrigerator Repairing",
     contentSummary: "Expert fridge repair services.",
     hasUniqueContent: true,
@@ -1339,7 +1339,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "carrier-ac-installation-and-repair-service",
-    url: "https://www.atlasaircons.com/carrier-ac-installation-and-repair-service/",
+    url: "https://www.hitechairconditioning.in/carrier-ac-installation-and-repair-service/",
     title: "Carrier AC Installation and Repair Service",
     contentSummary: "Carrier brand installation and repair.",
     hasUniqueContent: true,
@@ -1347,7 +1347,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-dryer-repair-service",
-    url: "https://www.atlasaircons.com/air-dryer-repair-service/",
+    url: "https://www.hitechairconditioning.in/air-dryer-repair-service/",
     title: "Air Dryer Repair Service",
     contentSummary: "Industrial air dryer repair.",
     hasUniqueContent: true,
@@ -1355,7 +1355,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "how-to-choose-the-right-refrigerator-based-on-usage",
-    url: "https://www.atlasaircons.com/how-to-choose-the-right-refrigerator-based-on-usage/",
+    url: "https://www.hitechairconditioning.in/how-to-choose-the-right-refrigerator-based-on-usage/",
     title: "How to Choose the Right Refrigerator Based on Usage",
     contentSummary: "Refrigerator buying guide.",
     hasUniqueContent: true,
@@ -1363,7 +1363,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "things-to-consider-before-buying-air-conditioner-ac-buying-guide",
-    url: "https://www.atlasaircons.com/things-to-consider-before-buying-air-conditioner-ac-buying-guide/",
+    url: "https://www.hitechairconditioning.in/things-to-consider-before-buying-air-conditioner-ac-buying-guide/",
     title: "Things to Consider Before Buying AC — Buying Guide",
     contentSummary: "AC purchase checklist and guide.",
     hasUniqueContent: true,
@@ -1371,7 +1371,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "onida-ac-repair-service",
-    url: "https://www.atlasaircons.com/onida-ac-repair-service/",
+    url: "https://www.hitechairconditioning.in/onida-ac-repair-service/",
     title: "Onida AC Repair Service",
     contentSummary: "Onida brand AC repair.",
     hasUniqueContent: true,
@@ -1379,15 +1379,15 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ac-repair-in-vadodara-best-air-conditioner-repair-service-center",
-    url: "https://www.atlasaircons.com/ac-repair-in-vadodara-best-air-conditioner-repair-service-center/",
+    url: "https://www.hitechairconditioning.in/ac-repair-in-vadodara-best-air-conditioner-repair-service-center/",
     title: "AC Repair in Vadodara — Best Service Center",
-    contentSummary: "Atlas Aircon as best AC repair center profile.",
+    contentSummary: "Hitech Aircool Engineers as best AC repair center profile.",
     hasUniqueContent: true,
     lastModified: "2025-02-18",
   },
   {
     slug: "incubator-repair-services-in-vadodara",
-    url: "https://www.atlasaircons.com/incubator-repair-services-in-vadodara/",
+    url: "https://www.hitechairconditioning.in/incubator-repair-services-in-vadodara/",
     title: "Incubator Repair Services in Vadodara",
     contentSummary: "Laboratory incubator repair.",
     hasUniqueContent: true,
@@ -1395,7 +1395,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "hvac-ducting-repair-services",
-    url: "https://www.atlasaircons.com/hvac-ducting-repair-services/",
+    url: "https://www.hitechairconditioning.in/hvac-ducting-repair-services/",
     title: "HVAC Ducting Repair Services",
     contentSummary: "Ductwork fabrication and repair.",
     hasUniqueContent: true,
@@ -1403,7 +1403,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "eesl-to-replicate-success-of-led-scheme-for-air-conditioners",
-    url: "https://www.atlasaircons.com/eesl-to-replicate-success-of-led-scheme-for-air-conditioners/",
+    url: "https://www.hitechairconditioning.in/eesl-to-replicate-success-of-led-scheme-for-air-conditioners/",
     title: "EESL to Replicate LED Scheme for Air Conditioners",
     contentSummary: "Indian government EESL AC subsidy scheme report.",
     hasUniqueContent: true,
@@ -1411,7 +1411,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "air-conditioner-service-near-you",
-    url: "https://www.atlasaircons.com/air-conditioner-service-near-you/",
+    url: "https://www.hitechairconditioning.in/air-conditioner-service-near-you/",
     title: "Air Conditioner Service Near You",
     contentSummary: "Local AC service finder.",
     hasUniqueContent: true,

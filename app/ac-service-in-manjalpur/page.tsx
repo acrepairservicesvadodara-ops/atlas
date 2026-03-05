@@ -19,9 +19,9 @@ import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
   title:
-    "AC Service & Repair in Manjalpur | Atlas Aircon Vadodara",
+    "AC Service & Repair in Manjalpur | Hitech Aircool Engineers Vadodara",
   description:
-    "Best AC service in Manjalpur, Vadodara. Fast, reliable AC repair, installation & maintenance for all brands. 24/7 emergency support, 1-year warranty. Starting ₹499. Call +91 97272 57141.",
+    "Best AC service in Manjalpur, Vadodara. Fast, reliable AC repair, installation & maintenance for all brands. 24/7 emergency support, 1-year warranty. Starting ₹499. Call +91 93289 53665.",
   keywords: [
     "ac service manjalpur",
     "ac repair manjalpur",
@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     "air cooler repair manjalpur",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-service-in-manjalpur",
+    canonical: "https://hitechairconditioning.in/ac-service-in-manjalpur",
   },
   openGraph: {
-    title: "AC Service & Repair in Manjalpur | Atlas Aircon",
+    title: "AC Service & Repair in Manjalpur | Hitech Aircool Engineers",
     description:
       "Expert AC repair, installation & maintenance in Manjalpur, Vadodara. 24/7 emergency service, 1-year warranty. Starting ₹499.",
-    url: "https://atlasaircons.com/ac-service-in-manjalpur",
+    url: "https://hitechairconditioning.in/ac-service-in-manjalpur",
     type: "website",
   },
 };
@@ -52,9 +52,9 @@ const jsonLd = {
   name: "AC Service in Manjalpur",
   provider: {
     "@type": "LocalBusiness",
-    name: "Atlas Aircon",
-    telephone: "+919727257141",
-    email: "atlasaircon1@gmail.com",
+    name: "Hitech Aircool Engineers",
+    telephone: "+919328953665",
+    email: "hitechairconditioning@gmail.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Sayajigunj",
@@ -109,7 +109,7 @@ const faqJsonLd = {
       name: "Do you provide 24/7 emergency AC repair service?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Atlas Aircon provides 24/7 emergency AC repair service across Manjalpur. We understand that AC issues can arise at any time, and our team is always ready.",
+        text: "Yes, Hitech Aircool Engineers provides 24/7 emergency AC repair service across Manjalpur. We understand that AC issues can arise at any time, and our team is always ready.",
       },
     },
     {
@@ -144,7 +144,7 @@ export default function ACServiceManjalpurPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -156,21 +156,21 @@ export default function ACServiceManjalpurPage() {
                 <span className="text-yellow-400">AC Service &amp; Repair</span>{" "}
                 in Manjalpur
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
                 Your search for the best AC service in Manjalpur ends here. We provide fast,
                 reliable, and affordable repair, installation, and maintenance for all AC,
                 Refrigerator, and Air Cooler brands. Get cool air, fast!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
-                  href="tel:+919727257141"
+                  href="tel:+919328953665"
                   className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"
                 >
                   <Phone size={22} />
                   Call Now for a Quote
                 </a>
                 <a
-                  href="https://wa.me/919727257141"
+                  href="https://wa.me/919328953665"
                   className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition"
                 >
                   Chat on WhatsApp
@@ -209,12 +209,12 @@ export default function ACServiceManjalpurPage() {
             Our Services &amp; Transparent Pricelist
           </h2>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-            At Atlas Aircon, we believe in honest pricing. No hidden fees, just expert
+            At Hitech Aircool Engineers, we believe in honest pricing. No hidden fees, just expert
             HVAC repair service in Manjalpur.
           </p>
           <div className="max-w-4xl mx-auto bg-gray-50 rounded-xl overflow-hidden">
             <table className="w-full">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr>
                   <th className="text-left py-4 px-6">Service</th>
                   <th className="text-left py-4 px-6 hidden md:table-cell">
@@ -264,7 +264,7 @@ export default function ACServiceManjalpurPage() {
                     <td className="py-4 px-6 text-gray-500 text-sm hidden md:table-cell">
                       {row.desc}
                     </td>
-                    <td className="py-4 px-6 text-right font-semibold text-blue-600 whitespace-nowrap">
+                    <td className="py-4 px-6 text-right font-semibold text-teal-600 whitespace-nowrap">
                       {row.price}
                     </td>
                   </tr>
@@ -276,7 +276,7 @@ export default function ACServiceManjalpurPage() {
               spare parts.{" "}
               <Link
                 href="/ac-service-charges-in-vadodara"
-                className="text-blue-600 hover:underline"
+                className="text-teal-600 hover:underline"
               >
                 View detailed AC repairing charges
               </Link>
@@ -289,12 +289,12 @@ export default function ACServiceManjalpurPage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Why Choose Atlas Aircon?
+            Why Choose Hitech Aircool Engineers?
           </h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             <div className="text-center bg-white p-6 rounded-xl">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">Certified Technicians</h3>
               <p className="text-gray-600 text-sm">
@@ -302,8 +302,8 @@ export default function ACServiceManjalpurPage() {
               </p>
             </div>
             <div className="text-center bg-white p-6 rounded-xl">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">24/7 Emergency Support</h3>
               <p className="text-gray-600 text-sm">
@@ -311,8 +311,8 @@ export default function ACServiceManjalpurPage() {
               </p>
             </div>
             <div className="text-center bg-white p-6 rounded-xl">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">Transparent Pricing</h3>
               <p className="text-gray-600 text-sm">
@@ -320,8 +320,8 @@ export default function ACServiceManjalpurPage() {
               </p>
             </div>
             <div className="text-center bg-white p-6 rounded-xl">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Star className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold mb-2">1-Year Service Warranty</h3>
               <p className="text-gray-600 text-sm">
@@ -417,7 +417,7 @@ export default function ACServiceManjalpurPage() {
                 key={item.step}
                 className="bg-white p-8 rounded-xl border border-gray-100 text-center hover:shadow-lg transition"
               >
-                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                <div className="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                   {item.step}
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">
@@ -448,7 +448,7 @@ export default function ACServiceManjalpurPage() {
               },
               {
                 q: "Do you provide 24/7 emergency AC repair service?",
-                a: "Yes, Atlas Aircon provides 24/7 emergency AC repair service across Manjalpur. Our team is always ready to provide swift solutions to restore your comfort.",
+                a: "Yes, Hitech Aircool Engineers provides 24/7 emergency AC repair service across Manjalpur. Our team is always ready to provide swift solutions to restore your comfort.",
               },
               {
                 q: "How long does AC installation take?",
@@ -535,7 +535,7 @@ export default function ACServiceManjalpurPage() {
               <Link
                 key={area.href}
                 href={area.href}
-                className="bg-white text-blue-700 px-4 py-2.5 rounded-full border border-blue-200 hover:bg-blue-50 hover:border-blue-400 transition text-sm font-medium"
+                className="bg-white text-teal-700 px-4 py-2.5 rounded-full border border-teal-200 hover:bg-teal-50 hover:border-blue-400 transition text-sm font-medium"
               >
                 {area.name}
               </Link>
@@ -545,25 +545,25 @@ export default function ACServiceManjalpurPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Facing AC Trouble? Don&apos;t Sweat It!
           </h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
             Get instant, expert help for your Window or Split AC. Our team is
             ready to make your home cool and comfortable again.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919727257141"
+              href="tel:+919328953665"
               className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition"
             >
               <Phone size={22} />
-              Call +91 97272 57141
+              Call +91 93289 53665
             </a>
             <a
-              href="https://wa.me/919727257141"
+              href="https://wa.me/919328953665"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition"
             >
               Chat on WhatsApp

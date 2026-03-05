@@ -48,7 +48,7 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
   const faqs = [
     {
       question: `Do you provide AC repair service in ${cityDisplay}?`,
-      answer: `Yes! Atlas Aircon provides professional AC repair, service, and installation in ${cityDisplay}. We have experienced technicians serving ${cityDisplay} and surrounding areas. Call +91 97272 57141 for service.`,
+      answer: `Yes! Hitech Aircool Engineers provides professional AC repair, service, and installation in ${cityDisplay}. We have experienced technicians serving ${cityDisplay} and surrounding areas. Call +91 93289 53665 for service.`,
     },
     {
       question: `What is the AC service cost in ${cityDisplay}?`,
@@ -67,7 +67,7 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-teal-600 via-teal-700 to-teal-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -79,20 +79,20 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
                 Industrial & Commercial AC Service in{" "}
                 <span className="text-yellow-400">{cityDisplay}</span>
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              <p className="text-xl text-teal-100 mb-8 leading-relaxed">
                 Professional industrial AC repair, chiller service & HVAC solutions in {cityDisplay}, {state}. 
                 Certified technicians, genuine parts, 90-day warranty. Commercial & Industrial specialists.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
-                  href="tel:+919727257141"
+                  href="tel:+919328953665"
                   className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition shadow-lg"
                 >
                   <Phone size={22} />
-                  +91 97272 57141
+                  +91 93289 53665
                 </a>
                 <a
-                  href="https://wa.me/919727257141"
+                  href="https://wa.me/919328953665"
                   className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition"
                 >
                   WhatsApp Us
@@ -133,12 +133,12 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
             {services.map((service) => (
               <div
                 key={service.slug}
-                className="bg-gray-50 hover:bg-blue-50 p-6 rounded-xl border border-gray-200 hover:border-blue-300 transition group"
+                className="bg-gray-50 hover:bg-teal-50 p-6 rounded-xl border border-gray-200 hover:border-blue-300 transition group"
               >
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition">
-                  <service.icon className="w-6 h-6 text-blue-600 group-hover:text-white transition" />
+                <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-teal-600 transition">
+                  <service.icon className="w-6 h-6 text-teal-600 group-hover:text-white transition" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-600">
+                <h3 className="text-xl font-semibold mb-2 group-hover:text-teal-600">
                   {service.name} in {cityDisplay}
                 </h3>
                 <p className="text-gray-600 text-sm">{service.description}</p>
@@ -149,10 +149,10 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-teal-600 text-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Why Choose Atlas Aircon in {cityDisplay}?
+            Why Choose Hitech Aircool Engineers in {cityDisplay}?
           </h2>
           <div className="grid md:grid-cols-4 gap-8">
             {features.map((feature) => (
@@ -161,7 +161,7 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
                   <feature.icon className="w-8 h-8" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                <p className="text-blue-100">{feature.description}</p>
+                <p className="text-teal-100">{feature.description}</p>
               </div>
             ))}
           </div>
@@ -233,19 +233,19 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
               </ul>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
-                <Settings className="w-7 h-7 text-blue-600" />
+              <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-4">
+                <Settings className="w-7 h-7 text-teal-600" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">AC Service in {cityDisplay}</h3>
               <p className="text-gray-600 mb-4">
                 Regular AC service and maintenance for factories, offices, hospitals, and commercial buildings in {cityDisplay}. Keep your HVAC systems running efficiently.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Chiller maintenance</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> AHU & FCU servicing</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Duct cleaning & sanitization</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Cooling tower service</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-blue-500" /> Annual maintenance contracts</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Chiller maintenance</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> AHU & FCU servicing</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Duct cleaning & sanitization</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Cooling tower service</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-teal-500" /> Annual maintenance contracts</li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
@@ -279,7 +279,7 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
           </p>
           <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-sm overflow-hidden">
             <table className="w-full">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr>
                   <th className="text-left py-4 px-6">Service</th>
                   <th className="text-right py-4 px-6">Price</th>
@@ -288,23 +288,23 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
               <tbody>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-6">AC Service (Basic)</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹499 - ₹699</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹499 - ₹699</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-6">AC Deep Cleaning</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹899 - ₹1,299</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹899 - ₹1,299</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-6">AC Repair</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹500 - ₹5,000</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹500 - ₹5,000</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-6">AC Gas Refilling</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹1,800 - ₹3,500</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹1,800 - ₹3,500</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-6">AC Installation</td>
-                  <td className="py-4 px-6 text-right font-semibold text-blue-600">₹1,999 - ₹3,499</td>
+                  <td className="py-4 px-6 text-right font-semibold text-teal-600">₹1,999 - ₹3,499</td>
                 </tr>
               </tbody>
             </table>
@@ -329,9 +329,9 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
               <Link
                 key={nearbyCity.slug}
                 href={`/ac-repair-${nearbyCity.slug}`}
-                className="flex items-center gap-2 bg-gray-50 hover:bg-blue-50 border border-gray-200 hover:border-blue-300 p-3 rounded-lg transition"
+                className="flex items-center gap-2 bg-gray-50 hover:bg-teal-50 border border-gray-200 hover:border-blue-300 p-3 rounded-lg transition"
               >
-                <MapPin size={14} className="text-blue-600" />
+                <MapPin size={14} className="text-teal-600" />
                 <span className="text-sm font-medium">{nearbyCity.name}</span>
               </Link>
             ))}
@@ -350,7 +350,7 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
               <details key={idx} className="bg-white rounded-lg group shadow-sm">
                 <summary className="p-4 cursor-pointer font-semibold text-gray-900 flex justify-between items-center">
                   {faq.question}
-                  <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-teal-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="px-4 pb-4 text-gray-600">{faq.answer}</div>
               </details>
@@ -360,24 +360,24 @@ export default function CityPageTemplate({ city, cityDisplay, distance, state, n
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <section className="py-16 bg-gradient-to-r from-teal-600 to-teal-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Need AC Service in {cityDisplay}?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
             Professional AC repair & service for {cityDisplay}. Call now!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919727257141"
+              href="tel:+919328953665"
               className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition"
             >
               <Phone size={22} />
-              +91 97272 57141
+              +91 93289 53665
             </a>
             <a
-              href="https://wa.me/919727257141"
+              href="https://wa.me/919328953665"
               className="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition"
             >
               WhatsApp Us

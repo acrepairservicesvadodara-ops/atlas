@@ -37,28 +37,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.metaTitle || post.title,
     description:
       post.metaDescription ||
-      `${post.contentSummary.slice(0, 150)}... Read more on Atlas Aircon blog.`,
+      `${post.contentSummary.slice(0, 150)}... Read more on Hitech Aircool Engineers blog.`,
     keywords: [
       post.title,
-      "Atlas Aircon",
+      "Hitech Aircool Engineers",
       "AC repair",
       "AC service Vadodara",
     ],
     alternates: {
-      canonical: `https://atlasaircons.com/${post.slug}`,
+      canonical: `https://hitechairconditioning.in/${post.slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.contentSummary.slice(0, 200),
-      url: `https://atlasaircons.com/${post.slug}`,
+      url: `https://hitechairconditioning.in/${post.slug}`,
       type: "article",
       images: post.images?.[0]
         ? [
             {
-              url: `https://atlasaircons.com/images/products/${post.images[0]}`,
+              url: `https://hitechairconditioning.in/images/products/${post.images[0]}`,
             },
           ]
-        : [{ url: "https://atlasaircons.com/og-image.jpg" }],
+        : [{ url: "https://hitechairconditioning.in/og-image.jpg" }],
     },
   };
 }
@@ -74,7 +74,7 @@ export default async function BlogPostPage({ params }: Props) {
     .filter((p) => p.slug !== post.slug && p.hasUniqueContent)
     .slice(0, 3);
 
-  const shareUrl = `https://atlasaircons.com/${post.slug}`;
+  const shareUrl = `https://hitechairconditioning.in/${post.slug}`;
   const heroImage = post.images?.[0]
     ? `/images/products/${post.images[0]}`
     : null;
@@ -99,7 +99,7 @@ export default async function BlogPostPage({ params }: Props) {
 
       <article className="bg-white">
         {/* ── Hero ──────────────────────────────────────────── */}
-        <header className="bg-gradient-to-br from-gray-900 via-blue-900 to-blue-800 text-white py-12 md:py-20">
+        <header className="bg-gradient-to-br from-gray-900 via-teal-900 to-teal-800 text-white py-12 md:py-20">
           <div className="container mx-auto px-4 max-w-4xl">
             {/* Meta badges */}
             <div className="flex flex-wrap items-center gap-3 mb-6">
@@ -125,19 +125,19 @@ export default async function BlogPostPage({ params }: Props) {
               {post.title}
             </h1>
 
-            <p className="text-blue-100 text-lg leading-relaxed mb-8">
+            <p className="text-teal-100 text-lg leading-relaxed mb-8">
               {post.contentSummary}
             </p>
 
             {/* Author */}
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center">
                 <User className="w-6 h-6" />
               </div>
               <div>
                 <p className="font-semibold">Mehfuz Shahid Khan</p>
-                <p className="text-blue-200 text-sm">
-                  Founder & Chief Architect — Atlas Aircon
+                <p className="text-teal-200 text-sm">
+                  Founder & Chief Architect — Hitech Aircool Engineers
                 </p>
               </div>
             </div>
@@ -162,14 +162,14 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* ── Article Body ─────────────────────────────────── */}
         <div className="container mx-auto px-4 max-w-4xl py-12">
-          <div className="prose prose-lg max-w-none prose-headings:font-bold prose-a:text-blue-600">
+          <div className="prose prose-lg max-w-none prose-headings:font-bold prose-a:text-teal-600">
             <p className="lead text-xl text-gray-700 leading-relaxed">
               {post.contentSummary}
             </p>
 
             <h2>Why This Matters</h2>
             <p>
-              At Atlas Aircon, we&apos;ve spent over 20 years in the field — servicing,
+              At Hitech Aircool Engineers, we&apos;ve spent over 20 years in the field — servicing,
               repairing, and installing AC systems for 5000+ customers across Vadodara
               and Gujarat. This article draws on real-world experience from our certified
               technicians and aims to help you make informed decisions about your AC needs.
@@ -196,7 +196,7 @@ export default async function BlogPostPage({ params }: Props) {
               </li>
             </ul>
 
-            <h2>Atlas Aircon Pricing</h2>
+            <h2>Hitech Aircool Engineers Pricing</h2>
             <p>
               Transparent pricing is our commitment. Here are our standard service rates:
             </p>
@@ -205,7 +205,7 @@ export default async function BlogPostPage({ params }: Props) {
           {/* Pricing Table */}
           <div className="my-8 bg-gray-50 rounded-xl overflow-hidden border border-gray-200">
             <table className="w-full">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-teal-600 text-white">
                 <tr>
                   <th className="text-left py-3 px-5 font-semibold">Service</th>
                   <th className="text-right py-3 px-5 font-semibold">Price</th>
@@ -226,7 +226,7 @@ export default async function BlogPostPage({ params }: Props) {
                     className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}
                   >
                     <td className="py-3 px-5 text-gray-800">{service}</td>
-                    <td className="py-3 px-5 text-right font-semibold text-blue-600">
+                    <td className="py-3 px-5 text-right font-semibold text-teal-600">
                       {price}
                     </td>
                   </tr>
@@ -235,34 +235,34 @@ export default async function BlogPostPage({ params }: Props) {
             </table>
           </div>
 
-          <div className="prose prose-lg max-w-none prose-headings:font-bold prose-a:text-blue-600">
+          <div className="prose prose-lg max-w-none prose-headings:font-bold prose-a:text-teal-600">
             <h2>Get Expert Help Today</h2>
             <p>
-              Whether you need AC repair, installation, or maintenance — Atlas Aircon
+              Whether you need AC repair, installation, or maintenance — Hitech Aircool Engineers
               is Vadodara&apos;s most trusted HVAC service provider. Contact us for
               same-day service, genuine parts, and 90-day warranty on all repairs.
             </p>
           </div>
 
           {/* CTA Box */}
-          <div className="my-10 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white text-center">
+          <div className="my-10 bg-gradient-to-r from-teal-600 to-teal-700 rounded-2xl p-8 text-white text-center">
             <h3 className="text-2xl font-bold mb-3">
               Need AC Service in Vadodara?
             </h3>
-            <p className="text-blue-100 mb-6 max-w-lg mx-auto">
+            <p className="text-teal-100 mb-6 max-w-lg mx-auto">
               Same-day service. 90-day warranty. 20+ years experience. 5000+
               happy customers.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="tel:+919727257141"
+                href="tel:+919328953665"
                 className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-bold transition"
               >
                 <Phone className="w-5 h-5" />
-                +91 97272 57141
+                +91 93289 53665
               </a>
               <a
-                href="https://wa.me/919727257141?text=Hi%20Atlas%20Aircon!%20I%20need%20AC%20service."
+                href="https://wa.me/919328953665?text=Hi%20Atlas%20Aircon!%20I%20need%20AC%20service."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-bold transition"
@@ -289,7 +289,7 @@ export default async function BlogPostPage({ params }: Props) {
               href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition"
+              className="bg-teal-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-teal-700 transition"
             >
               Facebook
             </a>
@@ -309,7 +309,7 @@ export default async function BlogPostPage({ params }: Props) {
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-center mb-8">
-            Why 5000+ Customers Trust Atlas Aircon
+            Why 5000+ Customers Trust Hitech Aircool Engineers
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             {[
@@ -319,8 +319,8 @@ export default async function BlogPostPage({ params }: Props) {
               { icon: CheckCircle, label: "Same Day", sub: "Quick response" },
             ].map(({ icon: Icon, label, sub }) => (
               <div key={label} className="text-center">
-                <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Icon className="w-7 h-7 text-blue-600" />
+                <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Icon className="w-7 h-7 text-teal-600" />
                 </div>
                 <p className="font-semibold text-gray-900">{label}</p>
                 <p className="text-sm text-gray-500">{sub}</p>
@@ -338,7 +338,7 @@ export default async function BlogPostPage({ params }: Props) {
               <h2 className="text-2xl font-bold">More Articles</h2>
               <Link
                 href="/blogs"
-                className="text-blue-600 hover:text-blue-700 font-medium text-sm"
+                className="text-teal-600 hover:text-teal-700 font-medium text-sm"
               >
                 View All →
               </Link>

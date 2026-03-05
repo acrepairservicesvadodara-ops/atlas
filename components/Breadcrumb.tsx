@@ -13,10 +13,10 @@ interface BreadcrumbProps {
 
 export default function Breadcrumb({ items }: BreadcrumbProps) {
   const schemaItems = [
-    { name: "Home", url: "https://atlasaircons.com" },
+    { name: "Home", url: "https://hitechairconditionings.com" },
     ...items.map((item) => ({
       name: item.label,
-      url: `https://atlasaircons.com${item.href}`,
+      url: `https://hitechairconditionings.com${item.href}`,
     })),
   ];
 
@@ -32,7 +32,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
             <li>
               <Link
                 href="/"
-                className="flex items-center gap-1 hover:text-blue-600 transition"
+                className="flex items-center gap-1 hover:text-teal-600 transition"
               >
                 <Home className="w-3.5 h-3.5" />
                 <span>Home</span>
@@ -48,7 +48,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
                 ) : (
                   <Link
                     href={item.href}
-                    className="hover:text-blue-600 transition truncate max-w-[150px] sm:max-w-none"
+                    className="hover:text-teal-600 transition truncate max-w-[150px] sm:max-w-none"
                   >
                     {item.label}
                   </Link>

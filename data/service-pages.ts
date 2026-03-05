@@ -1,6 +1,6 @@
 // ============================================================
-// Atlas Aircon — Service Pages Data (201 URLs from page-sitemap.xml)
-// Source: https://www.atlasaircons.com/page-sitemap.xml
+// Hitech Aircool Engineers — Service Pages Data (201 URLs from page-sitemap.xml)
+// Source: https://www.hitechairconditioning.in/page-sitemap.xml
 // All city×service pages have UNIQUE content on the WordPress site
 // ============================================================
 
@@ -69,7 +69,7 @@ export function generateServicePages(): ServicePage[] {
 
       pages.push({
         slug: baseSlug,
-        url: `https://www.atlasaircons.com/${baseSlug}/`,
+        url: `https://www.hitechairconditioning.in/${baseSlug}/`,
         serviceType: st.type,
         city: city,
         h1: st.h1Pattern.replace("{city}", cityCapitalized),
@@ -88,18 +88,18 @@ export function generateServicePages(): ServicePage[] {
 export const uniquePages: ServicePage[] = [
   {
     slug: "",
-    url: "https://www.atlasaircons.com/",
+    url: "https://www.hitechairconditioning.in/",
     serviceType: "other",
     city: "vadodara",
     h1: "Mastering the Art of Residential, Commercial & Industrial Cooling",
-    metaTitle: "AtlasAircon-Best AC Repair Service in Vadodara, Gujarat",
+    metaTitle: "Hitech Aircool-Best AC Repair Service in Vadodara, Gujarat",
     hasUniqueContent: true,
     lastModified: "2026-03-02",
     imageCount: 3,
   },
   {
     slug: "services",
-    url: "https://www.atlasaircons.com/services/",
+    url: "https://www.hitechairconditioning.in/services/",
     serviceType: "other",
     city: "vadodara",
     h1: "Master AC Service in Vadodara",
@@ -110,7 +110,7 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "ac-installation-vadodara",
-    url: "https://www.atlasaircons.com/ac-installation-vadodara/",
+    url: "https://www.hitechairconditioning.in/ac-installation-vadodara/",
     serviceType: "other",
     city: "vadodara",
     h1: "AC Installation Vadodara",
@@ -119,7 +119,7 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "ac-repair-vadodara",
-    url: "https://www.atlasaircons.com/ac-repair-vadodara/",
+    url: "https://www.hitechairconditioning.in/ac-repair-vadodara/",
     serviceType: "other",
     city: "vadodara",
     h1: "AC Repair Vadodara",
@@ -128,7 +128,7 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "ac-service-vadodara",
-    url: "https://www.atlasaircons.com/ac-service-vadodara/",
+    url: "https://www.hitechairconditioning.in/ac-service-vadodara/",
     serviceType: "other",
     city: "vadodara",
     h1: "AC Service Vadodara",
@@ -137,7 +137,7 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "chiller-repair-services-vadodara",
-    url: "https://www.atlasaircons.com/chiller-repair-services-vadodara/",
+    url: "https://www.hitechairconditioning.in/chiller-repair-services-vadodara/",
     serviceType: "chiller-repair-services",
     city: "vadodara",
     h1: "CHILLER REPAIR SERVICES VADODARA",
@@ -146,7 +146,7 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "ac-repair-surat",
-    url: "https://www.atlasaircons.com/ac-repair-surat/",
+    url: "https://www.hitechairconditioning.in/ac-repair-surat/",
     serviceType: "other",
     city: "surat",
     h1: "Professional AC Repair Surat Center",
@@ -158,7 +158,7 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "ac-tonnage-calculator",
-    url: "https://www.atlasaircons.com/ac-tonnage-calculator/",
+    url: "https://www.hitechairconditioning.in/ac-tonnage-calculator/",
     serviceType: "other",
     city: "vadodara",
     h1: "Find Your Perfect AC Size",
@@ -169,7 +169,7 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "ac-power-calculator",
-    url: "https://www.atlasaircons.com/ac-power-calculator/",
+    url: "https://www.hitechairconditioning.in/ac-power-calculator/",
     serviceType: "other",
     city: "vadodara",
     h1: "AC Energy Cost Estimator",
@@ -180,18 +180,18 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "service-areas",
-    url: "https://www.atlasaircons.com/service-areas/",
+    url: "https://www.hitechairconditioning.in/service-areas/",
     serviceType: "other",
     city: "vadodara",
-    h1: "ATLAS AIRCON DEPLOYMENT ZONES",
-    metaTitle: "Atlas Aircon Service Areas",
+    h1: "HITECH AIRCOOL DEPLOYMENT ZONES",
+    metaTitle: "Hitech Aircool Engineers Service Areas",
     hasUniqueContent: true,
     lastModified: "2026-02-07",
     imageCount: 2,
   },
   {
     slug: "ac-service-center-vadodara-2",
-    url: "https://www.atlasaircons.com/ac-service-center-vadodara-2/",
+    url: "https://www.hitechairconditioning.in/ac-service-center-vadodara-2/",
     serviceType: "other",
     city: "vadodara",
     h1: "Premier AC Service Center Vadodara",
@@ -202,7 +202,7 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "ac-repair-cost-vadodara",
-    url: "https://www.atlasaircons.com/ac-repair-cost-vadodara/",
+    url: "https://www.hitechairconditioning.in/ac-repair-cost-vadodara/",
     serviceType: "other",
     city: "vadodara",
     h1: "Full Service Price List",
@@ -214,7 +214,7 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "solar-panel-repair-vadodara",
-    url: "https://www.atlasaircons.com/solar-panel-repair-vadodara/",
+    url: "https://www.hitechairconditioning.in/solar-panel-repair-vadodara/",
     serviceType: "other",
     city: "vadodara",
     h1: "Solar Repair Service Vadodara",
@@ -225,7 +225,7 @@ export const uniquePages: ServicePage[] = [
   },
   {
     slug: "geyser-repair-vadodara-2",
-    url: "https://www.atlasaircons.com/geyser-repair-vadodara-2/",
+    url: "https://www.hitechairconditioning.in/geyser-repair-vadodara-2/",
     serviceType: "other",
     city: "vadodara",
     h1: "Geyser Repair Service Vadodara — Reliable & Instant Solutions",
@@ -242,40 +242,40 @@ export const uniquePages: ServicePage[] = [
 export const corePages: CorePage[] = [
   {
     slug: "about-us",
-    url: "https://www.atlasaircons.com/about-us/",
+    url: "https://www.hitechairconditioning.in/about-us/",
     title: "About Us",
-    metaTitle: "About Atlas Aircon - HVAC Experts Since 2017",
-    description: "Atlas Aircon company profile. Owner: Mehfuz Shahid Khan. 20+ years experience. ISO 9001:2015 compliant. Based in Vadodara, Gujarat.",
+    metaTitle: "About Hitech Aircool Engineers - HVAC Experts Since 2017",
+    description: "Hitech Aircool Engineers company profile. Owner: Mehfuz Shahid Khan. 20+ years experience. ISO 9001:2015 compliant. Based in Vadodara, Gujarat.",
     hasUniqueContent: true,
   },
   {
     slug: "contact-us",
-    url: "https://www.atlasaircons.com/contact-us/",
+    url: "https://www.hitechairconditioning.in/contact-us/",
     title: "Contact Us",
-    metaTitle: "Contact Atlas Aircon - AC Repair Vadodara",
-    metaDescription: "Contact Atlas Aircon for AC repair, service & installation. Phone: +91 97272 57141. Email: atlasaircon1@gmail.com. Sayajigunj, Vadodara.",
+    metaTitle: "Contact Hitech Aircool Engineers - AC Repair Vadodara",
+    metaDescription: "Contact Hitech Aircool Engineers for AC repair, service & installation. Phone: +91 93289 53665. Email: hitechairconditioning@gmail.com. Sayajigunj, Vadodara.",
     description: "Contact page with phone, email, address and contact form.",
     hasUniqueContent: true,
   },
   {
     slug: "privacy-policy",
-    url: "https://www.atlasaircons.com/privacy-policy/",
+    url: "https://www.hitechairconditioning.in/privacy-policy/",
     title: "Privacy Policy",
-    metaTitle: "Privacy Policy - Atlas Aircon",
-    description: "Atlas Aircon privacy policy covering data collection, usage, cookies, and user rights.",
+    metaTitle: "Privacy Policy - Hitech Aircool Engineers",
+    description: "Hitech Aircool Engineers privacy policy covering data collection, usage, cookies, and user rights.",
     hasUniqueContent: true,
   },
   {
     slug: "shop",
-    url: "https://www.atlasaircons.com/shop/",
+    url: "https://www.hitechairconditioning.in/shop/",
     title: "Shop",
-    metaTitle: "AC Parts & Services Shop - Atlas Aircon Vadodara",
+    metaTitle: "AC Parts & Services Shop - Hitech Aircool Engineers Vadodara",
     description: "WooCommerce shop listing all 202+ products. Categories: Cleaning, AMC, Compressors, Capacitors, Coils, Copper Pipe, Air Curtains, Spare Parts.",
     hasUniqueContent: true,
   },
   {
     slug: "cleaning",
-    url: "https://www.atlasaircons.com/cleaning/",
+    url: "https://www.hitechairconditioning.in/cleaning/",
     title: "AC Cleaning Services",
     metaTitle: "AC Cleaning Services Vadodara - Power Jet, Chemical Wash, Deep Clean",
     description: "30 cleaning service products. Power Jet, Chemical Wash, Full Deep Service, Foam Jet, Window/Cassette/Tower AC cleaning.",
@@ -283,9 +283,9 @@ export const corePages: CorePage[] = [
   },
   {
     slug: "blogs",
-    url: "https://www.atlasaircons.com/blogs/",
+    url: "https://www.hitechairconditioning.in/blogs/",
     title: "Blogs",
-    metaTitle: "AC Repair & HVAC Blog - Atlas Aircon Vadodara",
+    metaTitle: "AC Repair & HVAC Blog - Hitech Aircool Engineers Vadodara",
     description: "Blog listing page with 171 articles about AC repair, maintenance, buying guides, and industry news.",
     hasUniqueContent: true,
   },

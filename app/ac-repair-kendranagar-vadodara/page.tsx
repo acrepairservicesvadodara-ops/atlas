@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import AreaPageTemplate from "@/components/AreaPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair in Kendranagar, Vadodara | Same Day Service | Atlas Aircon",
-  description: "Best AC repair & service in Kendranagar, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 97272 57141 for AC repair in Kendranagar.",
+  title: "AC Repair in Kendranagar, Vadodara | Same Day Service | Hitech Aircool Engineers",
+  description: "Best AC repair & service in Kendranagar, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 93289 53665 for AC repair in Kendranagar.",
   keywords: [
     "AC repair Kendranagar",
     "AC service Kendranagar",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "split AC repair Kendranagar",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-kendranagar-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-repair-kendranagar-vadodara",
   },
 };
 

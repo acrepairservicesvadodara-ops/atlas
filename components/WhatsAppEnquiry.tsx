@@ -17,7 +17,7 @@ export default function WhatsAppEnquiry({
   className = "",
   variant = "primary",
 }: WhatsAppEnquiryProps) {
-  const phone = "919727257141";
+  const phone = "919328953665";
 
   const priceText =
     typeof productPrice === "number"
@@ -26,7 +26,7 @@ export default function WhatsAppEnquiry({
       ? "Price on request"
       : "";
 
-  const message = `Hi Atlas Aircon! I'm interested in:\n\n*${productName}*${
+  const message = `Hi Hitech Aircool Engineers! I'm interested in:\n\n*${productName}*${
     productSku ? `\nSKU: ${productSku}` : ""
   }${priceText ? `\nPrice: ${priceText}` : ""}\n\nPlease share more details and availability.`;
 

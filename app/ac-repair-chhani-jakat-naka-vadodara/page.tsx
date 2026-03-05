@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import AreaPageTemplate from "@/components/AreaPageTemplate";
 
 export const metadata: Metadata = {
-  title: "AC Repair in Chhani Jakat Naka, Vadodara | Same Day Service | Atlas Aircon",
-  description: "Best AC repair & service in Chhani Jakat Naka, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 97272 57141 for AC repair in Chhani Jakat Naka.",
+  title: "AC Repair in Chhani Jakat Naka, Vadodara | Same Day Service | Hitech Aircool Engineers",
+  description: "Best AC repair & service in Chhani Jakat Naka, Vadodara. Expert technicians for all brands. Same-day service, 90-day warranty. Call +91 93289 53665 for AC repair in Chhani Jakat Naka.",
   keywords: [
     "AC repair Chhani Jakat Naka",
     "AC service Chhani Jakat Naka",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "split AC repair Chhani Jakat Naka",
   ],
   alternates: {
-    canonical: "https://atlasaircons.com/ac-repair-chhani-jakat-naka-vadodara",
+    canonical: "https://hitechairconditioning.in/ac-repair-chhani-jakat-naka-vadodara",
   },
 };
 

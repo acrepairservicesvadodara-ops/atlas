@@ -11,8 +11,8 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 18,
-          background: "linear-gradient(135deg, #1e40af, #3b82f6)",
+          fontSize: 16,
+          background: "linear-gradient(135deg, #0d9488, #0891b2)",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -25,7 +25,7 @@ export default function Icon() {
           letterSpacing: "-1px",
         }}
       >
-        A
+        H
       </div>
     ),
     {
